@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets\base-style.css"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <title>BrandCart Studio</title>
+</head>
+<body>
+
+<div id="header-container"></div>
+    
+<section id="transparent-banner" >
+    <div class="container-fluid" style="background-image: url('assets/images/banner-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat; ">
+        <div class="row">
+            <div class="banner-heading">
+                <div class="banner-h1">
+                    <h1 class="animated-h1">
+                        <span class="word"><span class="light-weight">Trans</span>form</span>
+                        <span class="word">Elevate</span>
+                        <span class="word">Scale</span>
+                    </h1>
+                </div>
+                <p>Your Business with End-to-End eCommerce Solution</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="banner-img">
+                        <img 
+                             class="img-fluid" 
+                             src="assets/images/banner-img.png" 
+                             width="100%"
+                             height="100%"
+                             loading="lazy"
+                             alt="{{ section.settings.banner-img.alt | escape }}" >
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12 scroll-col">
+                <div class="banner-content">
+                    <p>Turning ideas into seamless online experiences, help businesses grow, scale, and succeed in the digital world.</p>
+                    <button class="banner-btn">
+                        <a href="#">About Us</a>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="scroll-img-div">
+                 <img 
+                             class="img-fluid scroll-img" 
+                             src="assets/images/Scroll down.png" 
+                             width="20%"
+                             height="auto"
+                             loading="lazy"
+                             alt="Scroll down" >
+                             </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="exprience-box">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="headings ">
+                 <h3><span>WHY</span> US</h3>
+                 <h2>We help brands find their voice, craftunique identities, and create meaningful experiences that last</h2>
+            </div>
+           <div class="col-lg-5 col-md-6 col-sm-12 exp-content">
+                <p>We are a dynamic team of innovators focused on building advanced eCommerce solutions. With creativity, technical expertise, and strategic insight, we deliver results that help your business grow. Collaboration, flexibility, and attention to client needs guide every project we take on.</p>
+           </div>
+           <div class="col-lg-5 col-md-6 col-sm-12 exp-content">
+                <p>We are a dynamic team of innovators focused on building advanced eCommerce solutions. With creativity, technical expertise, and strategic insight, we deliver results that help your business grow. Collaboration, flexibility, and attention to client needs guide every project we take on.</p>
+           </div>
+        </div>
+        <div class="row">
+            <div class="exp-boxes">
+                        <div class="stat-card" {{ block.shopify_attributes }}>
+                            <h3>40+</h3>
+                            <p>ERP & Third-Party Integrations</p>
+                        </div>
+                        <div class="stat-card" {{ block.shopify_attributes }}>
+                            <h3>90%</h3>
+                            <p>Client Retention Rate</p>
+                        </div>
+                        <div class="stat-card" {{ block.shopify_attributes }}>
+                            <h3>250+</h3>
+                            <p>Stores Built, Scaled & Optimized</p>
+                        </div>
+                        <div class="stat-card" {{ block.shopify_attributes }}>
+                            <h3>30+</h3>
+                            <p>Years of Experience</p>
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-12 service-head-col">
+                <div class="headings">
+                 <h3><span>OUR</span> SERVICES</h3>
+                 <h2>Multi-Platform eCommerce & Digital Growth Solutions</h2>
+                 <button>
+                    <a href="#">Explore Our Services</a>
+                 </button>
+                </div>
+                <div class="services-globe">
+                    <img class="globe-img img-fluid" src="assets/images/dot-globe.png" width="100%" height="auto">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-12">
+                <div class="services-container">
+                        <div class="service-box">
+                            <img src="assets/images/Shopify.png"  class="img-fluid service-logo" width="10%" height="auto">
+                            <h3>Shopify Development</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="service-lower-sec">
+                                <p class="trans-no-service">01.</p>
+                                <button>
+                                <a href="#">Learn More</a>
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <img src="assets\images\Platform-mig.png"  class="img-fluid service-logo" width="10%" height="auto">
+                            <h3>Platform Migration</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="service-lower-sec">
+                                <p class="trans-no-service">02.</p>
+                                <button>
+                                <a href="#">Learn More</a>
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <img src="assets/images/Magento-dev.png"  class="img-fluid service-logo" width="10%" height="auto">
+                            <h3>Magento Development</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="service-lower-sec">
+                                <p class="trans-no-service">03.</p>
+                                <button>
+                                <a href="#">Learn More</a>
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <img src="assets\images\Om.png"  class="img-fluid service-logo" width="10%" height="auto">
+                            <h3>Online Marketing</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="service-lower-sec">
+                                <p class="trans-no-service">04.</p>
+                                <button>
+                                <a href="#">Learn More</a>
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                            </div>
+                            
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="about-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="headings d-flex flex-column justify-content-around align-items-center">
+                 <h3><span>ABOUT</span> US</h3>
+                 <h2>Why E-commerce as your expert Design/Develop agency?</h2>
+            </div>
+            <div class="about-content d-flex flex-column justify-content-around align-items-center">
+                <img src="assets\images\Aboutus.png" class="img-fluid about-img" alt="About Us">
+                <p>We are a dynamic team of innovators focused on building advanced eCommerce solutions. With  creativity, technical expertise, and strategic insight, we deliver results that help your business grow. Collaboration, flexibility, and attention to client needs guide every project we take on.</p>
+                <button class="universa-btn">
+                    <a href="#">Learn More About Us</a>
+                 </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Explore-work">
+    <div class="container-fluid">
+        <div class="headings d-flex flex-column justify-content-around align-items-center ">
+                 <h3><span>Explore OUR </span>WORK</h3>
+                 <h2>Multi-Platform eCommerce & Digital Growth Solutions</h2>
+            </div>
+        <div class="row">  
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="assets\images\Rectangle 23846.png" alt="Shopify Development">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 work-vertical-box d-flex flex-column justify-content-center align-items-start">
+                     <img src="assets\images\Shopify.png" alt="Shopify Logo">
+                     <h3>Shopify Development</h3>
+                     <p>We are a dynamic team of innovators focused on building advanced eCommerce solutions. With creativity, technical expertise, and strategic insight, we deliver results that help your business grow. Collaboration, flexibility, and attention to client needs guide every project we take on.</p>
+                    <button class="universa-btn">
+                        <a href="#">See Detail Case Study</a>
+                    </button>
+            </div>
+        </div>
+        <div class="row">  
+            <div class="col-lg-6 col-md-6 col-sm-12 work-vertical-box d-flex flex-column justify-content-center align-items-start">
+                     <img src="assets\images\Group 427320942.png" alt="Shopify Logo">
+                     <h3>Mobile App Design</h3>
+                     <p>We are a dynamic team of innovators focused on building advanced eCommerce solutions. With creativity, technical expertise, and strategic insight, we deliver results that help your business grow. Collaboration, flexibility, and attention to client needs guide every project we take on.</p>
+                    <button class="universa-btn">
+                        <a href="#">See Detail Case Study</a>
+                    </button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="assets\images\Rectangle 23872.png" alt="Shopify Development">
+            </div>
+        </div>
+        <div class="row">  
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="assets\images\Rectangle 23873.png" alt="Shopify Development">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 work-vertical-box d-flex flex-column justify-content-center align-items-start">
+                     <img src="assets\images\Group 427320943.png" alt="Shopify Logo">
+                     <h3>Website Development</h3>
+                     <p>We are a dynamic team of innovators focused on building advanced eCommerce solutions. With creativity, technical expertise, and strategic insight, we deliver results that help your business grow. Collaboration, flexibility, and attention to client needs guide every project we take on.</p>
+                    <button class="universa-btn">
+                        <a href="#">See Detail Case Study</a>
+                    </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+        fetch('sections/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+</body>
+
+
+
+
+</html>
