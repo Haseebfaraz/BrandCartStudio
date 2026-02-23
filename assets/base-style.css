@@ -422,3 +422,138 @@ img.globe-img.img-fluid {
 #Explore-work .row {
     padding: 3rem 0px;
 }
+
+
+
+
+/* Industries */
+.industry-col {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+    width: 85%;
+    margin: 0px AUTO;
+}
+.industry-box {
+    text-align: center;
+    padding: 45px 55px;
+    background-color: #fff;
+    border-radius: 30px;gap: 12px;
+    border: 1px solid #fff;
+}
+
+.industry-box h3 {
+    font-size: 22px;
+    font-family: 'DM Sans';
+    font-weight: 900;
+}
+
+.industry-box p {
+    font-size: 16px;
+}
+
+.industry-box button {
+    border: unset;
+    background-color: #ffffff00;
+    padding: 12px 15px 12px 20px;
+    border-radius: 50px;
+}
+.industry-box button:hover {
+    background-color: #1C1E31;
+    transition: 0.8s;
+}
+.industry-box button:hover a {
+    color: #fff;
+}
+.industry-box:hover {
+    background: linear-gradient(136deg, #8EFDAE 0%, #ffffff 60%);
+    border: 1px solid #8EFDAE;
+    transition: 0.8s;
+}
+section#industries {
+    padding-bottom: 8rem;
+    background: linear-gradient(331deg, #d1ffdd, #EEFFF3 50%);
+}
+.industry-box button i.fa.fa-arrow-right {
+    transform: rotate(326deg);
+}
+.industry-box button:hover i.fa.fa-arrow-right {
+    transform: rotate(0deg);
+    color: #fff;
+    transition: 0.8s;
+}
+
+/* Footer */
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.footer-bottom p, .footer-bottom ul li a {
+    font-size: 15px;
+}
+footer {
+    padding: 50px 0px 0px;
+}
+
+.footer-bottom img {
+    width: 3%;
+    height: 60%;
+}
+p.copyright-text {
+    margin-bottom: 0px;
+}
+footer#footer-container p span {
+    font-size: 18px;
+    color: #000000a6;
+    padding-bottom: 10px;
+}
+footer#footer-container .row {
+    margin-bottom: 50px;
+}
+
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-social .social-icons {
+    gap: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-social .social-icons .icons {
+    background-color: #EEFFF3;
+    border-radius: 40px;
+    padding: 10px 10px;
+    border: 1px solid #BFFFD2;
+}
+.footer-social .social-icons .icons:hover {
+    background-color: #84F200;
+    transition: 0.8s;
+}
+
+.footer-award-win {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.footer-award-win:before {
+        content: url('images/hugeicons_web-design-01.png');
+        display: block;
+        position: absolute;
+        right: 50%;
+        left: 75%;
+}
+img.img-fluid.Awarding {
+    animation: spin 15s linear infinite;
+}
+

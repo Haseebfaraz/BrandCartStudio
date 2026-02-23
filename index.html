@@ -244,6 +244,90 @@
 
 
 
+<section id="industries">
+    <div class="container-fluid">
+        <div class="headings d-flex flex-column justify-content-around align-items-center ">
+                 <h3><span>OUR </span>INDUSTRIES</h3>
+                 <h2>Driving Digital Growth in Every Industry</h2>
+            </div>
+        <div class="row">
+            <div class="industry-col">
+                <div class="industry-box d-flex flex-column justify-content-around align-items-center">
+                    <img src="assets\images\streamline-ultimate-color_e-commerce-apparel.png" alt="Fashion & Apparel">
+                    <h3>Fashion & Apparel</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <button>
+                        <a href="#">Learn More</a>
+                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="industry-box d-flex flex-column justify-content-around align-items-center">
+                    <img src="assets\images\Layer_1.png" alt="Fashion & Apparel">
+                    <h3>Fintech & Digital Services</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <button>
+                        <a href="#">Learn More</a>
+                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="industry-box d-flex flex-column justify-content-around align-items-center">
+                    <img src="assets\images\Frame.png" alt="Fashion & Apparel">
+                    <h3>Health & Beauty</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <button>
+                        <a href="#">Learn More</a>
+                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="industry-box d-flex flex-column justify-content-around align-items-center">
+                    <img src="assets\images\Layer_1 (1).png" alt="Fashion & Apparel">
+                    <h3>FMCG, Electronics & Gadgets</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <button>
+                        <a href="#">Learn More</a>
+                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="industry-box d-flex flex-column justify-content-around align-items-center">
+                    <img src="assets\images\svg4143.png" alt="Fashion & Apparel">
+                    <h3>Sports & Fitness</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <button>
+                        <a href="#">Learn More</a>
+                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="industry-box d-flex flex-column justify-content-around align-items-center">
+                    <img src="assets\images\Frame (2).png" alt="Fashion & Apparel">
+                    <h3>Automotive</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <button>
+                        <a href="#">Learn More</a>
+                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="industry-box d-flex flex-column justify-content-around align-items-center">
+                    <img src="assets\images\Frame (1).png" alt="Fashion & Apparel">
+                    <h3>Food & Grocery</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <button>
+                        <a href="#">Learn More</a>
+                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="industry-box d-flex flex-column justify-content-around align-items-center">
+                    <img src="assets\images\Group (1).png" alt="Fashion & Apparel">
+                    <h3>Luxury & Lifestyle</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <button>
+                        <a href="#">Learn More</a>
+                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -252,8 +336,9 @@
 
 
 
+<footer id="footer-container">
 
-
+</footer >
 
 
 
@@ -266,7 +351,14 @@
     </script>
 </body>
 
-
+<script>
+        fetch('sections/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
+</body>
 
 
 </html>
