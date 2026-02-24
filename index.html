@@ -110,7 +110,7 @@
                 <div class="headings">
                  <h3><span>OUR</span> SERVICES</h3>
                  <h2>Multi-Platform eCommerce & Digital Growth Solutions</h2>
-                 <button>
+                 <button class="universa-btn">
                     <a href="#">Explore Our Services</a>
                  </button>
                 </div>
@@ -330,15 +330,84 @@
 </section>
 
 
+<section id="testimonial">
+    <div class="container-fluid">
+            <div class="headings d-flex flex-column justify-content-around">
+                 <h3><span>CLIENT </span>TESTIMONIAL</h3>
+                 <h2>Multi-Platform eCommerce & Digital Growth Solutions</h2>
+            </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 trusted-img">
+                <img src="assets\images\trust.png" alt="Client Trust" class="img-fluid trusts">
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12 trusted-slider">
+                  <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testi-box">
+                                    <p class="text-start">“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.”</p>
+                                    <div class="client-box d-flex">
+                                     <img src="assets\images\Ellipse 14.png" alt="Client Img" class="img-fluid" width="100%">
+                                     <div class="client-content text-start d-flex flex-column justify-content-center">
+                                         <h5>Conor Bradley</h5>
+                                         <p><Span>Senior Marketing Spotify</Span></p>
+                                     </div>
+                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi-box">
+                                    <p class="text-start">“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.”</p>
+                                    <div class="client-box d-flex">
+                                     <img src="assets\images\Ellipse 14.png" alt="Client Img" class="img-fluid" width="100%">
+                                     <div class="client-content text-start d-flex flex-column justify-content-center">
+                                         <h5>Conor Bradley</h5>
+                                         <p><Span>Senior Marketing Spotify</Span></p>
+                                     </div>
+                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi-box">
+                                    <p class="text-start">“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.”</p>
+                                    <div class="client-box d-flex">
+                                     <img src="assets\images\Ellipse 14.png" alt="Client Img" class="img-fluid" width="100%">
+                                     <div class="client-content text-start d-flex flex-column justify-content-center">
+                                         <h5>Conor Bradley</h5>
+                                         <p><Span>Senior Marketing Spotify</Span></p>
+                                     </div>
+                
+                                    </div>
+                                </div>
+                            </div>
+    </div>
+    <div class="pagination-cts">
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    
+  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="brands-marquee">
+                <p>PARTNERS WITH 150+ BRANDS</p>
+                <marquee behavior="" direction="">
+                    <img src="assets\images\gpay.png" alt="gpay"><img src="assets\images\sampay.png" alt="sampay"><img src="assets\images\Klarna.png" alt="Klarna"><img src="assets\images\AmEx.png" alt="AmEx"><img src="assets\images\Discover.png" alt="Discover">
+                </marquee>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
 
 
-
-<footer id="footer-container">
-
-</footer >
+<footer id="footer-container"></footer >
 
 
 
@@ -358,6 +427,28 @@
                 document.getElementById('footer-container').innerHTML = data;
             });
     </script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"ec9a6c21600d4161aa74e6a2c77efad2","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+
+
+
+
 </body>
 
 
