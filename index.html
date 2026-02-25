@@ -41,7 +41,7 @@
                              width="100%"
                              height="100%"
                              loading="lazy"
-                             alt="{{ section.settings.banner-img.alt | escape }}" >
+                             alt="Laptop" >
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 col-sm-12 scroll-col">
@@ -205,7 +205,7 @@
                     <img class="img-fluid" src="assets\images\Rectangle 23846.png" alt="Shopify Development">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 work-vertical-box d-flex flex-column justify-content-center align-items-start">
-                     <img src="assets\images\Shopify.png" alt="Shopify Logo">
+                     <img class="img-fluid" src="assets\images\Shopify.png" alt="Shopify Logo">
                      <h3>Shopify Development</h3>
                      <p>We are a dynamic team of innovators focused on building advanced eCommerce solutions. With creativity, technical expertise, and strategic insight, we deliver results that help your business grow. Collaboration, flexibility, and attention to client needs guide every project we take on.</p>
                     <button class="universa-btn">
@@ -231,7 +231,7 @@
                     <img class="img-fluid" src="assets\images\Rectangle 23873.png" alt="Shopify Development">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 work-vertical-box d-flex flex-column justify-content-center align-items-start">
-                     <img src="assets\images\Group 427320943.png" alt="Shopify Logo">
+                     <img class="img-fluid" src="assets\images\Group 427320943.png" alt="Shopify Logo">
                      <h3>Website Development</h3>
                      <p>We are a dynamic team of innovators focused on building advanced eCommerce solutions. With creativity, technical expertise, and strategic insight, we deliver results that help your business grow. Collaboration, flexibility, and attention to client needs guide every project we take on.</p>
                     <button class="universa-btn">
@@ -336,10 +336,10 @@
                  <h2>Multi-Platform eCommerce & Digital Growth Solutions</h2>
             </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 trusted-img">
+            <div class="col-lg-4 col-md-4 col-sm-12 trusted-img">
                 <img src="assets\images\trust.png" alt="Client Trust" class="img-fluid trusts">
             </div>
-            <div class="col-lg-8 col-md-6 col-sm-12 trusted-slider">
+            <div class="col-lg-8 col-md-8 col-sm-12 trusted-slider">
                   <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -408,9 +408,6 @@
     <img src="assets\images\Discover.png" alt="Discover">
   </div>
             </div>
-            <div class="brands-marquee">
-
-</div>
         </div>
     </div>
 </section>
@@ -607,10 +604,32 @@
   </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"ec9a6c21600d4161aa74e6a2c77efad2","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById("myLinks");
+        const icon = document.querySelector(".hamburger");
+        
+        menu.classList.toggle("active");
+        icon.classList.toggle("active");
+    }
 
+    // New logic to close menu when clicking outside
+    window.addEventListener('click', function(e) {
+        const menu = document.getElementById("myLinks");
+        const icon = document.querySelector(".hamburger");
+
+        // Check if the click was OUTSIDE the menu AND outside the hamburger icon
+        // We check the icon too, otherwise the toggleMenu function and this 
+        // listener might conflict (opening and closing at the same time).
+        if (!menu.contains(e.target) && !icon.contains(e.target)) {
+            if (menu.classList.contains("active")) {
+                menu.classList.remove("active");
+                icon.classList.remove("active");
+            }
+        }
+    });
+</script>
 
 
 </body>
-
-
 </html>
