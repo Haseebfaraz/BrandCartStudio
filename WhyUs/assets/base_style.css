@@ -1,0 +1,366 @@
+
+
+
+
+
+
+
+/* Banner */
+.banner-h1 h1 {
+    font-family: 'Neou';
+    font-size: 75px;
+    line-height: 80px;
+}
+.banner-h1 h1 span.bold {
+    font-family: 'Monument Extended';
+    text-transform: uppercase;
+}
+.WhyUsTag p {
+    background-color: #1C1E31;
+    max-width: 90px;
+    margin: 0 auto;
+    display: table;
+    color: #D4FFE3;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 3px 0px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.buttonBanner_Box a {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    transition: .9s;
+    padding: 16px 60px 16px 32px;
+    text-decoration: underline;
+    font-weight: 600;
+    border-radius: 40px;
+}
+.buttonBanner_Box a:hover{
+    background-color: #1C1E31;
+    color: #fff;
+    text-decoration: unset;
+}
+.buttonBanner_Box a:hover span i{
+    opacity: 1 !important;
+}
+.buttonBanner_Box a span.fontButton i {
+    color: #fff;
+    opacity: 0;
+}
+
+.buttonBanner_Box a span.fontButton {
+    position: relative;
+    left: 38px;
+}
+
+#transparent-banner .container-fluid {
+    padding: 12rem 60px 26rem;
+    margin-top: -135px;
+    border-radius: 90px;
+}
+#transparent-banner img.scroll-img {
+    width: 28%;
+    animation: spin 15s linear infinite;
+}
+@keyframes spin {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+#transparent-banner {
+    margin: 20px 0px 80px;
+}
+#transparent-banner {
+    margin-bottom: -24rem;
+}
+
+#SingleImage img {
+    border-radius: 20px;
+    margin: 0 auto;
+    display: table;
+    transition: .9s;
+}
+#SingleImage img:hover {
+    filter: brightness(0.8);
+}
+.banner-img {
+    position: relative;
+    bottom: -60px;
+}
+h1.animated-h1 {
+    display: inline-grid;
+    grid-template-areas: "stack";
+    vertical-align: bottom;
+    font-size: 220px;
+}
+span.light-weight {
+    font-family: 'Neou';
+    font-weight: 100;
+}
+
+/***Trusted Company ****/
+
+#TrustedCompanies h3 {
+    font-size: 25px;
+    font-family: 'DM Sans';
+}
+.BrandLogoBox {
+    gap: 6rem;
+}
+.BrandLogoBox {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); } /* Resets halfway through the double set */
+}
+.marqueeTrustedCompany {
+    overflow: hidden;
+}
+
+/***Mision & Vission ****/
+
+#VisionBox h3 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+#VisionBox h2 {
+    font-size: 25px;
+    line-height: 35px;
+    color: #000;
+}
+#VisionBox p {
+    font-size: 22px;
+    font-weight: 200;
+}
+.ImageBox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,0.4) 50%,
+        rgba(255,255,255,0) 100%
+    );
+    transform: skewX(-25deg);
+    animation: shine 2.5s infinite;
+}
+
+@keyframes shine {
+    0% { left: -75%; }
+    100% { left: 125%; }
+}
+.ImageBox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+#VisionBox .ImageBox img {
+    border-radius: 30px;
+}
+.OurMissionStyle {
+    padding-left: 4rem;
+}
+
+/* Quality Section */
+
+#QualitySection .container-fluid {
+    background-color: #E8FFEF;
+    border-radius: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.coreBox p {
+    background-color: #1C1E31;
+    max-width: 140px;
+    margin: 0 auto;
+    display: table;
+    color: #D4FFE3;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 3px 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+#QualityRow h1 {
+    font-family: 'Neou';
+    font-size: 55px;
+}
+
+#QualityRow h1 span.qualityHeadingBold {
+    font-family: 'Monument Extended';
+    text-transform: uppercase;
+}
+#QualityServices .InnerContentBox h3 {
+    font-family: 'DM Sans';
+    font-size: 30px;
+    font-weight: 600;
+}
+#QualityServices .InnerContentBox p {
+    font-size: 19px;
+    font-weight: 200;
+}
+#QualityServices .innerCol {
+    background-color: #ffffff;
+    padding: 40px 30px 40px 30px;
+    border-radius: 20px;
+}
+#QualityServices {
+    margin-top: 2rem;
+}
+
+/* Delivery Section */
+
+#DeliverSection {
+    background-image: url(/WhyUs/assets/Images/deliver.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 4rem;
+        margin-top: 6rem;
+}
+#DeliverySectionInner .ContentBox p {
+    background-color: #D4FFE3;
+    max-width: 110px;
+    color: #000000;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 3px 0px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#DeliverySectionInner .ContentBox h3 {
+    color: #fff;
+    font-family: 'Neou';
+    font-size: 60px;
+    line-height: 70px;
+}
+#DeliverySectionInner .ContentBox h3 span.bold {
+    font-family: 'Monument Extended';
+}
+#DeliveryServiceSection .imageBox {
+    margin-bottom: 1rem;
+}
+#DeliveryServiceSection .InnerCol {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px;
+}
+#DeliveryServiceSection .DelSerContentBox p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #595959;
+}
+.DelSerContentBox h3 {
+    font-family: 'DM Sans';
+    font-size: 85px;
+    line-height: 90px;
+    font-weight: 500;
+}
+#DeliveryServiceSection {
+    padding-top: 11rem;
+    padding-bottom: 10rem;
+}
+#DeliveryServiceSection .InnerCol img {
+    transition: .9s;
+}
+
+#DeliveryServiceSection .InnerCol:hover img {
+    transform: scale(1.1);
+}
+
+/***BoldDesign****/
+
+#BoldDesignSection {
+    padding-top: 4rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 4rem;
+    background-image: url(/WhyUs/assets/Images/bold.jpg);
+    background-position: top;
+}
+.BoldSwiper {
+    padding-top: 12rem !important;
+}
+.BoldMainContent h3 {
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'Neou';
+}
+.BoldMainContent
+ {
+    margin-bottom: -5rem;
+}
+.BoldMainContent h3 span.bold {
+    font-family: 'Monument Extended';
+}
+.swiperSliderInnerBg {
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 30px 40px 30px 40px;
+    box-shadow: 0px 1px 4px 1px #F6FFF8;
+} 
+.innerSwiperBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.swiperSliderInnerBg .slider-imgBox img {
+    position: absolute;
+    top: -29px;
+}
+.sliderAuthorBox h4 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.sliderAuthorBox p {
+    font-size: 15px;
+    font-weight: 300;
+}
+.sliderAuthorBox {
+    margin-top: 3rem;
+}
+#BoldSlider .swiper-button-next , #BoldSlider .swiper-button-prev{
+    top: 2rem;
+    z-index: 999999999;
+}
+#BoldSlider .swiper-button-prev{
+    left: 101rem;
+}
+
+#BoldSlider .swiper-button-next path , #BoldSlider .swiper-button-prev path {
+    color: #000;
+}
+
+#BoldSlider .swiper-button-next svg.swiper-navigation-icon , #BoldSlider .swiper-button-prev svg.swiper-navigation-icon {
+    width: 51px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 0px 17px;
+    border: 1px solid #A0CF7B;
+}
+
+
