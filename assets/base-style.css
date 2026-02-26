@@ -315,7 +315,7 @@ section#exprience-box p {
     transition: 0.8s;
 }
 .stat-card h3 {
-    font-size: clamp(20px, 3vw, 50px);
+    font-size: clamp(28px, 3vw, 50px);
     font-family: 'DM Sans';
     font-weight: 600;
 }
@@ -842,7 +842,7 @@ p.copyright-text {
     margin-bottom: 0px;
 }
 footer#footer-container h4 span {
-    font-size: clamp(14px, 1.5vw, 25px);
+    font-size: clamp(16px, 1.5vw, 25px);
     color: #000000a6;
     padding-bottom: 10px;
 }
@@ -1460,6 +1460,10 @@ img.globe-img.img-fluid {
     font-size: 12px;
 }
 
+    .industry-box button {
+        padding: 5px 10px 6px 15px;
+    }
+
 
 }
 @media (max-width: 860px)
@@ -1573,7 +1577,7 @@ h1.animated-h1 {
 #transparent-banner .container-fluid {
     background-image: url('images/mob-banner-bg.png') !important;
     border-radius: 26px;
-    padding: 4rem 30px 4rem;
+    padding: 4rem 30px 2rem;
     margin-top: 0px;
 }
     .scroll-col {
@@ -1659,6 +1663,7 @@ section#exprience-box p {
 }
 #case-study .headings {
         width: 100%;
+        text-align: center;
     }
     .case-container {
     display: grid;
@@ -1671,30 +1676,308 @@ section#exprience-box p {
         .faqs-cards {
         width: 95%;
     }
+    img.globe-img.img-fluid {
+        width: 100%;
+        left: 0px;
+        position: relative;
+        margin-bottom: 60px;
+    }
+    .exp-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+    .stat-card {
+        padding: 28px 15px 10px;
+        gap: 35px;
+        width: 100%;
+    }
+        .brands-marquee img {
+        width: 38%;
+        margin: 10px 5px;
+    }
+    #faqs .headings {
+    text-align: center;
+}
+details p {
+    padding: 10px 20px;
+}
+    .pagination-cts {
+        left: 0rem;
+        top: -48px;
+        width: 38%;
+    }
+        img.img-fluid.Awarding {
+        width: 36%;
+    }
+    .footer-award-win {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .footer-award-win:before {
+        left: 44%;
+        transform: scale(0.7);
+    }
+
+
+    .footer-flex-container {
+    display: flex;
+    flex-direction: column;
+    }
+    .footer-row-2 { 
+        order: 1; /* Puts the Logos at the top */
+        margin-bottom: 30px; /* Adds breathing room below the logos */
+    }
+    .footer-row-1 { 
+        order: 2; /* Puts the Info/Socials in the middle */
+    }
+    .footer-row-3 { 
+        order: 3; /* Keeps Copyright at the bottom */
+    }
+    footer {
+    padding: 20px 0px 0px;
+    }
+    .footer-info {
+    width: 50%;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 20px;
+    gap: 20px;
+    flex-direction: column-reverse;
+    align-items: center;
+            position: relative;
+}
+.footer-bottom ul#myLinks {
+    margin-left: 0px !important;
+    padding: 0px;
+}
+    p.copyright-text {
+        width: 100%;
+        text-align: center;
+    }
+        .footer-bottom img {
+        width: 10%;
+        height: 30%;
+        position: absolute;
+        right: 0;
+    }
+
+.service-box h3 {
+    width: 100%;
+    font-size: clamp(20px, 1.5vw, 28px);
+}
+
+    .services-container {
+        margin: 0px 0px 0px 0px;
+        gap: 15px;
+    }
+        .service-box button .fa-arrow-right {
+        font-size: 12px;
+    }
+    #industries .headings {
+    text-align: center;
+}
 
 
 }
+@media (max-width: 460px)
+{	
+}
 @media (max-width: 430px)
 {	
+
+    .scroll-img-div:after {
+        left: -37px;
+        top: 20px;
+    }
+    p, a {
+    font-size: clamp(14px, 1.3vw, 18px);
+}
+    .footer-award-win:before {
+        left: 43%;
+        transform: scale(0.7);
+    }
+        .trusted-img:before {
+        top: 16%;
+        transform: scale(0.6);
+    }
+        h1.animated-h1 {
+        font-size: 45px;
+    }
+    .footer-info {
+        padding: 0px;
+    }
+        .industry-col {
+        gap: 15px;
+    }
+    #testimonial {
+        padding: 2rem 0rem 2rem;
+    }
+.service-logo {
+        width: 32%;
+        margin-bottom: 10px;
+    }
+        .pagination-cts {
+        width: 50%;
+    }
+       .industry-box button {
+    padding: 5px 8px 8px 12px;
+}
+    .exp-boxes {
+        margin: 1rem 0px 10px;
+    }
+    
+
+
 }
 @media (max-width: 425px)
 {
 }
 @media (max-width: 415px)
 {
+
+.container-fluid {
+    width: 93%;
+}
+.service-box button {
+    padding: 6px 12px;
+}
+    .exp-boxes {
+        padding: 0px;
+    }
+        #Explore-work {
+        margin: 40px 20px;
+    }
+
 }
 @media (max-width: 395px)
 {	
+
+.headings h2 {
+    font-size: clamp(24px, 2.5vw, 50px);
+}
+.headings h3 {
+    font-size: clamp(24px, 2.5vw, 50px);
+}
+    .scroll-img-div:after {
+        left: -54px;
+        top: 16px;
+        transform: scale(0.5);
+    }
+        .exp-boxes {
+        margin: 1rem 0px 10px;
+    }
+        .headings {
+        padding: 30px 0px 1.5rem;
+    }
+
+
 }
 @media (max-width: 390px)
 {
 }
 @media (max-width: 380px)
 {
+
+    #transparent-banner .container-fluid {
+        padding: 3rem 22px 2rem;
+    }
+        .stat-card {
+        padding: 28px 5px 10px 15px;
+        gap: 30px;
+    }
+        button.universa-btn {
+        padding: 5px 20px 7px;
+    }
+        #Explore-work {
+        padding: 2rem 0px 0px;
+    }
+    .trusted-img:before {
+        top: 11%;
+        transform: scale(0.6);
+    }
+        h1.animated-h1 {
+        font-size: 40px;
+    }
+ 
+        #faqs .container-fluid {
+        padding: 20px 0px;
+    }
+        summary span {
+        width: 15px;
+    }
+
+
 }
 @media (max-width: 360px)
 {	
+
+
+    .scroll-img-div:after {
+        left: -51px;
+        top: 12px;
+        transform: scale(0.5);
+    }
+        .service-box button .fa-arrow-right {
+        font-size: 10px;
+    }
+        .service-box {
+        padding: 15px 5px 15px 8px;
+    }
+        p.trans-no-service {
+        bottom: 0px;
+        left: -6px;
+    }
+        .footer-info, .footer-social {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .footer-award-win:before {
+        left: 42%;
+        transform: scale(0.6);
+    }
+        .headings h2 {
+        font-size: clamp(20px, 2.5vw, 50px);
+    }
+         .service-box h3 {
+        font-size: clamp(18px, 1.5vw, 28px);
+    }
+        .industry-box button {
+        padding: 5px 8px 7px 8px;
+    }
+        #testimonial .container-fluid {
+        padding: 1rem 1rem;
+    }
+        .footer-bottom img {
+        width: 10%;
+        height: 24%;
+        top: -36px;
+    }
+
 }
 @media (max-width: 320px)
 {
+
+
+    .scroll-img-div:after {
+        left: -63px;
+        top: 8px;
+        transform: scale(0.4);
+    }
+    section#services-section .col-lg-8.col-md-7.col-sm-12 {
+    padding: 0px;
+}
+    #Explore-work {
+        margin: 30px 12px;
+    }
+        .container-fluid {
+        width: 95%;
+    }
+        .industry-col {
+        gap: 8px;
+    }
+   
+
+
 }
