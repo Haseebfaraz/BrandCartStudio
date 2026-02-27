@@ -15,6 +15,13 @@
                 document.getElementById('footer-container').innerHTML = data;
             });
 
+            fetch('/Services/sections/services-banner.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('inner-transparent-banner').innerHTML = data;
+            });
+
+
 
 
 
