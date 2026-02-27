@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets\base-style.css"> 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="/assets/Script/ctascript.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -29,7 +30,7 @@
                         <span class="word">Scale</span>
                     </h1>
                 </div>
-                <p>Your Business with End-to-End eCommerce Solution</p>
+                <p class="main-banner-text">Your Business with End-to-End eCommerce Solution</p>
             </div>
         </div>
         <div class="row">
@@ -568,7 +569,7 @@
 <footer id="footer-container"></footer >
 
 
-
+<!-- 
 <script>
         fetch('sections/header.html')
             .then(response => response.text())
@@ -584,7 +585,7 @@
             .then(data => {
                 document.getElementById('footer-container').innerHTML = data;
             });
-    </script>
+    </script> -->
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
@@ -604,31 +605,7 @@
   </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"ec9a6c21600d4161aa74e6a2c77efad2","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 
-<script>
-    function toggleMenu() {
-        const menu = document.getElementById("myLinks");
-        const icon = document.querySelector(".hamburger");
-        
-        menu.classList.toggle("active");
-        icon.classList.toggle("active");
-    }
 
-    // New logic to close menu when clicking outside
-    window.addEventListener('click', function(e) {
-        const menu = document.getElementById("myLinks");
-        const icon = document.querySelector(".hamburger");
-
-        // Check if the click was OUTSIDE the menu AND outside the hamburger icon
-        // We check the icon too, otherwise the toggleMenu function and this 
-        // listener might conflict (opening and closing at the same time).
-        if (!menu.contains(e.target) && !icon.contains(e.target)) {
-            if (menu.classList.contains("active")) {
-                menu.classList.remove("active");
-                icon.classList.remove("active");
-            }
-        }
-    });
-</script>
 
 
 </body>

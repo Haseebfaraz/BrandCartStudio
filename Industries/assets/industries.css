@@ -243,7 +243,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     margin-top: 35px;
 }
     #transparent-banner .container-fluid.inner-banner-container {
-        background-image: url('images/mob-banner-bg.png') !important;
+        background-image: url('/assets/images/mob-banner-bg.png') !important;
         padding: 3rem 26px 4rem;
     }
     .industries-cards {

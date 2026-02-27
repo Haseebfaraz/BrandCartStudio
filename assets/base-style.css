@@ -213,7 +213,7 @@ h1.animated-h1 span.word {
 .word:nth-child(3) { 
     animation-delay: 8s !important; 
 }
-.banner-heading p {
+.banner-heading p.main-banner-text {
     font-size: clamp(14px, 1.5vw, 28px);
     font-weight: 700;
     font-family: Monument Extended, sans-serif !important;
