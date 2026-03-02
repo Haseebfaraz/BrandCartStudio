@@ -20,7 +20,16 @@
             .then(data => {
                 document.getElementById('inner-transparent-banner').innerHTML = data;
             });
-
+            fetch('/Services/sections/services-featured-gird.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('services-features-grid').innerHTML = data;
+            });
+            // fetch('/Services/services-inner-pages/sections/services-inner-banner.html')
+            // .then(response => response.text())
+            // .then(data => {
+            //     document.getElementById('services-inner-banner').innerHTML = data;
+            // });
 
 
 

@@ -364,3 +364,497 @@ span.light-weight {
 }
 
 
+/***Responsive*****/
+
+@media (max-width: 1550px)
+{
+    #VisionBox h3 {
+    font-size: 35px;
+    line-height: 45px;
+}
+#VisionBox p {
+    font-size: 20px;
+}
+#DeliveryServiceSection {
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+}
+#BoldSlider .swiper-button-prev {
+    left: 80rem;
+}
+}
+@media (max-width: 1440px)
+{
+        #VisionBox h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+        #DeliveryServiceSection {
+        padding-top: 7rem;
+        padding-bottom: 6rem;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 74rem;
+    }
+}
+@media(max-width: 1366px)
+{
+    .banner-h1 h1 {
+    font-size: 70px;
+    line-height: 74px;
+}
+#SingleImage img {
+    width: 75%;
+}
+#transparent-banner {
+    margin-bottom: -18rem;
+}
+#transparent-banner .container-fluid {
+    padding: 12rem 60px 20rem;
+    width: 95%;
+}
+    #VisionBox h3 {
+        font-size: 29px;
+        line-height: 36px;
+    }
+    #VisionBox p br {
+    display: none;
+}
+.OurMissionStyle {
+    padding-left: 2rem;
+}
+#QualityRow h1 {
+    font-size: 45px;
+}
+    #DeliveryServiceSection {
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+    }
+    #DeliveryServiceSection .DelSerContentBox p {
+    font-size: 18px;
+    line-height: 26px;
+}
+.DelSerContentBox h3
+ {
+    font-size: 65px;
+    line-height: 70px;
+}
+    #BoldSlider .swiper-button-prev {
+        left: 70rem;
+    }
+}
+@media (max-width: 1336px)
+{
+        .banner-h1 h1 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    #DeliverySectionInner .ContentBox h3 {
+    font-size: 52px;
+    line-height: 58px;
+}
+.BoldMainContent h3 {
+    font-size: 45px;
+    line-height: 50px;
+}
+    #BoldSlider .swiper-button-prev {
+        left: 68rem;
+    }
+    #BoldSlider .SliderContentBox p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+}
+@media (max-width: 1280px)
+{
+    #QualityServices .InnerContentBox p {
+    font-size: 17px;
+}
+#QualityServices .InnerContentBox h3 {
+    font-size: 25px;
+}
+    #DeliverySectionInner .ContentBox h3 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+        .DelSerContentBox h3 {
+        font-size: 54px;
+        line-height: 50px;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 65rem;
+    }
+
+}
+@media (max-width: 1115px)
+{
+    .banner-h1 h1 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    #transparent-banner .headerBox p {
+    font-size: 16px;
+}
+#transparent-banner .container-fluid {
+        padding: 10rem 60px 16rem;
+    }
+    #transparent-banner {
+        margin-bottom: -14rem;
+    }
+        #VisionBox h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+        #VisionBox p {
+        font-size: 19px;
+    }
+        #QualityRow h1 {
+        font-size: 38px;
+    }
+        #QualityServices .InnerContentBox p {
+        font-size: 15px;
+    }
+    #QualityServices .innerCol {
+    padding: 30px 20px 20px 30px;
+}
+    #QualityServices .InnerContentBox h3 {
+        font-size: 21px;
+    }
+        #DeliverySectionInner .ContentBox h3 {
+        font-size: 41px;
+        line-height: 46px;
+    }
+        #DeliveryServiceSection {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+        .DelSerContentBox h3 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+    #DeliveryServiceSection .DelSerContentBox p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    #DeliveryServiceSection .InnerCol {
+    padding: 30px 30px 15px 30px;
+}
+.BoldMainContent h3 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    #BoldSlider .swiper-button-prev {
+        left: 55rem;
+    }
+    .swiperSliderInnerBg {
+    padding: 30px 20px 13px 24px;
+}
+.sliderAuthorBox {
+    margin-top: 1rem;
+}
+.BoldSwiper {
+    padding-top: 10rem !important;
+}
+}
+@media (max-width: 1024px)
+{
+        #VisionBox h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+        #VisionBox p {
+        font-size: 18px;
+    }
+        .OurMissionStyle {
+        padding-left: 1rem;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 50rem;
+    }
+        .BoldSwiper {
+        padding-top: 8rem !important;
+    }
+    .DelSerContentBox h3 {
+        font-size: 35px;
+        line-height: 33px;
+    }
+          #DeliveryServiceSection .DelSerContentBox p {
+        font-size: 14px;
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+@media (max-width: 885px)
+{
+    .banner-h1 h1 {
+        font-size: 35px;
+        line-height: 37px;
+    }
+        #transparent-banner .headerBox p {
+        font-size: 14px;
+    }
+        #transparent-banner {
+        margin-bottom: -10rem;
+    }
+        #transparent-banner .container-fluid {
+        padding: 10rem 60px 11rem;
+    }
+        #VisionBox h3 {
+        font-size: 19px;
+        line-height: 23px;
+    }
+    #VisionBox h2 {
+    font-size: 21px;
+    line-height: 30px;
+}
+    #VisionBox p {
+        font-size: 16px;
+    }
+        .OurMissionStyle {
+        padding-left: 0rem;
+    }
+        #QualityRow h1 {
+        font-size: 26px;
+    }
+    #DeliverSection {
+    margin-top: 4rem;
+}
+#BoldSlider .swiper-button-prev {
+        left: 43rem;
+    }
+        .BoldMainContent h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+        #BoldSlider .SliderContentBox p {
+        font-size: 15px;
+        line-height: 22px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+@media (max-width: 836px)
+{
+        #DeliverySectionInner .ContentBox h3 {
+        font-size: 31px;
+        line-height: 33px;
+    }
+        #DeliveryServiceSection .InnerCol {
+        padding: 20px 17px 8px 17px;
+    }
+        #DeliveryServiceSection {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    #DeliverSection {
+    padding-top: 3rem;
+}
+    #BoldSlider .swiper-button-prev {
+        left: 40rem;
+    }
+    .marqueeTrustedCompany {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+}
+@media (max-width: 820px)
+{
+        #transparent-banner {
+        margin-bottom: -9rem;
+    }
+    .BrandLogoBox {
+    gap: 3rem;
+}
+}
+@media (max-width: 800px)
+{
+        #transparent-banner .headerBox p {
+        font-size: 13px;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 38rem;
+    }
+  
+}
+@media (max-width: 768px)
+{
+          .banner-h1 h1{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    #VisionBox h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #VisionBox h2{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #QualitySection .container-fluid {
+    padding-top: 38px;
+    padding-bottom: 40px;
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+    #BoldSlider .swiper-button-prev {
+        left: 36rem;
+    }
+}
+@media (max-width: 480px)
+{
+        .banner-h1 h1 {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .buttonBanner_Box a {
+    font-size: 12px;
+    padding: 8px 9px 8px 10px;
+}
+.buttonBanner_Box a span.fontButton {
+    left: 4px;
+}
+#TrustedCompanies h3 {
+    font-size: 19px;
+}
+    #TrustedCompanies .container-fluid.p-5 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 20px !important;
+    }
+
+ .visionBoxClass {
+    flex-direction: column-reverse;
+}
+#VisionAndMissionSection .ContentBox {
+    margin-top: 1rem;
+}
+    #QualitySection .container-fluid {
+        margin-top: 1rem;
+    }
+        #QualityRow h1 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    #QualityServices {
+    margin-top: 1rem;
+}
+    #QualityServices .innerCol {
+        margin-bottom: 1rem;
+    }
+        #DeliverSection {
+        background-color: #000000;
+        background-image: unset;
+    }
+        #DeliveryServiceSection .InnerCol {
+        margin-bottom: 1rem;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 21rem;
+    }
+    #BoldDesignSection {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f2fbf5e3;
+}
+#QualitySection .container-fluid {
+    border-radius: 35px;
+}
+
+}
+@media (max-width: 430px)
+{
+    #transparent-banner .container-fluid {
+        padding: 10rem 20px 11rem;
+    }
+        #transparent-banner {
+        margin-bottom: -5rem;
+    }
+        #transparent-banner .container-fluid {
+        padding: 9rem 20px 6rem;
+        border-radius: 35px;
+    }
+    #BoldSlider .swiper-button-next, #BoldSlider .swiper-button-prev {
+    top: 6rem;
+}
+    .BoldSwiper {
+        padding-top: 10rem !important;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 18rem;
+    }
+    .BrandLogoBox img {
+    width: 35%;
+}
+    .BrandLogoBox {
+        gap: 1rem;
+    }
+}
+@media (max-width: 425px)
+{
+}
+@media (max-width: 415px)
+{
+        .banner-h1 h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 17rem;
+    }
+}
+@media (max-width: 395px)
+{
+        #QualityRow h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 16rem;
+    }
+}
+@media (max-width: 380px)
+{
+    .BoldMainContent {
+    margin-bottom: -4rem;
+}
+#BoldSlider .swiper-button-prev {
+        left: 15rem;
+    }
+}
+@media (max-width: 360px)
+{
+        #BoldSlider .swiper-button-prev {
+        left: 14rem;
+    }
+}
+@media (max-width: 320px)
+{
+        .banner-h1 h1 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+        .buttonBanner_Box a {
+        font-size: 10px;
+        padding: 6px 9px 5px 10px;
+    }
+        #transparent-banner .container-fluid {
+        padding: 9rem 8px 6rem;
+    }
+        #BoldSlider .swiper-button-prev {
+        left: 11rem;
+    }
+        #QualitySection .container-fluid {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media (max-width: 280px)
+{
+}

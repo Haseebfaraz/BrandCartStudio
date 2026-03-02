@@ -113,6 +113,25 @@ button.universa-btn:hover a {
     color: #212529;
 }
 
+
+@keyframes spin {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+@keyframes fadeLoop {
+  0%   { opacity: 0; transform: translateX(10px); } /* Start hidden & slightly down */
+  5%   { opacity: 1; transform: translateX(0); }    /* Fade in & move up */
+  25%  { opacity: 1; transform: translateX(0); }    /* Stay visible */
+  30%  { opacity: 0; transform: translateX(-10px); }/* Fade out & move up */
+  100% { opacity: 0; }                              /* Stay hidden for rest of loop */
+}
+
+
 /* Header Css */
 
 #header-container {
@@ -297,9 +316,9 @@ h1.animated-h1 {
     .banner-content {
     width: 85%;
 }
-#transparent-banner img.scroll-img {
+/* #transparent-banner img.scroll-img {
     width: 32%;
-}
+} */
 
     .footer-award-win:before {
         left: 71%;
@@ -397,10 +416,10 @@ button.banner-btn i.fa.fa-arrow-right {
 @media (max-width: 1115px)
 {	
 
-#transparent-banner .container-fluid {
+/* #transparent-banner .container-fluid {
     padding: 12rem 45px 0px;
     margin-top: -135px;
-}
+} */
     h1.animated-h1 {
         font-size: 110px;
     }
@@ -591,10 +610,10 @@ h1.animated-h1 {
     #header-container .logo {
         margin-left: 6rem;
     }
-        #transparent-banner .container-fluid {
+        /* #transparent-banner .container-fluid {
         padding: 10rem 30px 0px;
         margin-top: -135px;
-    }
+    } */
 
 
 
@@ -633,12 +652,12 @@ h1.animated-h1 {
     flex-direction: row-reverse !important;
     }
 
-#transparent-banner .container-fluid {
+/* #transparent-banner .container-fluid {
     background-image: url('images/mob-banner-bg.png') !important;
     border-radius: 26px;
     padding: 4rem 30px 2rem;
     margin-top: 0px;
-}
+} */
 
     .banner-img {
     bottom: 0px;
@@ -778,9 +797,9 @@ h1.animated-h1 {
 @media (max-width: 380px)
 {
 
-    #transparent-banner .container-fluid {
+    /* #transparent-banner .container-fluid {
         padding: 3rem 22px 2rem;
-    }
+    } */
         button.universa-btn {
         padding: 5px 20px 7px;
     }
