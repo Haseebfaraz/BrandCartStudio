@@ -174,7 +174,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     list-style: none;
 }
 .services-whyus-content details summary .detail-content h5 {
-    font-size: 40px;
+    font-size: clamp(22px, 1.5vw, 40px);
 }
 
 .services-whyus-content details {
@@ -376,6 +376,14 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 }
 @media (max-width: 480px)
 {		
+
+
+
+#services-whyus .container-fluid {
+    padding: 3rem 2rem;
+    border-radius: 20px;
+}
+
 
 .services-banner {
     margin-bottom: 35px;
