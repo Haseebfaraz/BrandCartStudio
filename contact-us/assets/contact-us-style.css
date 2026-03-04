@@ -130,8 +130,9 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
     transform: rotate(91deg) !important;
     transition: 0.8s;
 }
-
-
+.form-control.underline-input:focus {
+    box-shadow: unset;
+}
 
 
 
@@ -150,6 +151,32 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
     background-color: #1a1a2e;
     color: #ffffff;
 }
+
+
+
+/* Trusted Companies Logo */
+
+
+#TrustedCompanies h3 {
+    font-size: 25px;
+    font-family: 'DM Sans';
+}
+.BrandLogoBox {
+    gap: 6rem;
+}
+.BrandLogoBox {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); } /* Resets halfway through the double set */
+}
+.marqueeTrustedCompany {
+    overflow: hidden;
+}
+
 
 
 @media (max-width: 1800px)
