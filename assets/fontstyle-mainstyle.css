@@ -193,7 +193,9 @@ header#main-header button.hamburger {
     height: 3px;
     background-color: #000;
 }
-
+ul#myLinks li a {
+    padding: 22px 0px;
+}
 
 /* --- Dropdown Container --- */
 .has-dropdown {
@@ -204,7 +206,7 @@ header#main-header button.hamburger {
 .submenu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 3rem;
     left: 0;
     background-color: #ffffff;
     min-width: 22rem;
@@ -225,7 +227,7 @@ header#main-header button.hamburger {
 
 .submenu li a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 20px !important;
     text-decoration: none;
     font-size: 16px;
     transition: background-color 0.3s ease;
@@ -239,6 +241,7 @@ header#main-header button.hamburger {
 /* --- The Magic: Show Submenu on Hover --- */
 .has-dropdown:hover .submenu {
     display: flex; /* Show the dropdown when the user hovers over the parent <li> */
+    transition: 1s;
 }
 
 
