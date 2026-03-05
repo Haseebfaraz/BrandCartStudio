@@ -352,9 +352,7 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 .achievements-block.mt-4 {
     margin-top: 0rem !important;
 }
-.contact-form-col {
-        padding: 2rem 1rem;
-    }
+
 
 }
 @media (max-width: 425px)
@@ -392,7 +390,9 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 380px)
 {
 
-
+.contact-form-col {
+        padding: 2rem 1rem;
+    }
 
 
 }
