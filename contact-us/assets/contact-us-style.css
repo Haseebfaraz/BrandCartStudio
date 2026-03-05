@@ -54,7 +54,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     color: #000;
 }
 h3.contact-info-title {
-    font-size: 35px;
+    font-size: clamp(18px,1.8vw,35px);
     font-family: 'DM Sans';
 }
 p.info-label {
@@ -65,7 +65,7 @@ p.info-label {
     padding: 2px 0px 20px;
 }
 .contact-info-block a {
-    font-size: 22px;
+    font-size: clamp(14px, 1.5vw, 22px);
 }
 #transparent-banner .row:nth-child(2) {
     margin: 5rem 0px 0rem;
@@ -80,16 +80,16 @@ p.info-label {
     color: #666666;
 }
 .contact-form-card h4.services-title {
-    font-size: 30px;
+    font-size: clamp(18px, 1.5vw, 30px);
         margin-bottom: 25px;
 }
 .contact-form-col h2.form-title {
-    font-size: 60px;
+    font-size: clamp(24px, 3vw, 60px);
 }
 .service-pill {
     background-color: #f5f5f5;
     color: #333;
-    font-size: 16px;
+    font-size: clamp(14px, 1.2vw,16px);
     padding: 10px 20px;
     border-radius: 50px;
     cursor: pointer;
@@ -98,7 +98,7 @@ p.info-label {
 .form-control.underline-input {
     border: unset;
     padding: 20px 0px 12px;
-    font-size: 16px;
+    font-size: clamp(14px, 1.5vw,16px);
     border-bottom: 1px solid #333333;
     border-radius: 0px;
 }
@@ -158,7 +158,7 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 
 
 #TrustedCompanies h3 {
-    font-size: 25px;
+    font-size: clamp(18px, 1.5vw, 25px);
     font-family: 'DM Sans';
 }
 .BrandLogoBox {
@@ -201,14 +201,14 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 1440px)
 {
 
+.contact-form-card p.form-subtext {
+    width: 95%;
 
-.industries-cards {
-    gap: 30px 30px;
-    padding: 3rem 2rem;
 }
-.industries-box {
-    padding: 50px 32px 50px 35px;
+.contact-form-col {
+    padding: 4rem 4rem;
 }
+
 
 
 }
@@ -226,9 +226,12 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 1280px)
 {
 
-    .industries-box {
-        padding: 50px 22px 50px 30px;
+    .contact-form-col {
+        padding: 3rem 2rem;
     }
+    .service-pill {
+    padding: 5px 14px 7px;
+}
 
 
 }
@@ -246,8 +249,8 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 .inner-banner-btn button.universa-btn {
     padding: 5px 14px 7px 20px;
 }
-.industries-box p {
-    line-height: 26px;
+.achievements-block .d-flex.gap-3.align-items-center {
+    gap: 5px !important;
 }
 
 
@@ -258,7 +261,7 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 
 
     #transparent-banner .container-fluid.inner-banner-container {
-        padding: 11rem 70px 4rem;
+        padding: 11rem 40px 4rem;
     }
     .inner-banner-btn {
     display: flex;
@@ -281,10 +284,6 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 885px)
 {
 
-    .industries-cards {
-        gap: 20px 20px;
-        padding: 2rem 0rem;
-    }
 .inner-banner-content h5 {
     margin-bottom: 10px;
 }
@@ -316,22 +315,27 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 480px)
 {	
     
+#TrustedCompanies .container-fluid.p-5 {
+    padding: 20px 20px !important;
+}
 
+    .contact-form-card p.form-subtext {
+        width: 100%;
+    }
 
+#transparent-banner .row:nth-child(2) {
+    margin: 3rem 0px 0rem;
+}
+    .contact-form-col {
+        padding: 3rem 1.5rem;
+    }
     .inner-banner-col {
     order: 2;
     margin-top: 35px;
 }
     #transparent-banner .container-fluid.inner-banner-container {
         background-image: url('/assets/images/mob-banner-bg.png') !important;
-        padding: 3rem 26px 4rem;
-    }
-    .industries-cards {
-    grid-template-columns: repeat(2, 2fr);
-}
-    .industries-box {
-        padding: 40px 12px 30px 20px;
-        gap: 15px;
+        padding: 3rem 15px 4rem;
     }
         .inner-banner-btn {
         flex-direction: row;
@@ -345,10 +349,9 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 {	
 
 
-    .industries-box p {
-        line-height: 24px;
-        font-size: clamp(14px, 1.3vw, 18px);
-    }
+.achievements-block.mt-4 {
+    margin-top: 0rem !important;
+}
 
 
 }
@@ -389,6 +392,13 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 }
 @media (max-width: 360px)
 {	
+
+
+    .contact-form-col {
+        padding: 2rem 1rem;
+    }
+
+
 }
 @media (max-width: 320px)
 {
