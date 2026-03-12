@@ -2,10 +2,11 @@
         <div class="row" id="ecomerce-together">
             <div class="inner-row">
                 <div class="content-box">
-                    <h3 class="text-center">Let’s Transform <span class="ecomcer-style">Your <br> eCommerce</span> Together</h3>
+                    <h3 class="text-center"> Let’s Build<span class="ecomcer-style"> Your Next <br> Success</span> Story</h3>
                 </div>
                 <div class="ecomcer-buttonBox">
                     <a href="">Start Your Project <span class="button-fontAwesom"><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+                    <a href="" class="btnbook">Book a Consultation <span class="button-fontAwesom"><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
                 </div>
                 <!-- <img id="ctaImage" src="" alt="CTA Image"> -->
             </div>
@@ -36,8 +37,6 @@
 }
 
 #ecomerce-together .ecomcer-buttonBox a {
-    margin: 0 auto;
-    display: table;
     background-color: #1C1E31;
     color: #fff;
     text-decoration: unset;
@@ -45,15 +44,23 @@
     padding: 14px 60px 14px 32px;
     transition: .9s;
     border: 1px solid #1C1E31;
+    margin: 0px 10px;
 }
-.ecomcer-buttonBox {
-    margin-top: 3rem;
-}
-#ecomerce-together .ecomcer-buttonBox a:hover {
+#ecomerce-together .ecomcer-buttonBox a.btnbook {
     color: #1C1E31;
     background-color: #fff;
-    border-color: #1C1E31;
+    border-color: transparent;
 }
+.ecomcer-buttonBox {
+    margin: 0 auto;
+    display: table;
+    margin-top: 4rem;
+}
+/* #ecomerce-together .ecomcer-buttonBox a:hover {
+    color: #1C1E31;
+    background-color: #fff;
+    border-color: #fff;
+} */
 span.button-fontAwesom {
     position: relative;
     left: 38px;
@@ -102,6 +109,10 @@ span.button-fontAwesom {
 }
 @media (max-width: 836px)
 {
+    #ecomerce-together .ecomcer-buttonBox a {
+    padding: 11px 50px 11px 19px;
+    font-size: 15px;
+}
 }
 @media (max-width: 820px)
 {
@@ -123,12 +134,20 @@ span.button-fontAwesom {
         line-height: 37px;
     }
     #ecomerce-together .ecomcer-buttonBox a {
-    padding: 12px 54px 12px 23px;
-    font-size: 15px;
+        padding: 10px 30px 10px 12px;
+        font-size: 13px;
+    }
+    span.button-fontAwesom {
+    left: 17px;
 }
 }
 @media (max-width: 430px)
 {
+    #ecomerce-together .ecomcer-buttonBox a {
+        padding: 10px 30px 10px 14px;
+        font-size: 12px;
+            margin: 0px 4px;
+    }
     #ecomerce-together .content-box h3 {
         font-size: 27px;
         line-height: 31px;
@@ -142,6 +161,10 @@ span.button-fontAwesom {
 }
 @media (max-width: 425px)
 {
+        #ecomerce-together .ecomcer-buttonBox a {
+        padding: 8px 25px 8px 11px;
+        font-size: 10px;
+    }
 }
 @media (max-width: 415px)
 {
@@ -158,9 +181,20 @@ span.button-fontAwesom {
         font-size: 22px;
         line-height: 28px;
     }
+        #ecomerce-together .ecomcer-buttonBox a {
+        padding: 7px 23px 7px 10px;
+        font-size: 9px;
+    }
+        span.button-fontAwesom {
+        left: 8px;
+    }
 }
 @media (max-width: 320px)
 {
+        #ecomerce-together .ecomcer-buttonBox a {
+        padding: 7px 15px 7px 10px;
+        font-size: 9px;
+    }
 }
 @media (max-width: 280px)
 {

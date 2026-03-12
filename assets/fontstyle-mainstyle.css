@@ -142,6 +142,10 @@ button.universa-btn:hover a {
 
 /* Header Css */
 
+
+
+
+
 #header-container {
     margin-top: 60px;
     background-color: transparent;
@@ -193,9 +197,19 @@ header#main-header button.hamburger {
     height: 3px;
     background-color: #000;
 }
-ul#myLinks li a {
+
+i.fa.fa-angle-down.toggle-arrow {
+        display: none; /* Hide the arrow on desktop, keep standard hover */
+    }
+    .mobile-dropdown-header a {
+        display: block; /* Ensure the link acts normally */
+    }
+
+
+
+/* ul#myLinks li a {
     padding: 22px 0px;
-}
+} */
 
 /* --- Dropdown Container --- */
 .has-dropdown {
@@ -244,6 +258,11 @@ ul#myLinks li a {
     transition: 1s;
 }
 
+/* Banner */
+
+#transparent-banner .container-fluid.innerpg-banner-container {
+    width: 95%;
+}
 
 
 
@@ -504,7 +523,89 @@ button.banner-btn i.fa.fa-arrow-right {
 @media (max-width: 1024px)
 {
     
-    
+    .submenu {
+    display: none;
+    position: relative;
+    top: 0rem;
+    left: 0;
+    background-color: transparent;
+    min-width: 15rem;
+    box-shadow: unset;
+    padding: 0px 0px;
+    margin: 0;
+    list-style: none;
+    border-radius: 8px;
+    z-index: 1000;
+    flex-direction: column;
+    gap: 0 !important;
+}
+.mobile-dropdown-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    i.fa.fa-angle-down.toggle-arrow {
+        color: #000;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 5px 15px; 
+        transition: transform 0.3s ease;
+        display: block;
+    }
+/* .mobile-dropdown-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        padding-right: 15px;  
+    }
+
+
+
+      .submenu {
+        display: none;
+        position: relative;
+        flex-direction: column;
+        background-color: transparent;
+        padding-left: 0px;
+        margin-top: 0px;
+        list-style: none;
+        gap: 15px;
+        border-left: unset;
+        box-shadow: unset;
+        padding: 0px 0px;
+        min-width: 16rem;
+        top: 0rem;
+    }
+
+  
+    .has-dropdown.open .submenu {
+        display: flex;
+    }
+
+    .has-dropdown.open .toggle-arrow {
+        transform: rotate(180deg); 
+    }
+
+    .has-dropdown:hover .submenu {
+        display: none !important; 
+    }
+
+
+    .has-dropdown.open .submenu {
+        display: flex !important; 
+    }
+
+    .has-dropdown.open .toggle-arrow {
+        transform: rotate(180deg);
+    } */
+
+
+
+
+
+
+
 #header-container .logo {
     margin-left: 12rem;
 }
