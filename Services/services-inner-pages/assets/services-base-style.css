@@ -1,3 +1,131 @@
+/* Inner-page-banner */
+
+#transparent-banner .container-fluid.inner-banner-container {
+    padding: 13rem 100px 4rem;
+}
+.inner-banner-content h5 {
+    color: #010205;
+    font-weight: 500;
+    font-size: clamp(14px, 2vw, 30px);
+}
+.inner-banner-btn button.universa-btn a {
+    font-size: clamp(14px, 1.2vw, 18px);
+}
+.inner-banner-content h2 span {
+    font-family: 'Neou', sans-serif !important;
+    font-weight: 500;
+}
+.inner-banner-content h2 {
+    font-size: clamp(30px, 5vw, 70px);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    width: 95%;
+}
+.inner-banner-content {
+    padding: 0px 1rem 0px 3rem;
+}
+.inner-banner-content p {
+    line-height: 36px;
+    color: #717171;
+    width: 85%;
+}
+button.universa-btn-1 {
+    background-color: unset;
+    border: unset;
+}
+button.universa-btn-1 a {
+    text-decoration: underline;
+}
+.inner-banner-btn i.fa.fa-arrow-right {
+    color: #fff;
+    margin-left: 8px;
+}
+.inner-banner-btn {
+    display: flex;
+    gap: 20px;
+}
+button.universa-btn:hover i.fa.fa-arrow-right {
+    transition: 0.8s;
+    color: #000;
+}
+
+
+/***BoldDesign****/
+
+#BoldDesignSection {
+    padding-top: 4rem;
+    background-color: #8efdae1f;
+    padding-bottom: 8rem;
+    margin-bottom: 8rem;
+}
+.BoldSwiper {
+    padding-top: 12rem !important;
+}
+.BoldMainContent h3 {
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'Neou';
+    font-family: 'Monument Extended';
+    width: 60%;
+}
+.BoldMainContent
+ {
+    margin-bottom: -5rem;
+}
+.BoldMainContent h3 {
+    
+}
+.swiperSliderInnerBg {
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 30px 40px 30px 40px;
+    box-shadow: 0px 1px 4px 1px #F6FFF8;
+    text-align: left;
+} 
+.innerSwiperBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.swiperSliderInnerBg .slider-imgBox img {
+    position: absolute;
+    top: -29px;
+}
+.sliderAuthorBox h4 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.sliderAuthorBox p {
+    font-size: 15px;
+    font-weight: 300;
+}
+.sliderAuthorBox {
+    margin-top: 3rem;
+}
+#BoldSlider .swiper-button-next , #BoldSlider .swiper-button-prev{
+    top: 2rem;
+    z-index: 999999999;
+}
+#BoldSlider .swiper-button-prev{
+    left: 101rem;
+}
+
+#BoldSlider .swiper-button-next path , #BoldSlider .swiper-button-prev path {
+    color: #000;
+}
+
+#BoldSlider .swiper-button-next svg.swiper-navigation-icon , #BoldSlider .swiper-button-prev svg.swiper-navigation-icon {
+    width: 51px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 0px 17px;
+    border: 1px solid #A0CF7B;
+}
+
+
+
 /* Services Banner */
 
 .services-banner {
@@ -100,7 +228,61 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     transition: 0.8s;
     color: #000;
 }
+/* Sopify details + develpoment process shopify*/
 
+#road-block-shopi {
+    margin: 8rem 0rem 12rem;
+}
+#develop-process-shopi {
+    padding: 8rem 0rem 6rem;
+    background: linear-gradient(170deg, #BFFFD0 0%, #ffffff 60%);
+}
+h4.Delivering-cart-h4 {
+    font-size: 50px;
+}
+.roadblock-cart p {
+    color: #222222;
+}
+#road-block-shopi .roadblock-main {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+ .roadblock-cart {
+    gap: 20px;
+    padding: 50px 70px;
+    border-radius: 55px;
+    border: 1px solid #6DFF9A;
+    margin: 0px 20px;
+        text-align: center;
+}
+.roadblock-cart:hover {
+    background: linear-gradient(136deg, #8EFDAE 0%, #ffffff 60%);
+}
+
+#develop-process-shopi .roadblock-main {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 2fr);
+}
+#develop-process-shopi .roadblock-cart {
+    gap: 20px;
+    padding: 30px 20px;
+    border-radius: 55px;
+    border: 1px solid #6DFF9A;
+    margin: 0px 10px;
+        text-align: start;
+            background-color: #fff;
+}
+#develop-process-shopi .container-fluid {
+    text-align: center;
+    align-items: center;
+}
+#develop-process-shopi button.universa-btn {
+    margin-top: 50px;
+}
+.roadblock-cart.Delivering-cart {
+    padding: 50px 30px !important;
+    gap: 60px !important;
+}
 
 
 /* services-inner-features-grid */
@@ -111,7 +293,12 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 }
 
 #services-inner-features-grid {
-    margin: 18rem 0rem 3rem;
+    margin: 8rem 0rem 3rem;
+}
+
+.featured-services-content ul li {
+    padding: 6px 0px;
+    font-size: clamp(14px, 1.5vw, 18px);
 }
 .serives-inner-pages-headings h4 {
     background-color: #1C1E31;
@@ -131,19 +318,19 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     font-family: 'Neou';
 }
 .serives-inner-pages-headings {
-    width: 70%;
+    width: 68%;
     margin: 0px auto;
     margin-bottom: 100px;
 }
 .featured-services-content {
     gap: 20px;
-    padding: 0rem 15rem 0rem 3rem;
+    padding: 0rem 14rem 0rem 3rem;
 }
-.featured-services-content h3 {
-    font-size: clamp(22px, 2vw, 34px);
+.featured-services-content h2 {
+    font-size: clamp(22px, 4vw, 50px);
 }
 
-.featured-services-content h3 span {
+.featured-services-content h2 span {
     font-family: 'Neou';
 }
 .featured-services-content p {
@@ -154,11 +341,12 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     font-size: clamp(14px, 1.5vw ,21px);
     font-weight: 700;
 }
-/* img.img-fluid.inner-serives-img {
-    width: 100%;
-} */
 .col-right .featured-services-content {
     padding: 0rem 11rem 0rem 4rem;
+}
+button.universa-btn i.fa.fa-arrow-right {
+    color: #fff;
+    margin-left: 10px;
 }
 
 
@@ -668,7 +856,7 @@ img.img-fluid.services-banner-img {
     }
 
 
-    .featured-services-content h3 {
+    .featured-services-content h2 {
     font-size: clamp(21px, 2vw, 34px);
 }
 

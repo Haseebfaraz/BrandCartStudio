@@ -143,8 +143,12 @@ button.universa-btn:hover a {
 /* Header Css */
 
 
-
-
+ul#myLinks li {
+    padding: 18px 0px;
+}
+ul#myLinks li.has-dropdown ul.submenu li {
+    padding: 0px 0px;
+}
 
 #header-container {
     margin-top: 60px;
