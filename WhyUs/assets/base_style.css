@@ -232,7 +232,7 @@ span.light-weight {
     background-image: url(/WhyUs/assets/Images/deliver.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     padding-top: 4rem;
         margin-top: 6rem;
 }
