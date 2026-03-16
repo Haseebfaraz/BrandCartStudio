@@ -1,0 +1,285 @@
+/* Banner */
+
+#transparent-banner .banner-h1 h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'Monument Extended';
+    font-weight: 500;
+}
+#transparent-banner .container-fluid {
+    padding: 14rem 60px 11rem;
+    margin-top: -135px;
+    border-radius: 90px;
+}
+
+#transparent-banner {
+    margin: 20px 0px 0px;
+}
+#transparent-banner .main-Content p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 28rem;
+}
+#transparent-banner .btn-Box {
+    margin: 0 auto;
+    display: table;
+    margin-top: 3rem;
+}
+
+#transparent-banner .btn-Box a {
+    color: #fff;
+    background-color: #1C1E31;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 30px;
+    padding: 15px 44px 15px 23px;
+    position: relative;
+    margin-right: 15px;
+}
+
+#transparent-banner .btn-Box a i {
+    position: relative;
+    left: 21px;
+}
+
+#transparent-banner .btn-Box a.btnbgwhite {
+    color: #1C1E31;
+    background-color: #fff;
+}
+
+/****Content Row ****/
+
+#mainContentsection .container-fluid {
+    margin-top: -4rem;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-top: 24px;
+    padding-left: 55px;
+    padding-right: 65px;
+    width: 80%;
+    padding-bottom: 70px;
+}
+.effictiveDateBox {
+    border-bottom: 1px solid #CCCCCC;
+}
+#contentRow .contentInner {
+    margin-top: 29px;
+    padding-left: 0px;
+}
+
+#contentRow .contentInner h3 {
+    font-size: 30px;
+    font-family: 'DM Sans';
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+#contentRow .contentInner p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+#contentRow .contentInner ul li {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    line-height: 35px;
+    color: #383233;
+}
+
+#contentRow .contentInner ul {
+    padding-left: 15px;
+}
+.effictiveDateBox p {
+    color: #666666;
+}
+
+@media (max-width: 1550px)
+{
+    #transparent-banner .main-Content p {
+    padding: 0px 17rem;
+}
+}
+@media (max-width: 1440px)
+{
+        #transparent-banner .main-Content p {
+        padding: 0px 14rem;
+    }
+    #transparent-banner .container-fluid {
+    padding: 12rem 60px 11rem;
+}
+}
+@media(max-width: 1366px)
+{
+        #transparent-banner .main-Content p {
+        padding: 0px 12rem;
+    }
+}
+@media (max-width: 1336px)
+{
+}
+@media (max-width: 1280px)
+{
+        #transparent-banner .main-Content p {
+        padding: 0px 8rem;
+    }
+    #contentRow .contentInner p {
+    font-size: 17px;
+    line-height: 26px;
+}
+}
+@media (max-width: 1115px)
+{
+        #transparent-banner .main-Content p {
+        padding: 0px 2rem;
+    }
+}
+@media (max-width: 1024px)
+{
+}
+@media (max-width: 886px)
+{
+    #contentRow .contentInner ul li {
+    font-size: 16px;
+    line-height: 32px;
+}
+    #transparent-banner .banner-h1 h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+    #transparent-banner .main-Content p {
+        padding: 0px 2rem;
+        font-size: 18px;
+        line-height: 27px;
+    }
+        #transparent-banner .container-fluid {
+        padding: 10rem 60px 8rem;
+    }
+}
+@media (max-width: 836px)
+{
+}
+@media (max-width: 820px)
+{
+}
+@media (max-width: 800px)
+{
+}
+@media (max-width: 768px)
+{
+}
+@media (max-width: 480px)
+{
+        #transparent-banner .container-fluid {
+        padding: 8rem 60px 7rem;
+    }
+    #transparent-banner .banner-h1 h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+        #transparent-banner .main-Content p {
+        padding: 0px 0rem;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    #transparent-banner .btn-Box a {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 13px 10px 14px;
+    margin-right: 10px;
+}
+#transparent-banner .btn-Box a i {
+    left: 4px;
+}
+#mainContentsection .container-fluid {
+    padding-left: 35px;
+    padding-right: 40px;
+}
+    #contentRow .contentInner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+        #contentRow .contentInner ul li {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    #contentRow .contentInner h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+#contentRow .contentInner {
+    margin-top: 16px;
+}
+}
+@media (max-width: 430px)
+{
+    #transparent-banner .banner-h1 h1 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+        #transparent-banner .container-fluid {
+        padding: 8rem 28px 7rem;
+    }
+        #mainContentsection .container-fluid {
+        padding-left: 32px;
+        padding-right: 22px;
+    }
+    #transparent-banner .btn-Box {
+    margin-top: 2rem;
+}
+}
+@media (max-width: 425px)
+{
+}
+@media (max-width: 415px)
+{
+}
+@media (max-width: 395px)
+{
+}
+@media (max-width: 380px)
+{
+        #contentRow .contentInner h3 {
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 7px;
+    }
+        #transparent-banner .btn-Box a {
+        font-size: 13px;
+        line-height: 22px;
+        padding: 8px 13px 8px 14px;
+    }
+
+}
+@media (max-width: 360px)
+{
+    #transparent-banner .container-fluid {
+        padding: 7rem 10px 6rem;
+    }
+    .effictiveDateBox p {
+    font-size: 15px;
+}
+}
+@media (max-width: 320px)
+{
+        #transparent-banner .btn-Box a {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 6px 10px 6px 10px;
+        margin-right: 7px;
+    }
+        #contentRow .contentInner {
+        padding-right: 0px;
+    }
+        #contentRow .contentInner p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+        #contentRow .contentInner ul li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+@media (max-width: 280px)
+{
+}
