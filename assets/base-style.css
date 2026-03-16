@@ -72,7 +72,7 @@ h2, h4 {
 }
 
 .headings {
-    padding: 30px 0px 4rem;
+    padding: 30px 0px 2rem;
     width: 100%;
 }
 .headings h2 {
@@ -301,7 +301,7 @@ button.banner-btn:hover {
 .exp-boxes {
     display: flex;
     gap: 15px;
-    margin: 11rem 10px 20px;
+    margin: 4rem 10px 20px;
 }
 #exprience-box .container-fluid {
     padding: 7rem 6rem 4rem;
@@ -332,7 +332,7 @@ section#exprience-box p {
 }
 .stat-card p {
     font-size: clamp(14px, 1.3vw, 20px);
-    width: 70%;
+    /* width: 70%; */
 }
 #exprience-box .headings {
     width: 65%;
@@ -356,7 +356,7 @@ section#exprience-box p {
 .service-box h3 {
     font-family: DM Sans;
     font-weight: 600;
-    width: 55%;
+    width: 70%;
     font-size: clamp(20px, 1.5vw, 28px);
 }
 .service-box p {
@@ -651,6 +651,9 @@ img.trusts {
 
 
 /* Case Study */
+.case-box .parapadRight {
+    padding-right: 7rem;
+}
 #case-study {
     padding: 4rem 0px;
 }
@@ -776,6 +779,7 @@ details[open] {
 }
 details p {
     padding: 10px 40px;
+    padding-right: 36rem;
 }
 .faqs-cards {
     width: 80%;
@@ -1037,7 +1041,9 @@ p.trans-no-service {
 }
 @media (max-width: 1550px)
 {
-
+details p {
+    padding-right: 21rem;
+}
 
     .scroll-img-div:after {
         right: 54px;
@@ -1097,6 +1103,9 @@ p.trans-no-service {
 }
 @media (max-width: 1366px)
 {	
+        details p {
+        padding-right: 14rem;
+    }
 
     p.trans-no-service {
         bottom: -108px;
@@ -1283,7 +1292,9 @@ summary span {
 }
 @media (max-width: 1024px)
 {
-
+    details p {
+        padding-right: 9rem;
+    }
 #header-container .logo {
     margin-left: 12rem;
 }
@@ -1547,7 +1558,9 @@ p.copyright-text {
 @media (max-width: 820px)
 {
 
-
+    details p {
+        padding-right: 4rem;
+    }
 h1.animated-h1 {
         font-size: 75px;
     }
