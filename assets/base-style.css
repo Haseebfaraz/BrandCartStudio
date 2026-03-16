@@ -116,6 +116,10 @@ button.universa-btn:hover a {
 
 /* Header Css */
 
+/* .header-btn {
+    margin-right: -3rem;
+} */
+
 ul#myLinks li.has-dropdown ul.submenu li {
     padding: 0px 0px;
 }
@@ -207,8 +211,8 @@ span.light-weight {
 }
 h1.animated-h1 span.word {
     grid-area: stack;
-    opacity: 0;
-    animation: fadeLoop 6s linear infinite;
+    opacity: 1;
+    /* animation: fadeLoop 6s linear infinite; */
     color: #1a1a1a;
 }
 .word:nth-child(1) { 

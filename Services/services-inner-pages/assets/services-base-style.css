@@ -1,7 +1,7 @@
 /* Inner-page-banner */
 
 #transparent-banner .container-fluid.inner-banner-container {
-    padding: 13rem 100px 4rem;
+    padding: 15rem 100px 12rem;
 }
 .inner-banner-content h5 {
     color: #010205;
@@ -20,9 +20,11 @@
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     width: 95%;
+    line-height: 65px;
 }
 .inner-banner-content {
     padding: 0px 1rem 0px 3rem;
+    gap: 15px;
 }
 .inner-banner-content p {
     line-height: 36px;
@@ -53,7 +55,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 /***BoldDesign****/
 
 #BoldDesignSection {
-    padding-top: 4rem;
+    padding-top: 6rem;
     background-color: #8efdae1f;
     padding-bottom: 8rem;
     margin-bottom: 8rem;
@@ -66,14 +68,11 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     line-height: 70px;
     font-family: 'Neou';
     font-family: 'Monument Extended';
-    width: 60%;
+    width: 70%;
 }
 .BoldMainContent
  {
     margin-bottom: -5rem;
-}
-.BoldMainContent h3 {
-    
 }
 .swiperSliderInnerBg {
     background-color: #fff;
@@ -102,7 +101,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     font-weight: 300;
 }
 .sliderAuthorBox {
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 #BoldSlider .swiper-button-next , #BoldSlider .swiper-button-prev{
     top: 2rem;
@@ -122,6 +121,53 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     border-radius: 30px;
     padding: 0px 17px;
     border: 1px solid #A0CF7B;
+}
+
+/*  */
+
+
+/* Every Industry */
+
+#every-industries {
+    padding: 9rem 0rem;
+    background-color: #fff;
+}
+#every-industries .headings {
+    padding: 3rem 0px 0rem !important;
+    gap: 95px;
+}
+.industries-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 30px 45px;
+    padding: 4rem 5rem;
+}
+.industries-box {
+    padding: 70px 32px 50px 45px;
+    gap: 20px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+        background: linear-gradient(45deg, #FAFFF5, #FCFFF9);
+}
+.industries-box:hover {
+    border-color: #9DFF50;
+}
+.industries-box p {
+    color: #666666;
+    line-height: 32px;
+}
+.indust-links {
+    padding: 10px 12px;
+    background-color: #9cff5036;
+    border-radius: 40px;
+}
+.industries-box:hover .indust-links {
+    background-color: #9cff50;
+    transition: 0.8s;
+}
+.industries-box h4 {
+    font-size: clamp(18px, 1.8vw, 28px);
+    margin-bottom: 0;
 }
 
 
@@ -241,7 +287,7 @@ h4.Delivering-cart-h4 {
     font-size: 50px;
 }
 .roadblock-cart p {
-    color: #222222;
+    color: #000000ad;
 }
 #road-block-shopi .roadblock-main {
     display: inline-grid;
@@ -249,7 +295,7 @@ h4.Delivering-cart-h4 {
 }
  .roadblock-cart {
     gap: 20px;
-    padding: 50px 70px;
+    padding: 50px 60px;
     border-radius: 55px;
     border: 1px solid #6DFF9A;
     margin: 0px 20px;
@@ -272,6 +318,11 @@ h4.Delivering-cart-h4 {
         text-align: start;
             background-color: #fff;
 }
+#develop-process-shopi .roadblock-cart.Delivering-cart {
+
+    border: 1px solid #fff;
+
+}
 #develop-process-shopi .container-fluid {
     text-align: center;
     align-items: center;
@@ -282,6 +333,20 @@ h4.Delivering-cart-h4 {
 .roadblock-cart.Delivering-cart {
     padding: 50px 30px !important;
     gap: 60px !important;
+}
+.featured-services-content ul.list-icon li i.fa-solid.fa-check {
+    color: #fff;
+    background-color: #3BCD67;
+    border-radius: 30px;
+    padding: 5px 0px;
+    font-size: 12px;
+    margin-right: 10px;
+    width: 22px;
+}
+.deliverery-growth {
+    border-radius: 60px;
+    width: 95%;
+    margin: 0px auto;
 }
 
 
@@ -309,7 +374,7 @@ h4.Delivering-cart-h4 {
     margin-bottom: 20px;
 }
 .serives-inner-pages-headings h2 {
-    font-size: clamp(26px,3vw,55px);
+    font-size: clamp(26px,3vw,50px);
     font-family: 'Monument Extended';
     font-weight: 500;
     text-align: center;
@@ -318,20 +383,24 @@ h4.Delivering-cart-h4 {
     font-family: 'Neou';
 }
 .serives-inner-pages-headings {
-    width: 68%;
+    width: 60%;
     margin: 0px auto;
     margin-bottom: 100px;
 }
 .featured-services-content {
     gap: 20px;
-    padding: 0rem 14rem 0rem 3rem;
+    padding: 0rem 12rem 0rem 3rem;
 }
 .featured-services-content h2 {
-    font-size: clamp(22px, 4vw, 50px);
+    font-size: clamp(22px, 4vw, 45px);
 }
-
+h2.font-mounment {
+    font-family: 'Monument Extended';
+    font-weight: 200;
+}
 .featured-services-content h2 span {
-    font-family: 'Neou';
+    /* font-family: 'Neou'; */
+    font-weight: 400;
 }
 .featured-services-content p {
     color: #000000ad;
@@ -348,8 +417,12 @@ button.universa-btn i.fa.fa-arrow-right {
     color: #fff;
     margin-left: 10px;
 }
-
-
+ul.list-icon {
+    padding: 0px;
+}
+.featured-services-content ul.list-icon li {
+    list-style: none;
+}
 
 
 
