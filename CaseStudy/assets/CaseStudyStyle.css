@@ -136,44 +136,6 @@
     color: #878C91;
 }
 
-/****Delivery Measurable ****/
-
-
-#DeliveryMeasurable .container-fluid {
-    background-color: #BFFFD0;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    border-radius: 75px;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-}
-
-#DeliveryMeasurable .mainContentBox h2 {
-    font-family: 'Monument Extended';
-    font-weight: 400;
-    font-size: 45px;
-}
-#DeliveryInnerRow .innerCol .ColumnContentWrap p {
-    color: #656565;
-    margin-bottom: 0px;
-}
-#DeliveryMeasurable .mainContentBox {
-    margin-bottom: 3rem;
-}
-#DeliveryInnerRow .innerCol .ColumnContentWrap {
-    background-color: #fff;
-    padding: 30px 30px 30px 30px;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 65px;
-}
-
-#DeliveryInnerRow .innerCol .ColumnContentWrap h4 {
-    font-size: 45px;
-    font-weight: 700;
-}
-
 /***BoldIdeasTab****/
 
 #innertab-Row #myTabContent h4 {
@@ -356,9 +318,7 @@
 .contextwrapinner a i {
     left: 36rem;
 }
-#DeliveryInnerRow .innerCol .ColumnContentWrap {
-    padding: 30px 9px 30px 20px;
-}
+
     .banner-h1 h1 {
     font-size: 73px;
     line-height: 73px;
@@ -380,9 +340,7 @@
         font-size: 16px;
         padding: 12px 9px;
     }
-    #DeliveryInnerRow .innerCol .ColumnContentWrap p {
-    font-size: 15px;
-}
+
     #innerRowFeatured .innerColWrap h4 {
     font-size: 22px;
     line-height: 20px;
@@ -440,11 +398,7 @@
         font-size: 14px;
         padding: 15px 11px;
     }
-    #DeliveryInnerRow .innerCol .ColumnContentWrap{
-        padding: 19px 8px 19px 14px;
-        gap: 30px;
-        border-radius: 16px;
-    }
+
 }
 @media (max-width: 1280px)
 {
@@ -452,14 +406,7 @@
     font-size: 37px;
     line-height: 47px;
 }
-        #DeliveryInnerRow .innerCol .ColumnContentWrap p {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    #DeliveryMeasurable .mainContentBox h2 {
-    font-size: 37px;
-}
+
 
         .banner-h1 h1 {
         font-size: 60px;
@@ -482,9 +429,7 @@
     #innerRowFeatured .innerColWrap p {
     font-size: 18px;
 }
-#DeliveryInnerRow .innerCol .ColumnContentWrap h4 {
-    font-size: 32px;
-}
+
         #innerRowFeatured .innerColWrap h4 {
         font-size: 17px;
         line-height: 16px;
@@ -572,9 +517,7 @@
     margin-top: 1rem;
     font-size: 16px;
 }
-        #DeliveryMeasurable .mainContentBox h2 {
-        font-size: 30px;
-    }
+
     .contextwrapinner a i {
     font-size: 20px;
 }
@@ -686,14 +629,7 @@
         font-size: 22px;
         line-height: 30px;
     }
-        #DeliveryInnerRow .innerCol .ColumnContentWrap {
-        padding: 11px 8px 13px 8px;
-        gap: 14px;
-        border-radius: 7px;
-    }
-        #DeliveryInnerRow .innerCol .ColumnContentWrap h4 {
-        font-size: 25px;
-    }
+
         .banner-h1 h1 {
         font-size: 42px;
         line-height: 45px;
@@ -827,26 +763,6 @@
         text-align: center;
     }
 
-        #DeliveryInnerRow .innerCol .ColumnContentWrap p {
-        font-size: 18px;
-        line-height: 27px;
-    }
-        #DeliveryInnerRow .innerCol .ColumnContentWrap h4 {
-        font-size: 42px;
-    }
-        #DeliveryInnerRow .innerCol .ColumnContentWrap {
-        padding: 20px 18px 20px 18px;
-        gap: 24px;
-        border-radius: 7px;
-        width: 60%;
-        margin: 0 auto;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-        #DeliveryMeasurable .mainContentBox h2 {
-        font-size: 22px;
-        line-height: 33px;
-    }
         #innerRowFeatured .innerColWrap h4 {
         font-size: 16px;
         line-height: 14px;
@@ -964,10 +880,7 @@
     #DeliveryMeasurable .mainContentBox {
     margin-bottom: 2rem;
 }
-        #DeliveryMeasurable .mainContentBox h2 {
-        font-size: 21px;
-        line-height: 31px;
-    }
+
         #Ideas-tab-section .nav-tabs .nav-link {
         padding: 8px 9px;
         font-size: 15px;
@@ -975,10 +888,7 @@
 }
 @media (max-width: 380px)
 {
-        #DeliveryMeasurable .mainContentBox h2 {
-        font-size: 20px;
-        line-height: 30px;
-    }
+
     .buttonBanner_Box a span.fontButton {
     display: none;
 }
@@ -1008,9 +918,7 @@
     .contextwrapinner a i{
         left: 17rem;
     }
-        #DeliveryInnerRow .innerCol .ColumnContentWrap {
-        width: 85%;
-    }
+
 }
 @media (max-width: 360px)
 {
@@ -1025,10 +933,7 @@
         line-height: 31px;
         margin-bottom: 2rem;
     }
-        #DeliveryMeasurable .mainContentBox h2 {
-        font-size: 18px;
-        line-height: 28px;
-    }
+
         .banner-h1 h1 {
         font-size: 31px;
         line-height: 32px;
@@ -1048,10 +953,7 @@
         font-size: 22px;
         line-height: 30px;
     }
-    #DeliveryMeasurable .mainContentBox h2 {
-        font-size: 16px;
-        line-height: 26px;
-    }
+
         #innerRowFeatured .innerColWrap h4 {
         font-size: 12px;
         line-height: 11px;
