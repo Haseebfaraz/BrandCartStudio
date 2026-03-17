@@ -3,12 +3,26 @@
             .then(data => {
                 document.getElementById('header-container').innerHTML = data;
             });
-            fetch('/sections/cta.html')
-            .then(response => response.text())
-            .then(data => {
+             fetch('/sections/cta.html')
+             .then(response => response.text())
+             .then(data => {
                 document.getElementById('TransformSection').innerHTML = data;
-            });
-
+             });
+             fetch('/sections/customecomercebotom.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('eCommerceGreenbg').innerHTML = data;
+             });
+             fetch('/sections/conversationrate.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('conversationbggreen').innerHTML = data;
+             });
+             fetch('/sections/seogreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('Seogreenbg').innerHTML = data;
+             });
              fetch('/sections/footer.html')
             .then(response => response.text())
             .then(data => {

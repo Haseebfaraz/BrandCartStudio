@@ -57,8 +57,8 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 #BoldDesignSection {
     padding-top: 6rem;
     background-color: #8efdae1f;
-    padding-bottom: 8rem;
-    margin-bottom: 8rem;
+    padding-bottom: 24rem;
+    margin-bottom: -17rem;
 }
 .BoldSwiper {
     padding-top: 12rem !important;
@@ -80,7 +80,15 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     padding: 30px 40px 30px 40px;
     box-shadow: 0px 1px 4px 1px #F6FFF8;
     text-align: left;
-} 
+    height: auto;
+}
+.SliderContentBox p {
+    padding-right: 3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .innerSwiperBox {
     display: flex;
     flex-direction: row;
@@ -140,7 +148,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 30px 45px;
-    padding: 4rem 5rem;
+    padding: 4rem 0rem;
 }
 .industries-box {
     padding: 70px 32px 50px 45px;
@@ -372,6 +380,9 @@ h4.Delivering-cart-h4 {
     border-radius: 7px;
     color: #fff;
     margin-bottom: 20px;
+}
+.serives-inner-pages-headings p {
+    padding: 0px 6rem;
 }
 .serives-inner-pages-headings h2 {
     font-size: clamp(26px,3vw,50px);
