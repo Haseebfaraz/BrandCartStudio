@@ -23,6 +23,11 @@
              .then(data => {
                 document.getElementById('Seogreenbg').innerHTML = data;
              });
+             fetch('/sections/emailGreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('emailbggreen').innerHTML = data;
+             });
              fetch('/sections/footer.html')
             .then(response => response.text())
             .then(data => {

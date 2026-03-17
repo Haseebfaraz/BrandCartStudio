@@ -56,7 +56,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 
 #BoldDesignSection {
     padding-top: 6rem;
-    background-color: #8efdae1f;
+    background-color: #E8FFEF;
     padding-bottom: 24rem;
     margin-bottom: -17rem;
 }
@@ -137,7 +137,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 /* Every Industry */
 
 #every-industries {
-    padding: 9rem 0rem;
+    padding: 3rem 0rem;
     background-color: #fff;
 }
 #every-industries .headings {
@@ -289,7 +289,11 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 }
 #develop-process-shopi {
     padding: 8rem 0rem 6rem;
-    background: linear-gradient(170deg, #BFFFD0 0%, #ffffff 60%);
+    /* background: linear-gradient(170deg, #BFFFD0 0%, #ffffff 60%); */
+    background-image: url(/Services/email-marketing/assets/images/measurableemail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 h4.Delivering-cart-h4 {
     font-size: 50px;
@@ -396,7 +400,7 @@ h4.Delivering-cart-h4 {
 .serives-inner-pages-headings {
     width: 60%;
     margin: 0px auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .featured-services-content {
     gap: 20px;
