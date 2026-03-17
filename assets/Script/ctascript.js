@@ -13,6 +13,11 @@
              .then(data => {
                 document.getElementById('eCommerceGreenbg').innerHTML = data;
              });
+             fetch('/sections/Policies.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('Policycta').innerHTML = data;
+             });
              fetch('/sections/conversationrate.html')
              .then(response => response.text())
              .then(data => {
