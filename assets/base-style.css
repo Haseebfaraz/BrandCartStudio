@@ -377,6 +377,9 @@ section#exprience-box p {
     border: 1px solid #fff;
     padding: 50px 40px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .service-box button {
@@ -1002,7 +1005,13 @@ h1.animated-h1 {
         .footer-award-win:before {
         left: 73%;
     }
-
+    p.trans-no-service {
+    left: -49px;
+    bottom: -120px;
+}
+.service-box h3 {
+    width: 80%;
+}
 
 }
 @media (max-width: 1650px)
@@ -1059,12 +1068,21 @@ details p {
     #about-section .about-content p {
     width: 85%;
     }
+    .service-box p {
+    width: 100%;
+}
 
 
 }
 @media (max-width: 1440px)
 {
 
+    .case-box .parapadRight {
+    padding-right: 3rem;
+}
+        p.trans-no-service {
+        bottom: -110px;
+    }
     h1.animated-h1 {
         font-size: 150px;
     }
@@ -1292,6 +1310,9 @@ summary span {
 }
 @media (max-width: 1024px)
 {
+            .case-box .parapadRight {
+        padding-right: 0rem;
+    }
     details p {
         padding-right: 9rem;
     }
@@ -1444,6 +1465,10 @@ button.universa-btn {
 @media (max-width: 885px)
 {
 
+
+        .service-box h3 {
+        width: 100%;
+    }
     h1.animated-h1 {
         font-size: 90px;
     }
