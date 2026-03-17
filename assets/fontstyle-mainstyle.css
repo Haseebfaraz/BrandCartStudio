@@ -1008,8 +1008,13 @@ h1.animated-h1 {
 }
 @media (max-width: 320px)
 {
-
-
+footer#footer-container li a{
+    font-size: 12px;
+}
+footer#footer-container li {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
 
 
 }

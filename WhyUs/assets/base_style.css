@@ -257,6 +257,7 @@ span.light-weight {
 }
 #DeliverySectionInner .ContentBox h3 span.bold {
     font-family: 'Monument Extended';
+    text-transform: uppercase;
 }
 #DeliveryServiceSection .imageBox {
     margin-bottom: 1rem;
@@ -271,6 +272,11 @@ span.light-weight {
     line-height: 30px;
     font-weight: 300;
     color: #595959;
+    padding-right: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .DelSerContentBox h3 {
     font-family: 'DM Sans';
@@ -295,10 +301,11 @@ span.light-weight {
 #BoldDesignSection {
     padding-top: 4rem;
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 4rem;
+    background-size: 100% 100%;
+    padding-bottom: 20rem;
     background-image: url(/WhyUs/assets/Images/bold.jpg);
-    background-position: top;
+    background-position: center;
+    margin-bottom: -14rem;
 }
 .BoldSwiper {
     padding-top: 12rem !important;
@@ -468,6 +475,12 @@ span.light-weight {
 }
 @media (max-width: 1280px)
 {
+        #BoldSlider .SliderContentBox p {
+                    display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
     #QualityServices .InnerContentBox p {
     font-size: 17px;
 }
@@ -582,10 +595,6 @@ span.light-weight {
           #DeliveryServiceSection .DelSerContentBox p {
         font-size: 14px;
         line-height: 20px;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 }
 @media (max-width: 885px)
@@ -759,13 +768,17 @@ span.light-weight {
         left: 21rem;
     }
     #BoldDesignSection {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: #f2fbf5e3;
-}
+        padding-top: 3rem;
+        padding-bottom: 14rem;
+        margin-bottom: -11rem;
+    }
 #QualitySection .container-fluid {
     border-radius: 35px;
 }
+    .BoldMainContent h3 {
+        font-size: 24px;
+        line-height: 33px;
+    }
 
 }
 @media (max-width: 430px)
