@@ -13,10 +13,20 @@
              .then(data => {
                 document.getElementById('eCommerceGreenbg').innerHTML = data;
              });
+             fetch('/sections/industrymaingreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('industrymaingreenbg').innerHTML = data;
+             });
              fetch('/sections/Socialmarketinggreenbg.html')
              .then(response => response.text())
              .then(data => {
                 document.getElementById('Socialmarketinggreenbg').innerHTML = data;
+             });
+             fetch('/sections/contactgreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('contactgreenbg').innerHTML = data;
              });
              
              fetch('/sections/shopifydevelopment.html')
