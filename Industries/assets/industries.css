@@ -58,6 +58,10 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 
 /* Every Industry */
 
+
+#every-industries .indust-links {
+    display: none;
+}
 #every-industries .headings {
     padding: 3rem 0px 0rem !important;
 }
