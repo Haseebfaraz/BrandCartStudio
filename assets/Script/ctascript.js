@@ -13,6 +13,28 @@
              .then(data => {
                 document.getElementById('eCommerceGreenbg').innerHTML = data;
              });
+             fetch('/sections/Socialmarketinggreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('Socialmarketinggreenbg').innerHTML = data;
+             });
+             
+             fetch('/sections/shopifydevelopment.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('shopifydevelopmentgreenbg').innerHTML = data;
+             });
+             fetch('/sections/Woocoermcegreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('Woocoermcegreenbg').innerHTML = data;
+             });
+             fetch('/sections/magentogreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('magentogreenbg').innerHTML = data;
+             });
+             
              fetch('/sections/Policies.html')
              .then(response => response.text())
              .then(data => {
