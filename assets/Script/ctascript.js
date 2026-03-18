@@ -34,6 +34,11 @@
              .then(data => {
                 document.getElementById('shopifydevelopmentgreenbg').innerHTML = data;
              });
+             fetch('/sections/servicemaingreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('servicemaingreenbg').innerHTML = data;
+             });
              fetch('/sections/Woocoermcegreenbg.html')
              .then(response => response.text())
              .then(data => {
