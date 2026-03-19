@@ -119,7 +119,6 @@ button.universa-btn:hover a {
 /* .header-btn {
     margin-right: -3rem;
 } */
-
 ul#myLinks li.has-dropdown ul.submenu li {
     padding: 0px 0px;
 }
@@ -129,6 +128,11 @@ ul#myLinks li {
 #header-container {
     margin-top: 60px;
     background-color: transparent;
+     position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 #header-container .container-fluid {
