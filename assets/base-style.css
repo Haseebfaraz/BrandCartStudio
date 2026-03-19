@@ -1648,6 +1648,9 @@ h1.animated-h1 {
 @media (max-width: 480px)
 {		
 
+        #header-container {
+        background-color: #fff;
+    }
     .hamburger span:nth-child(1) {
     width: 12px;
     }
