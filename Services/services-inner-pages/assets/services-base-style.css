@@ -75,7 +75,10 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 .serives-inner-pages-headings.process-heading-content p {
     width: 60%;
 }
-
+#services-inner-features-grid .imgBoxbg {
+    background-color: #E3E9F2;
+    border-radius: 25px;
+}
 /***BoldDesign****/
 
 #BoldDesignSection {
