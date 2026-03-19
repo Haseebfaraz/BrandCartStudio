@@ -159,7 +159,10 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 
 
 /* Every Industry */
-
+#services-inner-features-grid .imgBox {
+    background-color: #F3F3F3;
+    border-radius: 25px;
+}
 #every-industries .headings h3 {
     width: 90%;
 }
