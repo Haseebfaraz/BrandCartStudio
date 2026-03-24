@@ -14,7 +14,7 @@
     margin-bottom: 20px;
     font-size: clamp(14px, 1vw, 20px);
 }
-.inner-banner-btn button.universa-btn a {
+.inner-banner-btn button.universa-btn a, button.universa-btn-1 a {
     font-size: clamp(14px, 1.2vw, 18px);
 }
 .inner-banner-content h2 span {
@@ -47,6 +47,7 @@ button.universa-btn-1 a {
 }
 .inner-banner-btn {
     display: flex;
+    flex-direction: row;
     gap: 20px;
 }
 button.universa-btn:hover i.fa.fa-arrow-right {
@@ -182,12 +183,12 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 
 
     #transparent-banner .container-fluid.inner-banner-container {
-        padding: 11rem 70px 4rem;
+        padding: 11rem 30px 4rem;
     }
     .inner-banner-btn {
     display: flex;
     gap: 10px;
-    flex-direction: column;
+    flex-direction: row;
 }
     .inner-banner-content p {
         line-height: 24px;
@@ -233,6 +234,11 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 }
 @media (max-width: 800px)
 {	
+
+.inner-banner-btn button.universa-btn {
+        padding: 5px 9px 7px 12px;
+    }
+
 }
 @media (max-width: 768px)
 {
@@ -254,7 +260,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     grid-template-columns: repeat(2, 2fr);
 }
     .industries-box {
-        padding: 40px 12px 30px 20px;
+        padding: 30px 12px 15px 15px;
         gap: 15px;
     }
         .inner-banner-btn {
@@ -283,7 +289,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 {
 
     .inner-banner-btn button.universa-btn {
-        padding: 5px 5px 7px 6px;
+        padding: 5px 7px 7px 9px;
     }  
     .inner-banner-btn i.fa.fa-arrow-right {
     color: #fff;
@@ -299,13 +305,16 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 {
 
 
-    .inner-banner-btn {
-        flex-direction: column;
+    #transparent-banner .container-fluid.inner-banner-container {
+        padding: 3rem 16px 4rem;
     }
-        .inner-banner-btn button.universa-btn {
-        padding: 5px 10px 7px 12px;
+        .industries-cards {
+        gap: 15px 10px;
     }
-
+    .industries-box {
+        padding: 30px 8px 15px 10px;
+        gap: 15px;
+    }
 
 }
 @media (max-width: 380px)
@@ -316,4 +325,10 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 }
 @media (max-width: 320px)
 {
+
+.inner-banner-btn button.universa-btn a, button.universa-btn-1 a {
+    font-size: 12px;
+}
+
+
 }

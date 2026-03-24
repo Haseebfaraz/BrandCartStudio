@@ -989,7 +989,9 @@ h1.animated-h1 {
         h1.animated-h1 {
         font-size: 40px;
     }
- 
+ .container-fluid {
+    width: 95%;
+ }
 
 
 
