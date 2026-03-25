@@ -34,23 +34,32 @@
     font-weight: 500;
     letter-spacing: 0px;
     transition: .9s;
-    padding: 16px 60px 16px 32px;
+    padding: 16px 70px 16px 32px;
     text-decoration: underline;
     font-weight: 600;
     border-radius: 40px;
 }
-.buttonBanner_Box a:hover{
+.buttonBanner_Box {
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+.ButtonBox .buttonBanner_Box a.ButtonBg{
     background-color: #1C1E31;
     color: #fff;
     text-decoration: unset;
 }
-.buttonBanner_Box a:hover span i{
+/* .buttonBanner_Box a:hover{
+    background-color: #1C1E31;
+    color: #fff;
+    text-decoration: unset;
+} */
+/* .buttonBanner_Box a:hover span i{
     opacity: 1 !important;
-}
-.buttonBanner_Box a span.fontButton i {
+} */
+/* .buttonBanner_Box a span.fontButton i {
     color: #fff;
     opacity: 0;
-}
+} */
 
 .buttonBanner_Box a span.fontButton {
     position: relative;
@@ -86,6 +95,8 @@
     margin: 0 auto;
     display: table;
     transition: .9s;
+        width: 90%;
+
 }
 #SingleImage img:hover {
     filter: brightness(0.8);
@@ -128,7 +139,9 @@ span.light-weight {
 }
 
 /***Mision & Vission ****/
-
+#VisionAndMissionSection {
+    padding-top: 3rem;
+}
 #VisionBox h3 {
     font-size: 40px;
     letter-spacing: 1px;
@@ -143,7 +156,7 @@ span.light-weight {
     font-size: 22px;
     font-weight: 200;
 }
-.ImageBox::before {
+/* .ImageBox::before {
     content: "";
     position: absolute;
     top: 0;
@@ -158,7 +171,7 @@ span.light-weight {
     );
     transform: skewX(-25deg);
     animation: shine 2.5s infinite;
-}
+} */
 
 @keyframes shine {
     0% { left: -75%; }
@@ -233,7 +246,7 @@ span.light-weight {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 4rem;
+    padding-top: 6rem;
         margin-top: 6rem;
 }
 #DeliverySectionInner .ContentBox p {
@@ -302,7 +315,7 @@ span.light-weight {
     padding-top: 4rem;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-bottom: 20rem;
+    padding-bottom: 22rem;
     background-image: url(/WhyUs/assets/Images/bold.jpg);
     background-position: center;
     margin-bottom: -14rem;
@@ -321,6 +334,13 @@ span.light-weight {
 }
 .BoldMainContent h3 span.bold {
     font-family: 'Monument Extended';
+    text-transform: uppercase;
+    color: #010205;
+}
+#BoldSlider .SliderContentBox p {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'DM Sans';
 }
 .swiperSliderInnerBg {
     background-color: #fff;

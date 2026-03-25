@@ -5,6 +5,7 @@
     line-height: 70px;
     font-family: 'Monument Extended';
     font-weight: 500;
+        color: #000;
 }
 #transparent-banner .container-fluid {
     padding: 14rem 60px 11rem;
@@ -19,6 +20,7 @@
     font-size: 20px;
     line-height: 30px;
     padding: 0px 28rem;
+        color: #000;
 }
 #transparent-banner .btn-Box {
     margin: 0 auto;
@@ -35,6 +37,7 @@
     padding: 15px 44px 15px 23px;
     position: relative;
     margin-right: 15px;
+    font-weight: 600;
 }
 
 #transparent-banner .btn-Box a i {
@@ -57,7 +60,7 @@
     padding-left: 55px;
     padding-right: 65px;
     width: 80%;
-    padding-bottom: 70px;
+    padding-bottom: 110px;
 }
 .effictiveDateBox {
     border-bottom: 1px solid #CCCCCC;
@@ -72,12 +75,14 @@
     font-family: 'DM Sans';
     line-height: 40px;
     margin-bottom: 15px;
+    color: #000;
 }
 
 #contentRow .contentInner p {
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
+    color: #383234;
 }
 #contentRow .contentInner ul li {
     font-family: 'DM Sans';
@@ -135,6 +140,9 @@
 }
 @media (max-width: 1024px)
 {
+    #mainContentsection .container-fluid {
+    padding-bottom: 50px;
+}
 }
 @media (max-width: 886px)
 {
@@ -169,6 +177,9 @@
 }
 @media (max-width: 480px)
 {
+        #mainContentsection .container-fluid {
+        padding-bottom: 20px;
+    }
         #transparent-banner .container-fluid {
         padding: 8rem 60px 7rem;
     }
@@ -248,6 +259,13 @@
         font-size: 13px;
         line-height: 22px;
         padding: 8px 13px 8px 14px;
+    }
+
+}
+@media (max-width: 375px)
+{
+    #transparent-banner .btn-Box a {
+        font-size: 12px;
     }
 
 }

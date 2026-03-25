@@ -5,14 +5,29 @@
 #transparent-banner .container-fluid.inner-banner-container {
     padding: 13rem 100px 7rem;
 }
+.contactUsMAINbanner {
+    margin-bottom: 0px !important;
+}
 .inner-banner-content h5 {
     background-color: #000;
     color: #cefddc;
-    padding: 4px 10px;
+    padding: 8px 10px;
     border-radius: 7px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 20px;
     font-size: clamp(14px, 1vw, 20px);
+    text-transform: uppercase;
+    font-family: 'DM Sans';
+}
+button.universa-btn {
+    border: 1px solid #1C1E31;
+    padding: 10px 30px;
+    background-color: #1C1E31;
+    border-radius: 40px;
+    font-weight: 500;
+}
+#innerContactinfomain {
+    padding: 0px 4rem;
 }
 .inner-banner-btn button.universa-btn a {
     font-size: clamp(14px, 1.2vw, 18px);
@@ -25,6 +40,7 @@
     font-size: clamp(30px, 3vw, 65px);
     font-family: 'Monument Extended', sans-serif;
     font-weight: 500;
+    color: #010205;
 }
 .inner-banner-content {
     padding: 0px 1rem 0px 3rem;
@@ -40,6 +56,8 @@ button.universa-btn-1 {
 }
 button.universa-btn-1 a {
     text-decoration: underline;
+    color: #010205;
+    font-weight: 600;
 }
 .inner-banner-btn i.fa.fa-arrow-right {
     color: #fff;
@@ -56,16 +74,24 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 h3.contact-info-title {
     font-size: clamp(18px,1.8vw,35px);
     font-family: 'DM Sans';
+    color: #000;
 }
 p.info-label {
     margin-bottom: 6px;
     font-size: 20px;
+        color: #000;
 }
 .contact-info-block {
     padding: 2px 0px 20px;
 }
-.contact-info-block a {
+.contact-info-block a{
     font-size: clamp(14px, 1.5vw, 22px);
+    color: #333333;
+}
+h4.achievements-title.mb-3{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 600;
 }
 #transparent-banner .row:nth-child(2) {
     margin: 5rem 0px 0rem;
@@ -82,9 +108,11 @@ p.info-label {
 .contact-form-card h4.services-title {
     font-size: clamp(18px, 1.5vw, 30px);
         margin-bottom: 25px;
+        color: #000;
 }
 .contact-form-col h2.form-title {
     font-size: clamp(24px, 3vw, 60px);
+        color: #000;
 }
 .service-pill {
     background-color: #f5f5f5;
@@ -104,9 +132,13 @@ p.info-label {
 }
 form.custom-contact-form label {
     font-size: 16px;
+    font-family: 'DM Sans';
+    color: #333;
 }
 .underline-input::placeholder {
     color: #A4A4A4;
+    font-size: 16px;
+    
 }
 .form-actions button.universa-btn i.fa.fa-arrow-right {
     margin-left: 20px;
@@ -183,6 +215,13 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 #TrustedCompanies h3 {
     font-size: clamp(18px, 1.5vw, 25px);
     font-family: 'DM Sans';
+    color: #404040;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#TrustedCompanies {
+    padding-top: 20px;
+    padding-bottom: 2rem;
 }
 .BrandLogoBox {
     gap: 8rem;
@@ -223,7 +262,9 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 }
 @media (max-width: 1440px)
 {
-
+#TrustedCompanies {
+    padding-bottom: 1rem;
+}
 .contact-form-card p.form-subtext {
     width: 95%;
 
@@ -249,6 +290,12 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 1280px)
 {
 
+    .marqueeTrustedCompany {
+    padding-bottom: 15px !important;
+}
+    #innerContactinfomain {
+    padding: 0px 1rem;
+}
     .contact-form-col {
         padding: 3rem 2rem;
     }
@@ -280,7 +327,9 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 }
 @media (max-width: 1024px)
 {
-
+    #innerContactinfomain {
+        padding: 0px 0rem;
+    }
 
 
     #transparent-banner .container-fluid.inner-banner-container {
@@ -320,7 +369,7 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 860px)
 {	
     .innerAddresscontent {
-    gap: 10rem;
+    gap: 7rem;
 }
 }
 @media (max-width: 840px)
@@ -338,13 +387,13 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 800px)
 {	
     .innerAddresscontent {
-    gap: 9rem;
+    gap: 6rem;
 }
 }
 @media (max-width: 768px)
 {
     .innerAddresscontent {
-    gap: 7rem;
+    gap: 5rem;
 }
 }
 @media (max-width: 480px)
@@ -439,7 +488,9 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 @media (max-width: 360px)
 {	
 
-
+h4.achievements-title.mb-3 {
+    font-size: 19px;
+}
     .contact-form-col {
         padding: 2rem 0.5rem;
     }

@@ -298,7 +298,7 @@ i.fa.fa-angle-down.toggle-arrow {
     padding: 0px;
 }
 footer {
-    padding: 50px 0px 0px;
+    padding: 60px 0px 0px;
 }
 p.company-email {
     margin: 0px;
@@ -534,7 +534,9 @@ button.banner-btn i.fa.fa-arrow-right {
 }
 @media (max-width: 1024px)
 {
-    
+    footer {
+    padding: 40px 0px 0px;
+}
     .submenu {
     display: none;
     position: relative;

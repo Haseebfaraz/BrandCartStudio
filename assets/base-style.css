@@ -49,12 +49,12 @@
 /* Body */
 
 body {
-  background-color: #fff;
+  background-color: #EEFFF3;
 }
 
 h1, h3 {
     font-family: 'Monument Extended', sans-serif;
-    color: #151515;
+    color: #1C1E31;
 }
 p, a {
     font-family: 'DM Sans', sans-serif;
@@ -65,7 +65,7 @@ p, a {
 h2, h4 {
     font-family: 'DM Sans', sans-serif;
     font-weight: 600;
-    color: #151515;
+    color: #1C1E31;
 }
 .container-fluid {
     width: 90%;
@@ -98,10 +98,11 @@ h2, h4 {
     color: #fff;
 }
 button.universa-btn {
-    border: 1px solid #212529;
-    padding: 10px 30px;
-    background-color: #212529;
+    border: 1px solid #1C1E31;
+    padding: 15px 30px;
+    background-color: #1C1E31;
     border-radius: 40px;
+    margin-top: 34px;
 }
 button.universa-btn a {
     color: #fff;
@@ -306,12 +307,20 @@ button.banner-btn:hover {
     display: flex;
     gap: 15px;
     margin: 4rem 10px 20px;
+        justify-content: center;
+}
+#exprience-box h3 {
+    color: #1C1E31;
+}
+#experinceBoxpadd {
+    padding-left: 6rem;
 }
 #exprience-box .container-fluid {
-    padding: 7rem 6rem 4rem;
+    padding: 3rem 6rem 4rem;
 }
 section#exprience-box p {
     line-height: 32px;
+    color: #444444;
 }
 
 .stat-card {
@@ -342,20 +351,24 @@ section#exprience-box p {
     width: 65%;
 }
 
-#exprience-box {
+/* #exprience-box {
     background: linear-gradient(36deg, #d1ffdd, #EEFFF3 60%);
+} */
+
+#exprience-box {
+    background: linear-gradient(31deg, #00ff4338, #eefff300 36%);
 }
 
 
 /* Services */
 
 .service-logo {
-    width: 13%;
+    width: 20%;
     margin-bottom: 20px;
 }
 #services-section {
     background-color: #8EFDAE;
-    padding: 10rem 20px;
+    padding: 7rem 20px;
 }
 .service-box h3 {
     font-family: DM Sans;
@@ -384,12 +397,14 @@ section#exprience-box p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+        overflow: hidden;
 }
 
 .service-box button {
     border: unset;
     padding: 8px 20px;
     border-radius: 30px;
+    text-transform: uppercase;
 }
 
 .service-box:hover button {
@@ -410,7 +425,7 @@ section#exprience-box p {
 p.trans-no-service {
     font-family: 'Oswald';
     font-size: clamp(30px, 11vw, 200px);
-    color: #6add8c73;
+    color: #87efa6d9;
     position: absolute;
     left: -49px;
     bottom: -125px;
@@ -435,7 +450,9 @@ img.globe-img.img-fluid {
 #about-section {
     margin: 7rem 0px 4rem;
 }
-
+#about-section button.universa-btn {
+    margin-top: 0px;
+}
 #about-section .headings {
     width: 58%;
     margin: 0px auto;
@@ -446,6 +463,11 @@ img.globe-img.img-fluid {
     margin: 60px 0px;
     width: 70%;
     text-align: center;
+    color: #444444;
+    line-height: 42px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    margin-bottom: 35px;
 }
 
 #Explore-work {
@@ -485,7 +507,7 @@ img.globe-img.img-fluid {
 .industry-col {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
-    gap: 20px;
+    gap: 30px;
     width: 85%;
     margin: 0px AUTO;
 }
@@ -527,7 +549,7 @@ img.globe-img.img-fluid {
 }
 #industries {
     padding-bottom: 8rem;
-    background: linear-gradient(331deg, #d1ffdd, #EEFFF3 50%);
+    background: linear-gradient(331deg, #d1ffdd, #EEFFF3 33%);
 }
 .industry-box button i.fa.fa-arrow-right {
     transform: rotate(326deg);
@@ -539,7 +561,9 @@ img.globe-img.img-fluid {
 }
 
 /* Testimonial */
-
+#testimonial h3 {
+    color: #1C1E31;
+}
     .swiper {
       width: 100%;
       height: 100%;
@@ -567,8 +591,11 @@ img.globe-img.img-fluid {
     width: 7%;
 }
 .testi-box p {
-    font-size: clamp(18px, 1.5vw,25px);
-}      
+    font-size: clamp(18px, 1.5vw, 30px);
+    color: #151515;
+    line-height: 50px;
+    font-weight: 300;
+}     
 .client-box {
     gap: 20px;
     margin-top: 2rem;
@@ -576,13 +603,15 @@ img.globe-img.img-fluid {
     padding: 40px 5px;
 }
 #testimonial {
-    padding: 8rem 0rem;
+    padding: 0rem 0rem;
     background: linear-gradient(192deg, #d1ffdd, #EEFFF3 23%);
+    padding-top: 0px;
 }
 #testimonial .container-fluid {
     background-color: #fff;
     padding: 4rem 5rem;
     border-radius: 50px;
+    width: 95%;
 }
 #testimonial .headings {
     width: 60%;
@@ -635,6 +664,12 @@ img.trusts {
     width: 50%;
     margin: 0px auto;
     left: 25%;
+}
+.brands-marquee p {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'DM Sans';
+    margin-bottom: 2rem;
 }
 .brands-marquee img {
     width: 15%;
@@ -746,7 +781,15 @@ img.trusts {
 
 
 /* FAQS */
-
+#faqs p.faqMaincontent {
+    color: #4A4A4A;
+    font-size: 18px;
+    padding: 0px 37rem;
+    text-align: center;
+}
+details[open] h5 {
+    font-weight: 600 !important;
+}
 .indus-icon {
     display: flex;
     align-items: center;
@@ -815,7 +858,7 @@ summary .plus span:nth-child(1) {
     top: 2px;
 }
 details[open] summary .plus span:nth-child(1) {
-    transform: rotate(55deg);
+    transform: rotate(0deg);
     right: -0px;
     transition: 0.5s;
 }
@@ -823,6 +866,12 @@ details[open] summary .plus span:nth-child(1) {
 details[open] summary .plus span:nth-child(2) {
     transform: rotate(131deg);
     transition: 0.5s;
+    display: none;
+}
+#faqs .faqs-cards h5 {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    color: #000;
 }
 .faqs-cards button.universa-btn {
     margin-top: 40px;
