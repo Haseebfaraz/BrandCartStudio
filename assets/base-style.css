@@ -102,6 +102,9 @@ button.universa-btn {
     padding: 15px 30px;
     background-color: #1C1E31;
     border-radius: 40px;
+}
+
+#services-section button.universa-btn {
     margin-top: 34px;
 }
 button.universa-btn a {
