@@ -9,7 +9,7 @@
     margin-bottom: 0px !important;
 }
 .inner-banner-content h5 {
-    background-color: #000;
+    background-color: #1C1E31;
     color: #cefddc;
     padding: 8px 10px;
     border-radius: 7px;
@@ -19,7 +19,7 @@
     text-transform: uppercase;
     font-family: 'DM Sans';
 }
-button.universa-btn {
+.contactUsMAINbanner button.universa-btn {
     border: 1px solid #1C1E31;
     padding: 10px 30px;
     background-color: #1C1E31;
