@@ -56,7 +56,7 @@ h1, h3 {
     font-family: 'Monument Extended', sans-serif;
     color: #1C1E31;
 }
-p, a {
+p, a, li {
     font-family: 'DM Sans', sans-serif;
     color: #202020;
     text-decoration: none;
@@ -944,6 +944,7 @@ details[open] summary .plus span:nth-child(2) {
 .footer-info p {
     font-size: clamp(14px, 1.5vw, 25px);
     font-weight: 500;
+    color: #000;
 }
 .footer-bottom ul#myLinks {
     margin-left: -140px !important;
@@ -964,7 +965,7 @@ p.copyright-text {
 }
 footer#footer-container h4 span {
     font-size: clamp(16px, 1.5vw, 25px);
-    color: #000000a6;
+    color: #000;
     padding-bottom: 10px;
 }
 footer#footer-container .row {
