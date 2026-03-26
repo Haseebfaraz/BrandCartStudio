@@ -146,6 +146,7 @@ span.light-weight {
     font-size: 40px;
     letter-spacing: 1px;
     line-height: 50px;
+    color: #000;
 }
 #VisionBox h2 {
     font-size: 25px;
@@ -155,6 +156,7 @@ span.light-weight {
 #VisionBox p {
     font-size: 22px;
     font-weight: 200;
+    color: #000;
 }
 /* .ImageBox::before {
     content: "";

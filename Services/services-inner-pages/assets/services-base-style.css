@@ -87,6 +87,9 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     padding-bottom: 24rem;
     margin-bottom: -17rem;
 }
+#BoldDesignSection .container-fluid {
+    width: 83%;
+}
 .BoldSwiper {
     padding-top: 12rem !important;
 }
@@ -95,7 +98,6 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     line-height: 70px;
     font-family: 'Neou';
     font-family: 'Monument Extended';
-    width: 70%;
 }
 .BoldMainContent
  {
@@ -112,9 +114,10 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 .SliderContentBox p {
     padding-right: 3rem;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    color: #000;
 }
 .innerSwiperBox {
     display: flex;
@@ -136,14 +139,15 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     font-weight: 300;
 }
 .sliderAuthorBox {
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 #BoldSlider .swiper-button-next , #BoldSlider .swiper-button-prev{
     top: 2rem;
     z-index: 999999999;
+    transform: scale(1.2);
 }
 #BoldSlider .swiper-button-prev{
-    left: 101rem;
+    left: 91rem;
 }
 
 #BoldSlider .swiper-button-next path , #BoldSlider .swiper-button-prev path {
@@ -192,6 +196,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 }
 .industries-box:hover {
     border-color: #9DFF50;
+    background: #fff;
 }
 .industries-box p {
     color: #666666;
@@ -320,8 +325,9 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 #road-block-shopi {
     margin: 8rem 0rem 12rem;
 }
+
 #develop-process-shopi {
-    padding: 8rem 0rem 6rem;
+    padding: 5rem 0rem 6rem;
     background: linear-gradient(160deg, #BFFFD0 0%, #ffffff 70%);
     /* background-image: url(/Services/email-marketing/assets/images/measurableemail.png); */
     background-position: center;
@@ -341,7 +347,7 @@ h4.Delivering-cart-h4 {
 }
  .roadblock-cart {
     gap: 20px;
-    padding: 50px 60px;
+    padding: 40px 40px;
     border-radius: 55px;
     border: 1px solid #6DFF9A;
     margin: 0px 20px;
@@ -398,7 +404,9 @@ h4.Delivering-cart-h4 {
 
 
 /* services-inner-features-grid */
-
+#services-inner-features-grid .container-fluid {
+    width: 82%;
+}
 
 #services-inner-features-grid .row {
     margin: 6rem 0px !important;
@@ -421,8 +429,13 @@ h4.Delivering-cart-h4 {
     margin-bottom: 20px;
 }
 .serives-inner-pages-headings p {
-    padding: 0px 6rem;
+    padding: 10px 6rem 0rem;
+    margin-bottom: 0px;
     text-align: center;
+    color: #4A4A4A;
+}
+section#road-block-shopi .container-fluid {
+    width: 82%;
 }
 .serives-inner-pages-headings h2 {
     font-size: clamp(26px,2.5vw,50px);
@@ -440,7 +453,7 @@ h4.Delivering-cart-h4 {
 }
 .featured-services-content {
     gap: 20px;
-    padding: 0rem 12rem 0rem 3rem;
+    padding: 0rem 6rem 0rem 3rem;
 }
 h4.roadblock-cart-h4 {
     font-size: clamp(16px, 1.4vw, 24px);
@@ -478,7 +491,9 @@ ul.list-icon {
 .featured-services-content ul.list-icon li {
     list-style: none;
 }
-
+ul li {
+    color: #000;
+} 
 
 
 /* services-whyus */
@@ -582,7 +597,7 @@ ul.list-icon {
 }
 
 #every-industries .container-fluid {
-    width: 85%;
+    width: 82%;
     display: flex;
     flex-direction: column;
     align-items: center;
