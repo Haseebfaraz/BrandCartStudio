@@ -99,7 +99,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     padding-top: 12rem !important;
 }
 .BoldMainContent h3 {
-    font-size: clamp(25px, 3vw, 60px);
+    font-size: clamp(22px, 3vw, 60px);
     line-height: 70px;
     font-family: 'Neou';
     font-family: 'Monument Extended';
@@ -123,7 +123,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     -webkit-box-orient: vertical;
     overflow: hidden;
     color: #000;
-    font-size: clamp(14px,1.5vw, 20px);
+    font-size: clamp(14px,1.3vw, 20px);
     line-height: 35px;
 }
 .innerSwiperBox {
@@ -425,7 +425,7 @@ h4.Delivering-cart-h4 {
 
 .featured-services-content ul li {
     padding: 6px 0px;
-    font-size: clamp(14px, 1.2vw, 18px);
+    font-size: clamp(12px, 1.2vw, 18px);
 }
 .serives-inner-pages-headings h4 {
     background-color: #1C1E31;
@@ -693,7 +693,7 @@ section#road-block-shopi .container-fluid {
     gap: 50px !important;
 }
     #BoldSlider .swiper-button-prev {
-        left: 81rem;
+        left: 73rem;
     }
 #ourprocess .container-fluid {
     padding: 8rem 5rem;
@@ -722,6 +722,10 @@ section#road-block-shopi .container-fluid {
 @media (max-width: 1440px)
 {
 
+#services-inner-features-grid .container-fluid {
+    width: 90%;
+}
+
 #develop-process-shopi .container-fluid {
     width: 95%;
 }
@@ -736,7 +740,7 @@ section#road-block-shopi .container-fluid {
         padding: 40px 20px;
     }
         #BoldSlider .swiper-button-prev {
-        left: 75rem;
+        left: 67rem;
     }
     .serives-inner-pages-headings.process-heading-content p {
     width: 70%;
@@ -746,7 +750,10 @@ section#road-block-shopi .container-fluid {
 @media (max-width: 1366px)
 {	
 
-
+.SliderContentBox p {
+    padding-right: 0rem;
+    line-height: 30px;
+}
     .services-whyus-content {
         padding: 5rem 1rem 5rem 3rem;
     }
@@ -787,7 +794,7 @@ section#road-block-shopi .container-fluid {
     gap: 35px;
 }
     #BoldSlider .swiper-button-prev {
-        left: 70rem;
+        left: 64rem;
     }
         #transparent-banner .container-fluid.inner-banner-container {
         padding: 13rem 70px 8rem;
@@ -802,7 +809,7 @@ section#road-block-shopi .container-fluid {
 @media (max-width: 1336px)
 {
     #BoldSlider .swiper-button-prev {
-        left: 69rem;
+        left: 62rem;
     }
         .roadblock-cart {
         padding: 25px 20px 15px;
@@ -844,7 +851,7 @@ section#road-block-shopi .container-fluid {
         padding: 11rem 40px 7rem;
     }
     #BoldSlider .swiper-button-prev {
-        left: 66rem;
+        left: 59rem;
     }
  #services-inner-banner .container-fluid.services-banner-container {
         padding: 11rem 60px 0rem;
@@ -865,7 +872,9 @@ section#road-block-shopi .container-fluid {
 }
 .BoldMainContent h3 {
     line-height: 50px;
-
+}
+.swiperSliderInnerBg {
+    padding: 30px 10px 30px 20px;
 }
 
 }
@@ -886,7 +895,7 @@ section#road-block-shopi .container-fluid {
     line-height: 25px;
 }
         #BoldSlider .swiper-button-prev {
-        left: 56rem;
+        left: 50rem;
     }
     .process-slider-nav {
         width: 11%;
@@ -922,8 +931,12 @@ section#road-block-shopi .container-fluid {
 @media (max-width: 1024px)
 {
 
+#services-inner-features-grid .container-fluid {
+    width: 90%;
+}
+
         #BoldSlider .swiper-button-prev {
-        left: 51rem;
+        left: 46rem;
     }
     .swiperSliderInnerBg {
     padding: 30px 10px 30px 20px;
@@ -953,8 +966,15 @@ section#road-block-shopi .container-fluid {
 @media (max-width: 885px)
 {
 
+.sliderAuthorBox {
+    margin-top: 3rem;
+}
+
+    .SliderContentBox p {
+    -webkit-line-clamp: 3;
+}
         #BoldSlider .swiper-button-prev {
-        left: 43rem;
+        left: 39rem;
     }
     button.universa-btn i.fa.fa-arrow-right {
     margin-left: 3px;
@@ -1000,6 +1020,13 @@ section#road-block-shopi .container-fluid {
 @media (max-width: 860px)
 {	
 
+.featured-services-content ul.list-icon li i.fa-solid.fa-check {
+    padding: 3px 0px;
+    font-size: 10px;
+    margin-right: 5px;
+    width: 16px;
+}
+
     .inner-banner-content h2 {
         line-height: 32px;
     }
@@ -1018,7 +1045,7 @@ section#road-block-shopi .container-fluid {
         gap: 15px;
     }
         #BoldSlider .swiper-button-prev {
-        left: 42rem;
+        left: 38rem;
     }
 .inner-banner-btn {
     gap: 10px;
@@ -1037,7 +1064,7 @@ section#road-block-shopi .container-fluid {
 {
 
         #BoldSlider .swiper-button-prev {
-        left: 41rem;
+        left: 36rem;
     }
     .process-slider-nav {
         width: 16%;
@@ -1056,7 +1083,7 @@ section#road-block-shopi .container-fluid {
     width: 95%;
 }
     #BoldSlider .swiper-button-prev {
-        left: 40rem;
+        left: 35rem;
     }
 
 }
@@ -1070,7 +1097,7 @@ section#road-block-shopi .container-fluid {
         margin-right: 0px;
     }
         #BoldSlider .swiper-button-prev {
-        left: 39rem;
+        left: 34rem;
     }
         .inner-banner-content button.universa-btn {
         padding: 7px 5px;
@@ -1081,7 +1108,7 @@ section#road-block-shopi .container-fluid {
 {
 
     #BoldSlider .swiper-button-prev {
-        left: 37rem;
+        left: 33rem;
     }
 
 }
@@ -1102,7 +1129,7 @@ section#road-block-shopi .container-fluid {
         width: 100%;
     }
         #BoldSlider .swiper-button-prev {
-        left: 20rem;
+        left: 18rem;
     }
         #every-industries .headings p {
         width: 100%;
@@ -1132,7 +1159,7 @@ section#road-block-shopi .container-fluid {
         border-radius: 35px;
     }
         #develop-process-shopi .roadblock-main {
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(1, 2fr);
         gap: 20px 10px;
     }
     .serives-inner-pages-headings.process-heading-content p {
@@ -1234,7 +1261,7 @@ section#road-block-shopi .container-fluid {
 {	
 
     #BoldSlider .swiper-button-prev {
-        left: 18rem;
+        left: 15rem;
     }
     .process-slider-nav {
         width: 29%;
@@ -1285,7 +1312,7 @@ img.img-fluid.services-banner-img {
         font-size: 12px;
     }
     #BoldSlider .swiper-button-prev {
-        left: 17rem;
+        left: 14rem;
     }
 
 
@@ -1294,7 +1321,7 @@ img.img-fluid.services-banner-img {
 {	
 
     #BoldSlider .swiper-button-prev {
-        left: 16rem;
+        left: 13rem;
     }
     .services-banner-content h1 {
     font-size: clamp(22px, 3vw, 65px);
@@ -1350,7 +1377,7 @@ img.img-fluid.services-banner-img {
         top: 7rem;
     }
         #BoldSlider .swiper-button-prev {
-        left: 16rem;
+        left: 12rem;
     }
         .industries-cards {
         gap: 20px 10px;
@@ -1365,7 +1392,7 @@ img.img-fluid.services-banner-img {
 
 
 #BoldSlider .swiper-button-prev {
-    left: 15rem;
+    left: 11.5rem;
 }
 
     .process-slider-nav {
@@ -1383,8 +1410,11 @@ img.img-fluid.services-banner-img {
 @media (max-width: 320px)
 {
 
+    .BoldMainContent h3 {
+    font-size: clamp(18px, 3vw, 60px);
+}
     #BoldSlider .swiper-button-prev {
-    left: 12.5rem;
+    left: 9.5rem;
 }
     .process-slider-nav {
         width: 35%;
