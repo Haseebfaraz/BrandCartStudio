@@ -383,7 +383,7 @@ span.light-weight {
     transform: scale(1.2);
 }
 #BoldSlider .swiper-button-prev{
-    left: 101rem;
+    left: 99rem;
 }
 
 #BoldSlider .swiper-button-next path , #BoldSlider .swiper-button-prev path {
@@ -746,6 +746,11 @@ span.light-weight {
 }
 @media (max-width: 480px)
 {
+
+    #BoldSlider .swiper-button-next, #BoldSlider .swiper-button-prev {
+        transform: unset;
+    }
+
         .banner-h1 h1 {
         font-size: 23px;
         line-height: 28px;

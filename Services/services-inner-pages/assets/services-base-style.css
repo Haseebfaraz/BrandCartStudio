@@ -628,7 +628,7 @@ section#every-industries p {
 
 
 .featured-services-content {
-    padding: 0rem 7rem 0rem 3rem;
+    padding: 0rem 4rem 0rem 3rem;
 }
 .col-right .featured-services-content {
     padding: 0rem 10rem 0rem 4rem;
@@ -640,7 +640,7 @@ section#every-industries p {
 {	
 
     #BoldSlider .swiper-button-prev {
-        left: 92rem;
+        left: 83rem;
     }
 #transparent-banner .container-fluid.inner-banner-container {
         padding: 15rem 70px 12rem;
@@ -665,12 +665,9 @@ section#every-industries p {
 {	
 
     #BoldSlider .swiper-button-prev {
-        left: 86rem;
+        left: 78rem;
     }
-.featured-services-content {
-        gap: 12px;
-        padding: 0rem 8rem 0rem 3rem;
-    }
+
         .col-right .featured-services-content {
         padding: 0rem 7rem 0rem 4rem;
     }
@@ -682,6 +679,12 @@ section#every-industries p {
 }
 @media (max-width: 1550px)
 {
+
+
+section#road-block-shopi .container-fluid {
+    width: 90%;
+}
+
 #every-industries .container-fluid {
     width: 90%;
 }
@@ -724,7 +727,7 @@ section#every-industries p {
 }
     .featured-services-content {
         gap: 12px;
-        padding: 0rem 3rem 0rem 3rem;
+        padding: 0rem 2rem 0rem 3rem;
     }
 .inner-banner-content h2 {
     line-height: 55px;
@@ -851,7 +854,7 @@ section#every-industries p {
     }
     .featured-services-content {
         gap: 8px;
-        padding: 0rem 0rem 0rem 3rem;
+        padding: 0rem 0rem 0rem 2rem;
     }
         .roadblock-cart.Delivering-cart {
         padding: 31px 12px 20px 20px !important;
