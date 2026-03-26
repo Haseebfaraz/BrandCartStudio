@@ -740,6 +740,10 @@ button.universa-btn {
 @media (max-width: 885px)
 {
 
+    .footer-info p br {
+    display: none;
+}
+
     h1.animated-h1 {
         font-size: 90px;
     }

@@ -1542,6 +1542,11 @@ button.universa-btn {
 @media (max-width: 885px)
 {
 
+.footer-info p br {
+    display: none;
+}
+
+
     #faqs p.faqMaincontent {
         width: 70%;
     }
