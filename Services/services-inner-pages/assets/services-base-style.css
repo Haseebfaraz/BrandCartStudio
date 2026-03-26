@@ -731,7 +731,7 @@ section#road-block-shopi .container-fluid {
 }
     .featured-services-content {
         gap: 12px;
-        padding: 0rem 2rem 0rem 3rem;
+        padding: 0rem 2rem 0rem 1rem;
     }
 .inner-banner-content h2 {
     line-height: 55px;
