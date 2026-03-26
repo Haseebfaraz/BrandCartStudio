@@ -619,7 +619,7 @@ section#every-industries p {
 @media (max-width: 1800px)
 {
 #BoldSlider .swiper-button-prev {
-    left: 95rem;
+    left: 86rem;
 }
 
 #ourprocess .serives-inner-pages-headings {
@@ -628,7 +628,7 @@ section#every-industries p {
 
 
 .featured-services-content {
-    padding: 0rem 13rem 0rem 3rem;
+    padding: 0rem 7rem 0rem 3rem;
 }
 .col-right .featured-services-content {
     padding: 0rem 10rem 0rem 4rem;

@@ -380,6 +380,7 @@ span.light-weight {
 #BoldSlider .swiper-button-next , #BoldSlider .swiper-button-prev{
     top: 2rem;
     z-index: 999999999;
+    transform: scale(1.2);
 }
 #BoldSlider .swiper-button-prev{
     left: 101rem;
