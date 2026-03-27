@@ -1142,7 +1142,9 @@ details p {
 }
 @media (max-width: 1440px)
 {
-
+.client-box img {
+    width: 10%;
+}
     .case-box .parapadRight {
     padding-right: 3rem;
 }
@@ -1323,7 +1325,9 @@ summary span {
 }
 @media (max-width: 1115px)
 {	
-
+.client-box img {
+    width: 13%;
+}
     #faqs p.faqMaincontent {
         width: 55%;
     }
@@ -1732,6 +1736,10 @@ h1.animated-h1 {
 }
 @media (max-width: 480px)
 {		
+
+.client-box img {
+    width: 19%;
+}
 
     #faqs p.faqMaincontent {
         width: 85%;
