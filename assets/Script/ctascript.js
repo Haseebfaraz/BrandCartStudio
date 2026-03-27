@@ -1,3 +1,19 @@
+// Centralized Favicon Injection
+(function injectFavicon() {
+    const faviconConfig = [
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/favicon_io/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/assets/favicon_io/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/assets/favicon_io/favicon-16x16.png' },
+        { rel: 'manifest', href: '/assets/favicon_io/site.webmanifest' }
+    ];
+
+    faviconConfig.forEach(config => {
+        const link = document.createElement('link');
+        Object.keys(config).forEach(key => link.setAttribute(key, config[key]));
+        document.head.appendChild(link);
+    });
+})();
+
  fetch('/sections/header.html')
             .then(response => response.text())
             .then(data => {

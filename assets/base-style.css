@@ -270,7 +270,7 @@ button.banner-btn:hover {
         position: relative;
 }
 .scroll-img-div:after {
-    content: url('images/Vector.png');
+    content: url('images/Vector.webp');
     display: block;
     position: absolute;
     top: 62px;
@@ -635,7 +635,7 @@ img.trusts {
 
 }
 .trusted-img:before {
-    content: url('images/tdesign_quote-filled.png');
+    content: url('images/tdesign_quote-filled.webp');
     display: block;
     position: absolute;
     top: 22%;
@@ -1009,7 +1009,7 @@ footer#footer-container .row:nth-child(3) {
 }
 
 .footer-award-win:before {
-        content: url('images/hugeicons_web-design-01.png');
+        content: url('images/hugeicons_web-design-01.webp');
         display: block;
         position: absolute;
         right: 50%;
@@ -1142,6 +1142,10 @@ details p {
 }
 @media (max-width: 1440px)
 {
+
+.client-box img {
+    width: 10%;
+}
 
     .case-box .parapadRight {
     padding-right: 3rem;
@@ -1383,6 +1387,11 @@ summary span {
 @media (max-width: 1024px)
 {
 
+
+    .client-box img {
+        width: 12%;
+    }
+
 img.globe-img.img-fluid {
     width: 50%;
     left: -210px;
@@ -1543,6 +1552,11 @@ button.universa-btn {
 @media (max-width: 885px)
 {
 
+
+    .client-box img {
+        width: 15%;
+    }
+
 .footer-info p br {
     display: none;
 }
@@ -1672,6 +1686,10 @@ p.copyright-text {
 @media (max-width: 820px)
 {
 
+    .service-box button a {
+    font-size: 14px;
+}
+
     details p {
         padding-right: 4rem;
     }
@@ -1733,6 +1751,18 @@ h1.animated-h1 {
 @media (max-width: 480px)
 {		
 
+#about-section .about-content p {
+    line-height: 28px;
+
+}
+    .client-box img {
+        width: 20%;
+    }
+.testi-box p {
+    font-size: clamp(16px, 1.5vw, 30px);
+    line-height: 30px;
+}
+
     #faqs p.faqMaincontent {
         width: 85%;
     }
@@ -1765,7 +1795,7 @@ h1.animated-h1 {
     }
 
 #transparent-banner .container-fluid {
-    background-image: url('images/mob-banner-bg.png') !important;
+    background-image: url('images/mob-banner-bg.webp') !important;
     border-radius: 26px;
     padding: 4rem 30px 2rem;
     margin-top: 0px;
@@ -2044,6 +2074,11 @@ details p {
 @media (max-width: 395px)
 {	
 
+    .service-box button {
+        padding: 6px 4px 6px 10px;
+    }
+
+
 .headings h2 {
     font-size: clamp(24px, 2.5vw, 50px);
 }
@@ -2103,7 +2138,9 @@ details p {
 @media (max-width: 360px)
 {	
 
-
+    .service-box button a {
+        font-size: 12px;
+    }
     .scroll-img-div:after {
         left: -51px;
         top: 12px;
