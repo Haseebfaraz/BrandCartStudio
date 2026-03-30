@@ -156,6 +156,9 @@ span.light-weight {
 #VisionBox p {
     font-size: 22px;
     font-weight: 200;
+    color: #000000b8;
+}
+#VisionBox p b{
     color: #000;
 }
 /* .ImageBox::before {

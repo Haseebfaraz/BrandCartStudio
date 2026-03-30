@@ -363,7 +363,9 @@ section#exprience-box p {
     background: linear-gradient(31deg, #00ff4338, #eefff300 36%);
 }
 
-
+#exprience-box .exp-boxes .stat-card p {
+    color: #222222 !important;
+}
 /* Services */
 
 .service-logo {
@@ -831,6 +833,7 @@ summary {
 details[open] {
     border: 1px solid #6ADD8C;
     border-radius: 35px;
+    background-color: #EEFFF3;
 }
 details p {
     padding: 10px 40px;
@@ -1771,10 +1774,12 @@ h1.animated-h1 {
 .testi-box p {
     font-size: clamp(16px, 1.5vw, 30px);
     line-height: 30px;
-
+}
 .client-box img {
     width: 19%;
-
+}
+.services-globe {
+    display: none;
 }
 
     #faqs p.faqMaincontent {
