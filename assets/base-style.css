@@ -191,7 +191,7 @@ header#main-header button.hamburger {
 
 
 #transparent-banner .container-fluid {
-    padding: 18rem 100px 0px;
+    padding: 14rem 100px 0px;
     margin-top: -135px;
     width: 95%;
     border-radius: 90px;
@@ -212,6 +212,7 @@ h1.animated-h1 {
     grid-template-areas: "stack";
     vertical-align: bottom;
     font-size: 220px;
+    line-height: clamp(60px, 10vw, 165px);
 }
 span.light-weight {
     font-family: 'Neou';
@@ -234,7 +235,7 @@ h1.animated-h1 span.word {
 }
 .banner-heading p.main-banner-text {
     font-size: clamp(14px, 1.5vw, 28px);
-    font-weight: 700;
+    font-weight: 500;
     font-family: Monument Extended, sans-serif !important;
 }
 button.banner-btn i.fa.fa-arrow-right {
