@@ -302,7 +302,9 @@ button.banner-btn:hover {
   100% { opacity: 0; }                              /* Stay hidden for rest of loop */
 }
 
-
+footer#footer-container .container-fluid {
+    width: 95%;
+}
 
 /* Why US  */
 

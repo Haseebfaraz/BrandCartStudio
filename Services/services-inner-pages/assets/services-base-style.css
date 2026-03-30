@@ -87,7 +87,7 @@ button.universa-btn:hover i.fa.fa-arrow-right {
 /***BoldDesign****/
 
 #BoldDesignSection {
-    padding-top: 6rem;
+    padding-top: 4rem;
     background-color: #E8FFEF;
     padding-bottom: 24rem;
     margin-bottom: -17rem;
@@ -345,7 +345,7 @@ h4.Delivering-cart-h4 {
     font-size: clamp(25px, 3vw, 50px);
 }
 .roadblock-cart p {
-    color: #000000ad;
+    color: #222222cf;
     font-size: clamp(14px, 1.3vw, 18px);
 }
 #road-block-shopi .roadblock-main {
@@ -354,7 +354,7 @@ h4.Delivering-cart-h4 {
 }
  .roadblock-cart {
     gap: 20px;
-    padding: 40px 40px;
+    padding: 40px 35px;
     border-radius: 55px;
     border: 1px solid #6DFF9A;
     margin: 0px 20px;
@@ -442,7 +442,7 @@ h4.Delivering-cart-h4 {
     color: #4A4A4A;
 }
 section#road-block-shopi .container-fluid {
-    width: 82%;
+    width: 80%;
 }
 .serives-inner-pages-headings h2 {
     font-size: clamp(26px,2.5vw,50px);
@@ -465,6 +465,7 @@ section#road-block-shopi .container-fluid {
 }
 h4.roadblock-cart-h4 {
     font-size: clamp(16px, 1.4vw, 24px);
+    color: #000;
 }
 .featured-services-content h2 {
     font-size: clamp(26px, 3vw, 50px);
