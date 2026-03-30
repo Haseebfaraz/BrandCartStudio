@@ -941,7 +941,7 @@ details[open] summary .plus span:nth-child(2) {
     font-size: clamp(14px, 1.5vw, 18px);
     font-weight: 500;
 }
-.footer-info p {
+.footer-info p, .footer-info p a {
     font-size: clamp(14px, 1.5vw, 25px);
     font-weight: 500;
     color: #000;
@@ -1142,17 +1142,17 @@ details p {
 }
 @media (max-width: 1440px)
 {
-<<<<<<< HEAD
+
 
 .client-box img {
     width: 10%;
 }
 
-=======
+
 .client-box img {
     width: 10%;
 }
->>>>>>> 62eaedd083a4d93a264abc30e1dfbdc2c9ef4095
+
     .case-box .parapadRight {
     padding-right: 3rem;
 }
@@ -1759,7 +1759,7 @@ h1.animated-h1 {
 @media (max-width: 480px)
 {		
 
-<<<<<<< HEAD
+
 #about-section .about-content p {
     line-height: 28px;
 
@@ -1770,10 +1770,10 @@ h1.animated-h1 {
 .testi-box p {
     font-size: clamp(16px, 1.5vw, 30px);
     line-height: 30px;
-=======
+
 .client-box img {
     width: 19%;
->>>>>>> 62eaedd083a4d93a264abc30e1dfbdc2c9ef4095
+
 }
 
     #faqs p.faqMaincontent {

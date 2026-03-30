@@ -290,7 +290,7 @@ i.fa.fa-angle-down.toggle-arrow {
     font-weight: 500;
     color: #000;
 }
-.footer-info p {
+.footer-info p, .footer-info p a {
     font-size: clamp(14px, 1.5vw, 25px);
     font-weight: 500;
 }
