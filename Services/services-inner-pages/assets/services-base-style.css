@@ -181,6 +181,9 @@ button.universa-btn:hover i.fa.fa-arrow-right {
     width: 90%;
 }
 #every-industries {
+    padding-bottom: 2rem;
+}
+#every-industries {
     padding: 3rem 0rem 6rem;
     background-color: #fff;
 }
@@ -615,7 +618,14 @@ section#every-industries p {
     color: #444444;
 }
 
+@media (min-width: 1950px) and (max-width: 2000px) {
+    
+    #BoldSlider .swiper-button-prev {
+    left: 96rem;
+}
 
+
+}
 
 @media (max-width: 1800px)
 {

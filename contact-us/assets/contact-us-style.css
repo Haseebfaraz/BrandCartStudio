@@ -289,10 +289,10 @@ button.submit-green-btn:hover i.fa.fa-arrow-up {
 }
 #TrustedCompanies {
     padding-top: 20px;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
 }
 .BrandLogoBox {
-    gap: 8rem;
+    gap: 10rem;
 }
 .BrandLogoBox {
     display: inline-block;

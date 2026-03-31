@@ -88,7 +88,8 @@
     font-family: 'DM Sans';
     font-size: 18px;
     line-height: 35px;
-    color: #383233;
+    color: #383234;
+    font-weight: 300;
 }
 
 #contentRow .contentInner ul {
@@ -180,8 +181,10 @@
         #mainContentsection .container-fluid {
         padding-bottom: 20px;
     }
-        #transparent-banner .container-fluid {
-        padding: 8rem 60px 7rem;
+    #transparent-banner .container-fluid {
+        padding: 3rem 28px 7rem;
+        margin-top: 0rem;
+        border-radius: 30px;
     }
     #transparent-banner .banner-h1 h1 {
         font-size: 27px;
@@ -204,6 +207,7 @@
 #mainContentsection .container-fluid {
     padding-left: 35px;
     padding-right: 40px;
+    width: 90%;
 }
     #contentRow .contentInner p {
         font-size: 16px;
@@ -229,7 +233,7 @@
         line-height: 30px;
     }
         #transparent-banner .container-fluid {
-        padding: 8rem 28px 7rem;
+        padding: 2rem 22px 7rem;
     }
         #mainContentsection .container-fluid {
         padding-left: 32px;
@@ -238,6 +242,15 @@
     #transparent-banner .btn-Box {
     margin-top: 2rem;
 }
+    #transparent-banner .main-Content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #transparent-banner .btn-Box a {
+        font-size: 12px;
+    }
+
 }
 @media (max-width: 425px)
 {
@@ -272,7 +285,7 @@
 @media (max-width: 360px)
 {
     #transparent-banner .container-fluid {
-        padding: 7rem 10px 6rem;
+        padding: 2rem 10px 6rem;
     }
     .effictiveDateBox p {
     font-size: 15px;
@@ -297,7 +310,18 @@
         font-size: 14px;
         line-height: 21px;
     }
+
+   #transparent-banner .banner-h1 h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
 }
 @media (max-width: 280px)
 {
+
+
+ 
+
+
 }

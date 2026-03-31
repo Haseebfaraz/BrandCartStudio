@@ -40,6 +40,7 @@ button.universa-btn-1 {
 }
 button.universa-btn-1 a {
     text-decoration: underline;
+    font-weight: 700;
 }
 .inner-banner-btn i.fa.fa-arrow-right {
     color: #fff;

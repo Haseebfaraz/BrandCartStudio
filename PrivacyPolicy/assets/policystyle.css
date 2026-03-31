@@ -88,7 +88,8 @@
     font-family: 'DM Sans';
     font-size: 18px;
     line-height: 35px;
-    color: #383233;
+    color: #383234;
+    font-weight: 300;
 }
 
 #contentRow .contentInner ul {
@@ -179,9 +180,12 @@
 {
         #mainContentsection .container-fluid {
         padding-bottom: 20px;
+        width: 90%;
     }
         #transparent-banner .container-fluid {
-        padding: 8rem 60px 7rem;
+        padding: 3rem 30px 7rem;
+        margin-top: 0;
+        border-radius: 35px;
     }
     #transparent-banner .banner-h1 h1 {
         font-size: 27px;
@@ -193,7 +197,7 @@
         line-height: 23px;
     }
     #transparent-banner .btn-Box a {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 22px;
     padding: 10px 13px 10px 14px;
     margin-right: 10px;
@@ -229,7 +233,7 @@
         line-height: 30px;
     }
         #transparent-banner .container-fluid {
-        padding: 8rem 28px 7rem;
+        padding: 2rem 22px 7rem;
     }
         #mainContentsection .container-fluid {
         padding-left: 32px;
@@ -244,6 +248,15 @@
 }
 @media (max-width: 415px)
 {
+
+
+    #transparent-banner .main-Content p {
+        padding: 0px 0rem;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
 }
 @media (max-width: 395px)
 {
@@ -272,7 +285,7 @@
 @media (max-width: 360px)
 {
     #transparent-banner .container-fluid {
-        padding: 7rem 10px 6rem;
+        padding: 2rem 10px 6rem;
     }
     .effictiveDateBox p {
     font-size: 15px;
@@ -297,6 +310,12 @@
         font-size: 14px;
         line-height: 21px;
     }
+    #transparent-banner .banner-h1 h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
 }
 @media (max-width: 280px)
 {
