@@ -47,10 +47,27 @@ $fullName = $data['fullName'] ?? '';
 $phone = $data['phone'] ?? '';
 $email = $data['email'] ?? '';
 $message = $data['message'] ?? '';
-$selectedService = $data['selectedService'] ?? 'Not selected';
+$selectedServiceRaw = $data['selectedService'] ?? [];
+
+$selectedServices = [];
+if (is_array($selectedServiceRaw)) {
+    foreach ($selectedServiceRaw as $service) {
+        $cleaned = trim((string)$service);
+        if ($cleaned !== '') {
+            $selectedServices[] = $cleaned;
+        }
+    }
+} elseif (is_string($selectedServiceRaw)) {
+    $cleaned = trim($selectedServiceRaw);
+    if ($cleaned !== '') {
+        $selectedServices = array_filter(array_map('trim', explode(',', $cleaned)));
+    }
+}
+
+$selectedServices = array_values(array_unique($selectedServices));
 
 // Validation (Keep same as Node implementation)
-if (empty($fullName) || empty($phone) || empty($email)) {
+if (empty($fullName) || empty($phone) || empty($email) || empty($selectedServices)) {
     http_response_code(400);
     echo json_encode(["success" => false, "message" => "All fields are required."]);
     exit();
@@ -62,8 +79,13 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit();
 }
 
-$cleanService = trim($selectedService) ?: 'Not selected';
+$cleanService = implode(', ', $selectedServices);
 $cleanMessage = trim($message) ?: 'No project details provided.';
+
+$safeFullName = htmlspecialchars($fullName, ENT_QUOTES, 'UTF-8');
+$safePhone = htmlspecialchars($phone, ENT_QUOTES, 'UTF-8');
+$safeEmail = htmlspecialchars($email, ENT_QUOTES, 'UTF-8');
+$safeService = htmlspecialchars($cleanService, ENT_QUOTES, 'UTF-8');
 
 $mail = new PHPMailer(true);
 
@@ -74,7 +96,10 @@ try {
     $mail->SMTPAuth   = true;
     $mail->Username   = $_ENV['SMTP_USER'] ?? '';
     $mail->Password   = $_ENV['SMTP_PASS'] ?? '';
-    $mail->SMTPSecure = ($_ENV['SMTP_SECURE'] === 'true') ? PHPMailer::ENCRYPTION_SMTPS : PHPMailer::ENCRYPTION_STARTTLS;
+    $smtpSecure = strtolower((string)($_ENV['SMTP_SECURE'] ?? ''));
+    $mail->SMTPSecure = ($smtpSecure === 'true' || $smtpSecure === 'ssl')
+        ? PHPMailer::ENCRYPTION_SMTPS
+        : PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = (int)($_ENV['SMTP_PORT'] ?? 587);
 
     // Recipients
@@ -87,10 +112,10 @@ try {
     
     $mail->Body = "
       <h2>New Contact Form Submission</h2>
-      <p><strong>Full Name:</strong> $fullName</p>
-      <p><strong>Phone:</strong> $phone</p>
-      <p><strong>Email:</strong> $email</p>
-      <p><strong>Selected Service:</strong> $cleanService</p>
+            <p><strong>Full Name:</strong> $safeFullName</p>
+            <p><strong>Phone:</strong> $safePhone</p>
+            <p><strong>Email:</strong> $safeEmail</p>
+            <p><strong>Selected Service:</strong> $safeService</p>
       <p><strong>Project Details:</strong></p>
       <p>" . nl2br(htmlspecialchars($cleanMessage)) . "</p>
     ";
