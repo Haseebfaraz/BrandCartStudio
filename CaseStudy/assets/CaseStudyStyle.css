@@ -278,6 +278,7 @@ h4.Delivering-cart-h4 {
 }
 .roadblock-cart:hover {
     background: linear-gradient(136deg, #8EFDAE 0%, #ffffff 60%);
+    border: 1px solid #6DFF9A !important;
 }
 
 #develop-process-shopi .roadblock-main {
