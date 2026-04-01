@@ -228,6 +228,107 @@
     border: unset;
 }
 
+
+/* Expertise Meet */
+
+.serives-inner-pages-headings h2 {
+    font-size: clamp(26px,2.5vw,50px);
+    font-family: 'Monument Extended';
+    font-weight: 500;
+    text-align: center;
+    color: #010205;
+}
+.serives-inner-pages-headings h2 span {
+    font-family: 'Neou';
+}
+.serives-inner-pages-headings {
+    width: 75%;
+    margin: 0px auto;
+    margin-bottom: 80px;
+}
+.deliverery-growth .container-fluid {
+    width: 95%;
+}
+#develop-process-shopi {
+    padding: 5rem 0rem 6rem;
+    background-color: #BFFFD0;
+    /* background-image: url(/Services/email-marketing/assets/images/measurableemail.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h4.Delivering-cart-h4 {
+    font-size: clamp(25px, 3vw, 50px);
+}
+.roadblock-cart p {
+    color: #222222cf;
+    font-size: clamp(14px, 1.3vw, 18px);
+}
+#road-block-shopi .roadblock-main {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+ .roadblock-cart {
+    gap: 20px;
+    padding: 40px 35px;
+    border-radius: 55px;
+    border: 1px solid #6DFF9A;
+    margin: 0px 20px;
+        text-align: center;
+}
+.roadblock-cart:hover {
+    background: linear-gradient(136deg, #8EFDAE 0%, #ffffff 60%);
+}
+
+#develop-process-shopi .roadblock-main {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 2fr);
+    width: 100%;
+}
+#develop-process-shopi .roadblock-cart {
+    gap: 20px;
+    padding: 15px 30px;
+    border-radius: 55px;
+    border: 1px solid #6DFF9A;
+    margin: 0px 10px;
+    text-align: start;
+    background-color: #F1FFF5;
+}
+#develop-process-shopi .roadblock-cart.Delivering-cart {
+    background-color: #fff;
+    border: 1px solid #fff;
+
+}
+#develop-process-shopi .container-fluid {
+    text-align: center;
+    align-items: center;
+}
+#develop-process-shopi button.universa-btn {
+    margin-top: 50px;
+}
+.roadblock-cart.Delivering-cart {
+    padding: 50px 30px !important;
+    gap: 60px !important;
+}
+.featured-services-content ul.list-icon li i.fa-solid.fa-check {
+    color: #fff;
+    background-color: #3BCD67;
+    border-radius: 30px;
+    padding: 5px 0px;
+    font-size: 12px;
+    margin-right: 10px;
+    width: 22px;
+}
+.deliverery-growth {
+    border-radius: 60px;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+
+
 /****Deliver Result ****/
 
 
