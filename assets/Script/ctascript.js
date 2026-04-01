@@ -91,6 +91,11 @@
              .then(data => {
                 document.getElementById('emailbggreen').innerHTML = data;
              });
+             fetch('/sections/casestudygreenbg.html')
+             .then(response => response.text())
+             .then(data => {
+                document.getElementById('casestudygreenbg').innerHTML = data;
+             });
              fetch('/sections/footer.html')
             .then(response => response.text())
             .then(data => {
@@ -107,6 +112,7 @@
             .then(data => {
                 document.getElementById('services-features-grid').innerHTML = data;
             });
+            
             // fetch('/Services/services-inner-pages/sections/services-inner-banner.html')
             // .then(response => response.text())
             // .then(data => {
