@@ -109,9 +109,9 @@
     display: table;
     transition: .9s;
 }
-/* #SingleImage img:hover {
+#SingleImage img:hover {
     filter: brightness(0.8);
-} */
+}
 .banner-img {
     position: relative;
     bottom: -60px;
@@ -523,9 +523,7 @@ span.light-weight {
     width: 75%;
 }
 /***Delivery Measurable ****/
-.genuinedilverywidth {
-    margin: 0 6rem;
-}
+
 #Measurable .container-fluid {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -757,9 +755,6 @@ span.light-weight {
 }
 @media (max-width: 1440px)
 {
-    .innerClientindustrygenuine {
-    gap: 2rem;
-}
     .impacttextcol p {
     padding-right: 5rem;
 }
@@ -852,9 +847,6 @@ span.light-weight {
 }
 @media (max-width: 1336px)
 {
-    .innerClientindustrygenuine {
-    gap: 1rem;
-}
         #InnerRowChallengeface .InnerColWrap .Colinnercontent p {
         padding: 0px 20px;
         font-size: 15px;
@@ -887,15 +879,6 @@ span.light-weight {
 }
 @media (max-width: 1280px)
 {
-    .clientgenuinejacket h4 {
-    font-size: 20px;
-}
-.innerClientindustrygenuine {
-    gap: 4rem;
-}
-    .genuinedilverywidth{
-    margin: 0 4rem;
-}
         .impacttextcol p {
         padding-right: 2rem;
     }
@@ -953,12 +936,6 @@ span.light-weight {
 }
 @media (max-width: 1115px)
 {
-    .clientgenuinejacket h4 br {
-    display: none;
-}
-.clientgenuinejacket h4 {
-    font-size: 14px;
-}
     #SolutionRow .faqBoxbottomContent p{
     font-size: 16px;
     line-height: 22px;
@@ -1066,9 +1043,6 @@ span.light-weight {
 }
 @media (max-width: 1024px)
 {
-    .genuinedilverywidth {
-    margin: 0 1rem;
-}
     .mainrowchild .HeadingBox h2 {
     font-size: 34px;
     line-height: 44px;
@@ -1171,12 +1145,6 @@ span.light-weight {
 }
 @media (max-width: 885px)
 {
-    .innercontentBoxServices.clientziacpaService ul li {
-    font-size: 12px;
-}
-    .clientgenuinejacket h4 {
-        font-size: 14px !important;
-    }
     .mainrowchild .HeadingBox h2 {
         font-size: 27px;
         line-height: 39px;
@@ -1307,9 +1275,6 @@ span.light-weight {
 }
 @media (max-width: 836px)
 {
-    .innercontentBoxServices.clientziacpaService ul li {
-    font-size: 11px;
-}
     #ProjectTimeline {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -1449,9 +1414,6 @@ span.light-weight {
 }
 @media (max-width: 768px)
 {
-        .innercontentBoxServices.clientziacpaService ul li {
-        font-size: 10px;
-    }
         .InnerClientIndustry {
         gap: 3rem;
     }
@@ -1471,15 +1433,6 @@ span.light-weight {
 }
 @media (max-width: 480px)
 {
-        .innercontentBoxServices.clientziacpaService ul li {
-        font-size: 14px;
-    }
-    #DeliveryInnerRow .innerCol .ColumnContentWrap h4.signficanphase {
-    font-size: 24px;
-}
-    .genuinedilverywidth {
-    margin: 0 0rem;
-}
     .banner-h1 h2 span.designBold {
     letter-spacing: 0;
 }
@@ -1734,15 +1687,9 @@ span.light-weight {
             #transparent-banner .container-fluid {
         padding: 9rem 36px 7rem;
     }
-        span.button-fontAwesom {
-        left: 6px;
-    }
 }
 @media (max-width: 395px)
 {
-        .InnerClientIndustry {
-        gap: 2rem;
-    }
     span.button-fontAwesom {
         left: 8px;
     }
@@ -1777,9 +1724,6 @@ span.light-weight {
 }
 @media (max-width: 380px)
 {
-  #mainRowImpact {
-    margin-left: unset;
-}
         #SolutionRow .faq-List li {
         font-size: 12px;
         line-height: 27px;
@@ -1800,8 +1744,7 @@ span.light-weight {
         line-height: 38px;
     }
         #transparent-banner .mainBtnBox a {
-        margin: 0px 2px;
-        padding: 6px 16px 6px 6px;
+        margin: 0px 3px;
     }
         .banner-h1 h2 {
         font-size: 19px;
@@ -1819,25 +1762,6 @@ span.light-weight {
 }
 @media (max-width: 320px)
 {
-    .mainrowchild .contentBox p {
-        font-size: 14px;
-        line-height: 21px;
-    }
-        #SolutionRow .faq-question span.closeIcon i {
-        top: 11px;
-        font-size: 15px;
-        padding: 0px 4px;
-        line-height: 20px;
-        width: 19px;
-    }
-        #SolutionRow .faq-question {
-        padding: 12px;
-        font-size: 11px;
-    }
-        #SolutionRow .faq-List li {
-        font-size: 11px;
-        line-height: 21px;
-    }
         #Measurable .mainContentBox h2 {
         font-size: 17px;
         line-height: 26px;
@@ -1859,7 +1783,7 @@ span.light-weight {
         #transparent-banner .mainBtnBox a {
         margin: 0px 2px;
         padding: 5px 14px 5px 6px;
-        font-size: 7px;
+        font-size: 8px;
     }
         .banner-h1 h2 {
         font-size: 18px;

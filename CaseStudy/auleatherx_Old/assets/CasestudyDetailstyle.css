@@ -12,7 +12,7 @@
     margin-bottom: 2rem;
 }
 #transparent-banner .banner-heading p {
-    /* padding: 0px 32rem; */
+    padding: 0px 32rem;
     color: #4A4A4A;
     margin-bottom: 0px;
 }
@@ -28,8 +28,6 @@
     transition: .9s;
     border: 1px solid #1C1E31;
     margin: 0px 10px;
-    font-weight: 600;
-    font-family: 'DM Sans';
 }
 #transparent-banner .mainBtnBox a.btnbook {
     color: #1C1E31;
@@ -109,9 +107,9 @@
     display: table;
     transition: .9s;
 }
-/* #SingleImage img:hover {
+#SingleImage img:hover {
     filter: brightness(0.8);
-} */
+}
 .banner-img {
     position: relative;
     bottom: -60px;
@@ -124,33 +122,27 @@ span.light-weight {
 
 /***Client Section****/
 
-.innerContextBox1 {
-    padding-left: 3rem;
-    margin-bottom: 5rem;
-}
 .InnerClientIndustry {
     display: flex;
     flex-direction: row;
     gap: 6rem;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .innerWrapClient h4 {
-    font-weight: 500;
-    color: #000;
+    font-weight: 400;
 }
 .InnerClientIndustry p {
     margin-bottom: 10px;
 }
 #ClientSection {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 #innerRowClient .contentBoxWrap p {
     font-size: 20px;
     line-height: 20px;
-    color: #000;
-    opacity: 0.60;
+    color: #666666;
 }
 .innercontentBoxClient h3 {
     font-family: 'DM Sans';
@@ -158,7 +150,7 @@ span.light-weight {
     line-height: 40px;
     font-weight: 600;
 }
-.innercontentBoxClient, .innercontentBoxYear {
+.innercontentBoxClient, .innercontentBoxServices {
     border-bottom: 1px solid #D9D9D9;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -202,9 +194,7 @@ span.light-weight {
 }
 
 /***Cahllenge*****/
-#challengeFace .mainContentBox p {
-    color: #4A4A4A;
-}
+
 #challengeFace .mainContentBox h3 {
     font-size: 45px;
     line-height: 55px;
@@ -266,19 +256,17 @@ span.light-weight {
     font-size: 17px;
     padding: 0px 63px;
     margin-bottom: 0px;
-    color: #222222;
+    color: #656565;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    opacity: 0.70;
 }
 #InnerRowChallengeface .ColinnerHeading h4 {
     font-size: 22px;
     line-height: 32px;
     margin-bottom: 16px;
     font-weight: 700;
-    color: #000;
 }
 #InnerRowChallengeface {
     margin-top: 3rem;
@@ -288,7 +276,7 @@ span.light-weight {
 
 #designProcessSection {
     padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 /***Solution ****/
@@ -304,17 +292,14 @@ span.light-weight {
 #SolutionRow .InnerColContent h4 {
     font-size: 28px;
     font-weight: 700;
-    color: #000;
 }
 
-#SolutionRow .InnerColContent h3 {font-size: 50px;line-height: 65px;margin-bottom: 1rem;color: #000;}
+#SolutionRow .InnerColContent h3 {font-size: 50px;line-height: 65px;margin-bottom: 2rem;}
 
 #SolutionRow .InnerColContent p {
-    color: #000;
+    color: #515953;
     font-size: 20px;
-    padding-right: 20rem;
-    opacity: 0.65;
-    font-weight: 300;
+    padding-right: 8rem;
 }
 #SolutionRow .contentBoxInner {
     background-color: #FFFFFF;
@@ -322,102 +307,6 @@ span.light-weight {
     padding: 35px 70px 35px 40px;
     margin-bottom: 18px;
 }
-
-  #SolutionRow  .faq {
-    max-width: 600px;
-    margin: auto;
-  }
-
-  #SolutionRow  .faq-item {
-    margin-bottom: 19px;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid #C6C6C6;
-    background-color: #FFFFFF;
-  }
-
- #SolutionRow .faq-question {
-    padding: 25px;
-    cursor: pointer;
-    color: #151515;
-    font-size: 23px;
-    font-family: 'DM Sans';
-    font-weight: 500;
-    position: relative;
-  }
-#SolutionRow .faq-item.active .faq-question span.closeIcon i {
-    display: none;
-}
-#SolutionRow .faq-List li {
-    list-style: none;
-    font-family: 'DM Sans';
-    font-size: 17px;
-    line-height: 39px;
-    position: relative;
-    color: #000000;
-}
-.faq-List ul li i {
-    font-size: 8px;
-    background-color: #3BCD67;
-    padding: 0px 0px;
-    width: 17px;
-    border-radius: 60pc;
-    color: #fff;
-    line-height: 17px;
-    margin-right: 7px;
-    position: relative;
-    top: -2px;
-}
-#SolutionRow .faq-List ul {
-    padding-left: 0px;
-    border-bottom: 1px solid #87DDA0;
-    padding-bottom: 27px;
-}
-#SolutionRow .faq-List {
-    padding-left: 9px;
-    padding-right: 20px;
-}
-#SolutionRow .faq-item.active .faq-question {
-    padding-bottom: 0px !important;
-}
-  #SolutionRow  .faq-answer {
-    padding: 15px;
-    display: none;
-  }
-  #SolutionRow .faq-question span.closeIcon i {
-    position: absolute;
-    right: 20px;
-    top: 25px;
-    font-size: 27px;
-    font-weight: 500;
-    background-color: #D2FFDF;
-    border-radius: 60px;
-    padding: 2px 4px;
-    line-height: 28px;
-    width: 31px;
-}
-#SolutionRow .faqBoxbottomContent p {
-    color: #000;
-    opacity: 0.80;
-    font-weight: 300;
-    font-family: 'DM Sans';
-    font-size: 18px;
-    line-height: 22px;
-}
-#SolutionRow  .faqBoxbottomContent {
-    padding: 13px 0px 0px 8px;
-}
-#SolutionRow .faqBoxbottomContent p b {
-    font-weight: 600;
-    color: #000;
-    opacity: 1 !important;
-}
-#SolutionRow .faq-item.active {
-    border-color: #B0FFC8;
-}
-  #SolutionRow .faq-item.active .faq-answer {
-    display: block;
-  }
 
 #SolutionRow .contentBoxInner p {
     margin-bottom: 0px;
@@ -464,91 +353,23 @@ span.light-weight {
     margin-top: 2rem;
 }
 
-/****Project Timeline *****/
-
-#ProjectTimeline {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-#ProjectTimeline .mainHeadingBox h2 {
-    color: #010205;
-    font-family: 'Monument Extended';
-    font-weight: 400;
-    font-size: 50px;
-    margin-bottom: 1rem;
-}
-.MainContentColBox .ColinnerHead h3 {
-    font-family: 'DM Sans';
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 36px;
-    text-transform: uppercase;
-}
-.MainContentColBox .ContentBox p {
-    font-family: 'DM Sans';
-    color: #000;
-    font-size: 20px;
-    opacity: 60%;
-    line-height: 27px;
-    text-transform: capitalize;
-}
-#ProjecttimeRow .DurationBox p {
-    font-size: 14px;
-    letter-spacing: 0px;
-    font-family: 'DM Sans';
-    text-transform: uppercase;
-}
-
-
-#ProjecttimeRow .DurationBox p b {
-    margin-right: 4px;
-}
-
-#ProjecttimeRow .DurationBox p span.plusClassdur {
-    margin-left: 5px;
-    font-size: 20px;
-}
-#ProjecttimeRow .MainContentColBox {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-}
-#ProjecttimeRow .innerColWrap {
-    background: linear-gradient(180deg, #E8FFEF 0%, #FFFFFF 100%);
-    border: 1px solid #76F59C;
-    border-radius: 15px;
-    padding: 24px 0px 0px 27px;
-}
-#ProjectTimeline .container-fluid {
-    width: 75%;
-}
 /***Delivery Measurable ****/
-.genuinedilverywidth {
-    margin: 0 6rem;
-}
+
 #Measurable .container-fluid {
     padding-top: 5rem;
     padding-bottom: 5rem;
     border-radius: 75px;
-    /* margin-bottom: 4rem; */
+    margin-bottom: 4rem;
     background-image: url(/CaseStudy/auleatherx/assets/Images/measurablebg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
 }
 #Measurable .mainContentBox h2 {
     font-family: 'Monument Extended';
     font-weight: 400;
     font-size: 45px;
-        color: #010205;
-}
-#Measurable .mainContentBox p {
-    font-family: 'Dm Sans';
-    color: #000;
-    opacity: 0.60;
-    font-size: 22px;
-    font-weight: 300;
 }
 #DeliveryInnerRow .innerCol .ColumnContentWrap {
     background-color: #fff;
@@ -561,53 +382,13 @@ span.light-weight {
 #DeliveryInnerRow .innerCol .ColumnContentWrap h4 {
     font-size: 45px;
     font-weight: 700;
-    color: #000;
 }
 #DeliveryInnerRow .innerCol .ColumnContentWrap p {
-    color: #222222;
+    color: #656565;
     margin-bottom: 0px;
-    opacity: 0.70;
-    font-family: 'DM Sans';
-    font-weight: 300;
 }
 #Measurable .mainContentBox {
     margin-bottom: 3rem;
-}
-
-/****Impact & Outcome final *****/
-
-.mainrowchild {
-    align-items: center;
-}
-.mainrowchild .HeadingBox h2 {
-    font-family: 'Monument Extended';
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 50px;
-    color: #000000;
-}
-.mainrowchild .contentBox p {
-    font-family: 'DM Sans';
-    font-size: 22px;
-    line-height: 37px;
-    color: #000;
-    opacity: 0.65;
-    font-weight: 300;
-}
-#FinalOutcome {
-    margin-top: 4rem;
-}
-#ImpactFinalOtcome {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-.impacttextcol p {
-    padding-right: 8rem;
-}
-
-.FinalOutcomeTextpadding {padding-left: 4rem;}
-#ImpactFinalOtcome .container-fluid {
-    width: 75%;
 }
 /****Result ****/
 
@@ -706,12 +487,6 @@ span.light-weight {
 
 @media (max-width: 1550px)
 {
-    #ImpactFinalOtcome .container-fluid {
-    width: 80%;
-}
-    #ProjectTimeline .container-fluid {
-    width: 80%;
-}
     #transparent-banner .banner-heading p {
     padding: 0px 22rem;
 }
@@ -757,15 +532,6 @@ span.light-weight {
 }
 @media (max-width: 1440px)
 {
-    .innerClientindustrygenuine {
-    gap: 2rem;
-}
-    .impacttextcol p {
-    padding-right: 5rem;
-}
-    #ProjecttimeRow .innerColWrap {
-    padding: 24px 0px 0px 17px;
-}
         #InnerRowChallengeface .InnerColWrap {
         height: 322px;
     }
@@ -816,13 +582,6 @@ span.light-weight {
 }
 @media(max-width: 1366px)
 {
-        .impacttextcol p {
-        padding-right: 3rem;
-    }
-    .MainContentColBox .ColinnerHead h3 {
-    font-size: 20px;
-    line-height: 29px;
-}
         #transparent-banner .container-fluid {
         padding: 10rem 60px 30rem;
     }
@@ -852,9 +611,6 @@ span.light-weight {
 }
 @media (max-width: 1336px)
 {
-    .innerClientindustrygenuine {
-    gap: 1rem;
-}
         #InnerRowChallengeface .InnerColWrap .Colinnercontent p {
         padding: 0px 20px;
         font-size: 15px;
@@ -887,24 +643,6 @@ span.light-weight {
 }
 @media (max-width: 1280px)
 {
-    .clientgenuinejacket h4 {
-    font-size: 20px;
-}
-.innerClientindustrygenuine {
-    gap: 4rem;
-}
-    .genuinedilverywidth{
-    margin: 0 4rem;
-}
-        .impacttextcol p {
-        padding-right: 2rem;
-    }
-    .innercontentBoxServices ul li {
-    padding: 3px 11px;
-    font-size: 15px;
-    line-height: 28px;
-    border-radius: 4px;
-}
         #ResultSection .headeingBox h2 {
         font-size: 50px;
     }
@@ -953,16 +691,6 @@ span.light-weight {
 }
 @media (max-width: 1115px)
 {
-    .clientgenuinejacket h4 br {
-    display: none;
-}
-.clientgenuinejacket h4 {
-    font-size: 14px;
-}
-    #SolutionRow .faqBoxbottomContent p{
-    font-size: 16px;
-    line-height: 22px;
-}
     #challengeFace .container-fluid {
     padding-top: 3rem;
     padding-bottom: 4rem;
@@ -1066,40 +794,6 @@ span.light-weight {
 }
 @media (max-width: 1024px)
 {
-    .genuinedilverywidth {
-    margin: 0 1rem;
-}
-    .mainrowchild .HeadingBox h2 {
-    font-size: 34px;
-    line-height: 44px;
-}
-    .FinalOutcomeTextpadding {
-    padding-left: 2rem;
-}
-        .impacttextcol p {
-        padding-right: 1rem;
-    }
-    .mainrowchild .contentBox p {
-    font-size: 18px;
-    line-height: 29px;
-}
-        #ProjecttimeRow .innerColWrap {
-        padding: 16px 0px 0px 9px;
-    }
-        .MainContentColBox .ColinnerHead h3 {
-        font-size: 17px;
-        line-height: 27px;
-    }
-    .MainContentColBox .ContentBox p {
-    font-size: 17px;
-    line-height: 23px;
-}
-        #ProjectTimeline .container-fluid {
-        width: 90%;
-    }
-    #SolutionRow .faq-List li {
-    font-size: 15px;
-}
     #GalleryImageRow {
     margin-top: 2rem;
 }
@@ -1171,44 +865,11 @@ span.light-weight {
 }
 @media (max-width: 885px)
 {
-    .innercontentBoxServices.clientziacpaService ul li {
-    font-size: 12px;
-}
-    .clientgenuinejacket h4 {
-        font-size: 14px !important;
-    }
-    .mainrowchild .HeadingBox h2 {
-        font-size: 27px;
-        line-height: 39px;
-    }
-        #DeliveryInnerRow .innerCol .ColumnContentWrap h4 {
-        font-size: 23px;
-    }
-    #Measurable .mainContentBox p {
-    font-size: 14px;
-}
-    #ProjecttimeRow .DurationBox p span.plusClassdur {
-    margin-left: 0px;
-    font-size: 17px;
-}
-    #ProjecttimeRow .DurationBox p b {
-    margin-right: 0px;
-}
-    #ProjecttimeRow .DurationBox p {
-    font-size: 12px;
-}
-    #SolutionRow .faq-question {
-    padding: 18px;
-    font-size: 19px;
-}
-    #InnerRowChallengeface {
-    margin-top: 2rem;
-}
         #Measurable .mainContentBox h2 {
         font-size: 32px;
     }
     #Measurable .mainContentBox {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
         #SolutionRow .InnerColContent p {
         font-size: 17px;
@@ -1307,58 +968,8 @@ span.light-weight {
 }
 @media (max-width: 836px)
 {
-    .innercontentBoxServices.clientziacpaService ul li {
-    font-size: 11px;
-}
-    #ProjectTimeline {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-    #ProjectTimeline .mainHeadingBox h2 {
-    font-size: 34px;
-}
-        #ProjecttimeRow .DurationBox p {
-        font-size: 10px;
-    }
-        .MainContentColBox .ContentBox p {
-        font-size: 14px;
-        line-height: 19px;
-    }
-        .MainContentColBox .ColinnerHead h3 {
-        font-size: 14px;
-        line-height: 25px;
-    }
-    #SolutionRow .faq-question span.closeIcon i{
-    top: 13px;
-    font-size: 17px;
-    padding: 2px 4px;
-    line-height: 20px;
-    width: 24px;
-}
-        #SolutionRow .faq-question {
-        padding: 15px;
-        font-size: 16px;
-    }
-    #SolutionRow .faq-answer {
-    padding: 8px;
-}
-        #SolutionRow .faq-List li {
-        font-size: 11px;
-        line-height: 27px;
-    }
-        .innercontentBoxServices ul li {
-        font-size: 13px;
-        line-height: 30px;
-    }
         #DeliveryInnerRow .innerCol .ColumnContentWrap h4 {
-        font-size: 21px;
-    }
-        #DeliveryInnerRow .innerCol .ColumnContentWrap p {
-        font-size: 12px;
-    }
-        .mainrowchild .contentBox p {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 25px;
     }
         .innercontentBoxClient h3 {
         font-size: 18px;
@@ -1369,12 +980,6 @@ span.light-weight {
     }
         #ProjectsSection .headingBox h2 {
         font-size: 28px;
-    }
-    #ProjecttimeRow .MainContentColBox {
-    gap: 2rem;
-}
-#ImpactFinalOtcome .container-fluid {
-        width: 85%;
     }
 }
 @media (max-width: 820px)
@@ -1423,10 +1028,6 @@ span.light-weight {
 }
 @media (max-width: 800px)
 {
-    #ImpactFinalOtcome {
-    padding-top: 2rem;
-    padding-bottom: 5rem;
-}
         .innercontentBoxClient h3 {
         font-size: 17px;
         line-height: 22px;
@@ -1449,9 +1050,6 @@ span.light-weight {
 }
 @media (max-width: 768px)
 {
-        .innercontentBoxServices.clientziacpaService ul li {
-        font-size: 10px;
-    }
         .InnerClientIndustry {
         gap: 3rem;
     }
@@ -1471,15 +1069,6 @@ span.light-weight {
 }
 @media (max-width: 480px)
 {
-        .innercontentBoxServices.clientziacpaService ul li {
-        font-size: 14px;
-    }
-    #DeliveryInnerRow .innerCol .ColumnContentWrap h4.signficanphase {
-    font-size: 24px;
-}
-    .genuinedilverywidth {
-    margin: 0 0rem;
-}
     .banner-h1 h2 span.designBold {
     letter-spacing: 0;
 }
@@ -1505,29 +1094,11 @@ span.light-weight {
     }
         #Measurable .container-fluid {
         margin-bottom: 1rem;
-        margin-top: 0rem;
+        margin-top: 4rem;
         background-color: #c4ffd3;
         background-image: unset;
         padding-top: 2rem;
         border-radius: 25px;
-    }
-    #Impactrow {
-    text-align: center;
-}
-    .impacttextcol p {
-        padding-right: 0rem;
-    }
-       #FinalOutcome {
-        margin-top: 2rem;
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-        #ImpactFinalOtcome {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .FinalOutcomeTextpadding {
-        padding-left: 0rem;
     }
     #GalleryImageRow .margin-bottom , #gallery2 .margin-bottom {
     margin-bottom: 2rem;
@@ -1553,27 +1124,8 @@ span.light-weight {
         padding: 0 1rem;
     }
         #challengeFace .mainContentBox h3 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-        #SolutionRow .faq-List li {
-        font-size: 13px;
-        line-height: 31px;
-    }
-        .MainContentColBox .ColinnerHead h3 {
-        font-size: 17px;
-        line-height: 27px;
-    }
-        .MainContentColBox .ContentBox p {
-        font-size: 17px;
-        line-height: 21px;
-    }
-    #ProjecttimeRow .DurationBox p{
-        font-size: 14px;
-    }
-        #ProjecttimeRow .innerColWrap {
-        padding: 16px 0px 0px 9px;
-        margin-bottom: 1rem;
+        font-size: 33px;
+        line-height: 42px;
     }
         #challengeFace .container-fluid {
         background-color: #dff7e6;
@@ -1599,14 +1151,8 @@ span.light-weight {
     margin-bottom: 2rem;
 }
     #transparent-banner .mainBtnBox a {
-        padding: 7px 20px 7px 11px;
-        font-size: 11px;
-        margin: 0px 3px;
-    }
-    .innerContextBox1 {
-    padding-left: 0rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    padding: 8px 23px 8px 14px;
+    font-size: 12px;
 }
         #transparent-banner .banner-heading p {
         padding: 0px 0rem;
@@ -1687,9 +1233,6 @@ span.light-weight {
 }
 @media (max-width: 430px)
 {
-        #ProjectTimeline .mainHeadingBox h2 {
-        font-size: 25px;
-    }
         #challengeFace .mainContentBox p {
         padding: 0 0rem;
     }
@@ -1723,26 +1266,12 @@ span.light-weight {
 }
 @media (max-width: 415px)
 {
-        span.button-fontAwesom {
-        left: 5px;
-    }
-        #transparent-banner .mainBtnBox a {
-        padding: 7px 17px 7px 11px;
-        font-size: 10px;
-        margin: 0px 5px;
-    }
             #transparent-banner .container-fluid {
         padding: 9rem 36px 7rem;
-    }
-        span.button-fontAwesom {
-        left: 6px;
     }
 }
 @media (max-width: 395px)
 {
-        .InnerClientIndustry {
-        gap: 2rem;
-    }
     span.button-fontAwesom {
         left: 8px;
     }
@@ -1777,31 +1306,15 @@ span.light-weight {
 }
 @media (max-width: 380px)
 {
-  #mainRowImpact {
-    margin-left: unset;
-}
-        #SolutionRow .faq-List li {
-        font-size: 12px;
-        line-height: 27px;
-    }
 }
 @media (max-width: 360px)
 {
-        #SolutionRow .InnerColContent h3 {
-        font-size: 21px;
-        line-height: 30px;
-    }
-    #SolutionRow .faq-question {
-        padding: 12px;
-        font-size: 15px;
-    }
         #challengeFace .mainContentBox h3 {
         font-size: 27px;
         line-height: 38px;
     }
         #transparent-banner .mainBtnBox a {
-        margin: 0px 2px;
-        padding: 6px 16px 6px 6px;
+        margin: 0px 3px;
     }
         .banner-h1 h2 {
         font-size: 19px;
@@ -1819,25 +1332,6 @@ span.light-weight {
 }
 @media (max-width: 320px)
 {
-    .mainrowchild .contentBox p {
-        font-size: 14px;
-        line-height: 21px;
-    }
-        #SolutionRow .faq-question span.closeIcon i {
-        top: 11px;
-        font-size: 15px;
-        padding: 0px 4px;
-        line-height: 20px;
-        width: 19px;
-    }
-        #SolutionRow .faq-question {
-        padding: 12px;
-        font-size: 11px;
-    }
-        #SolutionRow .faq-List li {
-        font-size: 11px;
-        line-height: 21px;
-    }
         #Measurable .mainContentBox h2 {
         font-size: 17px;
         line-height: 26px;
@@ -1859,7 +1353,7 @@ span.light-weight {
         #transparent-banner .mainBtnBox a {
         margin: 0px 2px;
         padding: 5px 14px 5px 6px;
-        font-size: 7px;
+        font-size: 8px;
     }
         .banner-h1 h2 {
         font-size: 18px;
