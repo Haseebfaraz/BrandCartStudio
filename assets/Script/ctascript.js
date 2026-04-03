@@ -96,6 +96,30 @@
              .then(data => {
                 document.getElementById('casestudygreenbg').innerHTML = data;
              });
+             fetch('/sections/casestudyauleatherX.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('casestudyauleatherX').innerHTML = data;
+            });
+
+            fetch('/sections/casestudygenuine.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('casestudygenuine').innerHTML = data;
+            });
+
+            fetch('/sections/casestudymedicure.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('casestudymedicure').innerHTML = data;
+            });
+            
+            fetch('/sections/casestudyziacpa.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('casestudyziacpa').innerHTML = data;
+            });
+             
              fetch('/sections/footer.html')
             .then(response => response.text())
             .then(data => {
