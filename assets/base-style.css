@@ -928,12 +928,31 @@ details[open] summary .plus span:nth-child(2) {
 }
 .submenu-details {
     padding-top: 25px;
+    padding-left: 55px;
+    width: 70%;
 }
 ul.submenu-list .submenu-heading {
-    margin: 0px 0px 10px 20px !important;
+    margin: 0px 0px 25px 0px !important;
 }
-
-
+ul#myLinks li.has-dropdown .submenu li i.fa.fa-arrow-up {
+    padding: 8px 5px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 35px;
+    font-size: 12px;
+    transform: rotate(45deg);
+    color: #28282880;
+}
+ul#myLinks li.has-dropdown .submenu li:hover i.fa.fa-arrow-up {
+    padding: 8px 5px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 35px;
+    font-size: 12px;
+    transform: rotate(90deg);
+    color: #6ADD8C;
+    transition: 0.8s;
+}
 /* --- Submenu Styling (Hidden by default) --- */
 .submenu.mega-menu {
     display: none;
@@ -941,7 +960,7 @@ ul.submenu-list .submenu-heading {
     top: 3rem;
     left: 0;
     background-color: #ffffff;
-    min-width: 64rem;
+    min-width: 75rem;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
     
     margin: 0;
@@ -968,24 +987,92 @@ ul.submenu-list .submenu-heading {
 .li-submenu-a {
     width: 100%;
 }
-ul.submenu-list {
+.submenu.mega-menu ul.submenu-list {
     list-style: none;
-    padding: 25px 0px;
-    width: 40%;
-}
-ul#myLinks li.has-dropdown .submenu li a img {
-    margin-right: 20px;
+    padding: 25px 0px 0px 20px;
+    width: 42%;
 }
 ul#myLinks li.has-dropdown .submenu li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
+    border: 1px solid #6d6d6d1f;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color: #fff;
 }
-.ul.submenu-list .submenu-heading {
-    margin: 0px 0px 10px 20px;
+ul#myLinks li.has-dropdown .submenu li:hover a {
+    border: 1px solid #6ADD8C;
+    background-color: #F4FFF7;
 }
+ul#myLinks li.has-dropdown .submenu li img {
+    filter: grayscale(100%) contrast(170%);
+    mix-blend-mode: multiply;
+}
+ul#myLinks li.has-dropdown .submenu li:hover img {
+    filter: grayscale(0%) contrast(100%);
+    transition: 0.8s;
+}
+/* 1. Make the Shopify image bright/colored by default */
+ul#myLinks li.has-dropdown .submenu-list li.shopify-submenu img {
+    filter: grayscale(0%) contrast(100%);
+    transition: 0.8s;
+}
+
+/* 2. THE MAGIC: If any OTHER list item is hovered, turn the Shopify image back to grayscale */
+ul#myLinks li.has-dropdown:has(.submenu-list li:hover:not(.shopify-submenu)) .submenu-list li.shopify-submenu img {
+    filter: grayscale(100%) contrast(170%); /* Adjust these numbers if needed! */
+    transition: 0.8s;
+}
+.submenu-inner-content {
+    padding: 0px 0px 0px 20px;
+}
+.submenu-details {
+    display: none;
+}
+
+/* 2. Force the Shopify panel to show by default */
+.submenu-details.shopify-dev-menu-content {
+    display: block;
+}
+
+/* 3. THE MAGIC: Hide the Shopify panel if the user hovers over ANY other list item */
+.submenu.mega-menu:has(.submenu-list li:hover:not(.shopify-submenu)) .submenu-details.shopify-dev-menu-content {
+    display: none;
+}
+
+.submenu.mega-menu:has(.woocommerce-submenu:hover) .submenu-details.woocommerce-menu-content {
+    display: block;
+    transition: 0.5s;
+}
+
+.submenu.mega-menu:has(.magento-submenu:hover) .submenu-details.magento-menu-content {
+    display: block;
+    transition: 0.5s;
+}
+
+.submenu.mega-menu:has(.CED-submenu:hover) .submenu-details.cusecommcerce-menu-content {
+    display: block;
+    transition: 0.5s;
+}
+
+.submenu.mega-menu:has(.CCRO-submenu:hover) .submenu-details.ccro-menu-content {
+    display: block;
+    transition: 0.5s;
+}
+
+.submenu.mega-menu:has(.SEO-submenu:hover) .submenu-details.seo-menu-content {
+    display: block;
+    transition: 0.5s;
+}
+.submenu.mega-menu:has(.emailmarket-submenu:hover) .submenu-details.email-marketing-menu-content {
+    display: block;
+    transition: 0.5s;
+}
+
+
 
 /* --- Submenu Links --- */
 .submenu li {
@@ -994,7 +1081,7 @@ ul#myLinks li.has-dropdown .submenu li a {
 
 .submenu li a {
     display: block;
-    padding: 10px 20px !important;
+    padding: 10px 10px !important;
     text-decoration: none;
     font-size: 16px;
     transition: background-color 0.3s ease;
