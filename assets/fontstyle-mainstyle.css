@@ -228,52 +228,10 @@ i.fa.fa-angle-down.toggle-arrow {
     padding: 22px 0px;
 } */
 
-/* --- Dropdown Container --- */
-.has-dropdown {
-    position: relative; /* Keeps the submenu anchored to the parent <li> */
-}
+--- Dropdown Container ---
 
-/* --- Submenu Styling (Hidden by default) --- */
-.submenu {
-    display: none;
-    position: absolute;
-    top: 3rem;
-    left: 0;
-    background-color: #ffffff;
-    min-width: 22rem;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-    padding: 20px 0px;
-    margin: 0;
-    list-style: none;
-    border-radius: 8px;
-    z-index: 1000;
-    flex-direction: column;
-    gap: 0 !important;
-}
 
-/* --- Submenu Links --- */
-.submenu li {
-    width: 100%;
-}
 
-.submenu li a {
-    display: block;
-    padding: 10px 20px !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.submenu li a:hover {
-    background-color: #f5f5f5; /* Light grey hover effect */
-    color: #1a1a2e; /* Optional text color change on hover */
-}
-
-/* --- The Magic: Show Submenu on Hover --- */
-.has-dropdown:hover .submenu {
-    display: flex; /* Show the dropdown when the user hovers over the parent <li> */
-    transition: 1s;
-}
 
 /* Banner */
 
