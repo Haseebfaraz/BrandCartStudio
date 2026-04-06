@@ -426,9 +426,7 @@ button.banner-btn i.fa.fa-arrow-right {
     h1.animated-h1 {
         font-size: 90px;
     }
-        #header-container .logo {
-        margin-left: 8rem;
-    }
+
     .footer-award-win:before {
         left: 62%;
         transform: scale(0.6);
