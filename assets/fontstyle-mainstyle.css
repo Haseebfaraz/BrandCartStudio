@@ -331,13 +331,7 @@ h1.animated-h1 {
 @media (max-width: 1366px)
 {	
 
-#header-container .container-fluid {
-    width: 90%;
-}
-ul#myLinks {
-    gap: 1.5rem !important;
-    padding: 0px 20px;
-}
+
 
         .footer-award-win:before {
         left: 65%;
@@ -370,9 +364,7 @@ button.banner-btn {
     padding: 8px 25px 12px 35px;
     font-size: 20px;
 }
-    .header-btn button {
-    padding: 8px 16px;
-}
+
 
 
 }
@@ -399,10 +391,7 @@ button.banner-btn i.fa.fa-arrow-right {
     h1.animated-h1 {
         font-size: 110px;
     }
-    ul#myLinks {
-        gap: 1rem !important;
-        padding: 0px 15px;
-    }
+
 
 .trusted-img:before {
         top: 8%;
@@ -483,9 +472,7 @@ p.copyright-text {
 h1.animated-h1 {
         font-size: 75px;
     }
-    #header-container .logo {
-        margin-left: 6rem;
-    }
+
         /* #transparent-banner .container-fluid {
         padding: 10rem 30px 0px;
         margin-top: -135px;
@@ -502,35 +489,12 @@ h1.animated-h1 {
 }
 @media (max-width: 480px)
 {   
-     #header-container {
-        background-color: #fff;
-    }
 
-    .hamburger span:nth-child(1) {
-    width: 12px;
-    }
-    .hamburger span:nth-child(3) {
-        width: 12px;
-        margin-left: 12px;
-    }
-    button.hamburger.active span:nth-child(3), button.hamburger.active span:nth-child(1) {
-        width: 25px;
-        margin: 0px !important;
-    }
-        button.hamburger.active {
-        top: 4%;
-    }
-    h1.animated-h1 {
+
+
+        h1.animated-h1 {
         font-size: 55px;
     }
-    #header-container .logo {
-        margin-left: 0rem;
-        width: 90%;
-    }
-    #header-container .container-fluid row {
-    flex-direction: row-reverse !important;
-    }
-
 /* #transparent-banner .container-fluid {
     background-image: url('images/mob-banner-bg.png') !important;
     border-radius: 26px;
@@ -541,17 +505,8 @@ h1.animated-h1 {
     .banner-img {
     bottom: 0px;
 }
-.header-btn {
-    display: none;
-}
-#header-container {
-    margin-top: 0px;
-}
-#header-container .container-fluid {
-    width: 100%;
-    background-color: #ffffff00;
-    border-radius: 0px;
-}
+
+
 
 
         img.img-fluid.Awarding {
