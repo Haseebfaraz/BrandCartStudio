@@ -2,6 +2,7 @@
      <div class="container-fluid">
     <row class="d-flex justify-content-around align-items-center">
 
+
       <nav class="navbar-container">
     <button class="hamburger" onclick="toggleMenu()">
         <span></span>
@@ -17,9 +18,9 @@
         <li class="has-dropdown">
             <div class="mobile-dropdown-header">
             <a href="/Services/" >Services</a>
-            <i class="fa fa-angle-down toggle-arrow"></i>
+            <i class="fa fa-angle-down toggle-arrow  mob-submenu-arrow"></i>
             </div>
-            <div class="submenu mega-menu">
+            <div class="submenu mega-menu" id="mobilesubmenu-hide">
         <ul class="submenu-list">
             <div class="submenu-heading">
                 <h3>Services</h3>
@@ -386,7 +387,31 @@
         </div>
 
             </div>
+
+            
         </li>
+
+
+<div class="mobile-submenu">
+        <ul class="submenu-list">
+            
+                <li class="shopify-submenu"><a href="/Services/shopify-development/">  <div class="li-submenu-a">Shopify Development</div> </a></li>
+                <li class="woocommerce-submenu"><a href="/Services/woocommerce-development-solutions/"> <div class="li-submenu-a">WooCommerce Development Solutions</div></a></li>
+                <li class="magento-submenu"><a href="/Services/magento-development-solutions/"><div class="li-submenu-a">Magento Development Solutions</div></a></li>        
+                <li class="CED-submenu"><a href="/Services/custom-ecommerce-development/"> <div class="li-submenu-a">Custom eCommerce Development</div></a></li>
+                <li class="CCRO-submenu"><a href="/Services/custom-conversion-rate-optimization/"><div class="li-submenu-a">Custom Conversion Rate Optimization</div></a></li>
+                <li class="SEO-submenu"><a href="/Services/search-engine-optimization/"><div class="li-submenu-a">Search Engine Optimization</div></a></li>
+                <li class="emailmarket-submenu"><a href="/Services/email-marketing/"> <div class="li-submenu-a">Email Marketing</div></a></li>
+                <li class="SMM-submenu"><a href="/Services/social-media-marketing/"><div class="li-submenu-a">Social Media Marketing</div></a></li>
+        </ul>
+
+
+            </div>
+
+
+
+
+        
         <li><a href="/Industries/">Industries</a></li> 
         <!-- <li class="desktop-hide"><a href="/contact-us/">Help</a></li> -->
         <li class="desktop-hide "><a href="/CaseStudy/">Case Study</a></li>
@@ -394,6 +419,11 @@
 
 
 </nav>
+
+
+
+
+
 
 
 <div class="logo">
@@ -412,7 +442,7 @@
        <li class="has-dropdown">
             <div class="mobile-dropdown-header">
             <a href="/CaseStudy/" >Case Study</a>   
-            <i class="fa fa-angle-down toggle-arrow"></i>
+            <i class="fa fa-angle-down toggle-arrow "></i>
             </div>
 
            <div class="submenu">
@@ -443,32 +473,29 @@
 
 
 <script>
-    function toggleMenu() {
-        const menu = document.getElementById("myLinks");
-        const icon = document.querySelector(".hamburger");
+    // function toggleMenu() {
+    //     const menu = document.getElementById("myLinks");
+    //     const icon = document.querySelector(".hamburger");
         
-        menu.classList.toggle("active");
-        icon.classList.toggle("active");
-    }
+    //     menu.classList.toggle("active");
+    //     icon.classList.toggle("active");
+    // }
 
-    // New logic to close menu when clicking outside
-    window.addEventListener('click', function(e) {
-        const menu = document.getElementById("myLinks");
-        const icon = document.querySelector(".hamburger");
+    // // New logic to close menu when clicking outside
+    // window.addEventListener('click', function(e) {
+    //     const menu = document.getElementById("myLinks");
+    //     const icon = document.querySelector(".hamburger");
 
-        // Check if the click was OUTSIDE the menu AND outside the hamburger icon
-        // We check the icon too, otherwise the toggleMenu function and this 
-        // listener might conflict (opening and closing at the same time).
-        if (!menu.contains(e.target) && !icon.contains(e.target)) {
-            if (menu.classList.contains("active")) {
-                menu.classList.remove("active");
-                icon.classList.remove("active");
-            }
-        }
-    });
-
-
-
+    //     // Check if the click was OUTSIDE the menu AND outside the hamburger icon
+    //     // We check the icon too, otherwise the toggleMenu function and this 
+    //     // listener might conflict (opening and closing at the same time).
+    //     if (!menu.contains(e.target) && !icon.contains(e.target)) {
+    //         if (menu.classList.contains("active")) {
+    //             menu.classList.remove("active");
+    //             icon.classList.remove("active");
+    //         }
+    //     }
+    // });
 
 
 
@@ -476,12 +503,22 @@
 
 </script>
 
+
+
+
+
 <style>
 /* Header Css */
 
 /* .header-btn {
     margin-right: -3rem;
 } */
+
+
+.mobile-submenu {
+    display: none;
+}
+
 ul#myLinks li.has-dropdown .submenu li {
     padding: 0px 0px;
 }
@@ -849,8 +886,33 @@ ul#myLinks {
 
 
 }
+
 @media (max-width: 1024px)
 {
+
+/* 1. Hide it by default */
+#mobilesubmenu-hide {
+    display: none;
+}
+
+.mobile-submenu {
+    display: none;
+}
+
+/* Target the sibling div immediately following the hovered li */
+li.has-dropdown:has(.mob-submenu-arrow:hover) + .mobile-submenu {
+    display: block;
+}
+
+/* Keep it open when hovering the menu itself */
+.mobile-submenu:hover {
+    display: block;
+}
+
+#header-container .nav-links.active:has(.mob-submenu-arrow:hover) {
+    overflow-x: scroll !important;
+    padding-top: 270px !important;
+}
 
 ul#myLinks li.has-dropdown .submenu li a {
     background: unset;
@@ -882,26 +944,12 @@ ul#myLinks li.has-dropdown .submenu li a {
 ul#myLinks li.has-dropdown .submenu li i.fa.fa-arrow-up {
     display: none;
 }
-ul#myLinks li {
-    padding: 8px 0px;
-}
+    ul#myLinks li {
+        padding: 8px 0px;
+        width: 100%;
+    }
 
-    .submenu {
-    display: none;
-    position: relative;
-    top: 0rem;
-    left: 0;
-    background-color: transparent;
-    min-width: 15rem;
-    box-shadow: unset;
-    padding: 0px 0px;
-    margin: 0;
-    list-style: none;
-    border-radius: 8px;
-    z-index: 1000;
-    flex-direction: column;
-    gap: 0 !important;
-}
+
 .mobile-dropdown-header {
     display: flex;
     align-items: center;
@@ -999,24 +1047,10 @@ nav.navbar-container button.hamburger {
 #header-container li.desktop-hide {
     display: block;
 }
-button.banner-btn i.fa.fa-arrow-right {
-    font-size: 14px;
-}
-    button.banner-btn {
-        padding: 8px 20px 10px 25px;
-        font-size: 16px;
-    }
 
-img.img-fluid.Awarding {
-    width: 55%;
-}
-    .footer-award-win:before {
-        left: 62%;
-        transform: scale(0.8);
-    }
-    .footer-social .social-icons {
-    gap: 10px;
-}
+
+
+
 
 
     .headings {
