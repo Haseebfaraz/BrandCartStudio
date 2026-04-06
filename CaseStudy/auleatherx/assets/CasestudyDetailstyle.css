@@ -9,7 +9,7 @@
     margin: 0 auto;
     display: table;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 #transparent-banner .banner-heading p {
     /* padding: 0px 32rem; */
@@ -44,6 +44,7 @@
 .banner-h1 h2 span.designBold {
     font-weight: 700;
     letter-spacing: 1px;
+    color: #010205;
 }
 .banner-h1 h1 span.bold {
     font-family: 'Monument Extended';
@@ -189,6 +190,7 @@ span.light-weight {
     font-size: 30px;
     line-height: 50px;
     font-weight: 400;
+    color:#000;
 }
 .innerContextBox2 p {
     font-size: 22px;
@@ -208,6 +210,7 @@ span.light-weight {
 #challengeFace .mainContentBox h3 {
     font-size: 45px;
     line-height: 55px;
+    color: #000;
 }
 
 #challengeFace .container-fluid {
@@ -483,6 +486,7 @@ span.light-weight {
     font-size: 26px;
     line-height: 36px;
     text-transform: uppercase;
+     color: #000;
 }
 .MainContentColBox .ContentBox p {
     font-family: 'DM Sans';
@@ -617,6 +621,7 @@ span.light-weight {
     font-size: 70px;
     margin-top: 2rem;
     margin-bottom: 4rem;
+    color: #423E3B;
 }
 #InnerResult-Row {
     background-color: #F7F6F9;
@@ -653,6 +658,7 @@ span.light-weight {
     font-family: 'Monument Extended';
     font-size: 55px;
     font-weight: 400;
+    color: #000;
 }
 
 #ProjectsSection .headingBox {
@@ -661,6 +667,7 @@ span.light-weight {
 #projectInnerRow .contextwrapinner h4 {
     font-size: 30px;
     line-height: 30px;
+    color: #000;
 }
 #projectInnerRow  .contextwrapinner {
     position: relative;
@@ -689,8 +696,8 @@ span.light-weight {
     font-size: 30px;
     color: #696969;
     position: absolute;
-    left: 42rem;
-    top: 1rem;
+    left: 48rem;
+    top: 0rem;
 }
 #projectInnerRow .contextwrap {
     margin-top: 2rem;
@@ -751,12 +758,15 @@ span.light-weight {
     padding-right: 6rem;
 }
 #projectInnerRow .contextwrapinner a i {
-    left: 34rem;
+    left: 39rem;
 }
 
 }
 @media (max-width: 1440px)
 {
+        #projectInnerRow .contextwrapinner a i {
+        left: 36rem;
+    }
     .innerClientindustrygenuine {
     gap: 2rem;
 }
@@ -838,7 +848,7 @@ span.light-weight {
         line-height: 32px;
     }
         #projectInnerRow .contextwrapinner a i {
-        left: 30rem;
+        left: 34rem;
     }
     #transparent-banner .banner-heading p {
         padding: 0px 15rem;
@@ -852,6 +862,9 @@ span.light-weight {
 }
 @media (max-width: 1336px)
 {
+        #projectInnerRow .contextwrapinner a i {
+        left: 33rem;
+    }
     .innerClientindustrygenuine {
     gap: 1rem;
 }
@@ -887,6 +900,9 @@ span.light-weight {
 }
 @media (max-width: 1280px)
 {
+    #projectInnerRow .contextwrapinner a i {
+        left: 31rem;
+    }
     .clientgenuinejacket h4 {
     font-size: 20px;
 }
@@ -1047,7 +1063,7 @@ span.light-weight {
     padding-bottom: 0rem;
 }
     #projectInnerRow .contextwrapinner a i {
-        left: 25rem;
+        left: 24rem;
     }
     #projectInnerRow .contextwrapinner h4 {
     font-size: 25px;
@@ -1066,6 +1082,15 @@ span.light-weight {
 }
 @media (max-width: 1024px)
 {
+
+
+.innercontentBoxYear h3 {
+    font-size: 22px;
+}
+.innerWrapClient h4 {
+    font-size: 18px;
+}
+
     .genuinedilverywidth {
     margin: 0 1rem;
 }
@@ -1162,9 +1187,9 @@ span.light-weight {
         #projectInnerRow .contextwrapinner p {
         font-size: 17px;
     }
-        #projectInnerRow .contextwrapinner a i {
+        /* #projectInnerRow .contextwrapinner a i {
         left: 22rem;
-    }
+    } */
         #InnerResult-Row .innerContentAuthor {
         margin-top: 1rem;
     }
@@ -1295,7 +1320,7 @@ span.light-weight {
         line-height: 25px;
     }
     #projectInnerRow .contextwrapinner a i {
-        left: 19rem;
+        left: 20rem;
     }
         #projectInnerRow .contextwrapinner h4 {
         font-size: 19px;
@@ -1416,7 +1441,7 @@ span.light-weight {
         font-size: 14px;
     }
         #projectInnerRow .contextwrapinner a i {
-        left: 18rem;
+        left: 19rem;
         font-size: 20px;
     }
 
@@ -1466,11 +1491,18 @@ span.light-weight {
         padding-right: 0rem;
     }
         #projectInnerRow .contextwrapinner a i {
-        left: 16rem;
+        left: 18rem;
     }
 }
 @media (max-width: 480px)
 {
+
+
+
+    .innercontentBoxYear h3 {
+        font-size: 20px;
+    }
+
         .innercontentBoxServices.clientziacpaService ul li {
         font-size: 14px;
     }
@@ -1665,7 +1697,7 @@ span.light-weight {
         line-height: 26px;
     }
         #projectInnerRow .contextwrapinner a i {
-        left: 20rem;
+        left: 22rem;
         font-size: 26px;
     }
     #designProcessSection {
@@ -1707,6 +1739,9 @@ span.light-weight {
     }
         .InnerClientIndustry {
         gap: 7rem;
+    }
+        #projectInnerRow .contextwrapinner a i {
+        left: 20rem;
     }
 }
 @media (max-width: 425px)
@@ -1812,13 +1847,16 @@ span.light-weight {
         line-height: 17px;
     }
         #projectInnerRow .contextwrapinner a i {
-        left: 15rem;
+        left: 17rem;
         font-size: 18px;
     }
 
 }
 @media (max-width: 320px)
 {
+        #projectInnerRow .contextwrapinner a i {
+        left: 15rem;
+    }
     .mainrowchild .contentBox p {
         font-size: 14px;
         line-height: 21px;

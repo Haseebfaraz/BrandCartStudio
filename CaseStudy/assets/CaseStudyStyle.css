@@ -17,22 +17,20 @@
 }
 .WhyUsTag p {
     background-color: #1C1E31;
-    max-width: 272px;
     color: #D4FFE3;
-    border-radius: 5px;
-    font-size: 14px;
-    padding: 3px 14px;
-    line-height: 20px;
-    margin-bottom: 15px;
+    padding: 4px 10px;
+    border-radius: 7px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: clamp(12px, 1vw, 16px);
 }
 #CaseStudy-main .banner-heading p {
-    color: gray;
+    color: #717171;
 }
 .buttonBanner_Box a {
     font-family: 'DM Sans';
     font-size: 16px;
     line-height: 26px;
-    font-weight: 500;
     letter-spacing: 0px;
     transition: .9s;
     padding: 16px 60px 16px 32px;
@@ -70,19 +68,22 @@
 
 /****Featured Success ****/
 
-
+#featured_Success .container-fluid {
+    width: 85%;
+}
 #featured_Success .mainContentBox h2 {
     font-family: 'Monument Extended';
     font-weight: 400;
     font-size: 45px;
     line-height: 60px;
+    color: #010205;
 }
 
 #featured_Success .mainContentBox p {
     color: #878C91;
     font-family: 'DM Sans';
     font-size: 18px;
-    padding: 0px 30rem;
+    padding: 0px 20rem;
 }
 
 #featured_Success .mainContentBox {
@@ -91,10 +92,11 @@
 #innerRowFeatured .innerColWrap h4 {
     font-size: 30px;
     line-height: 30px;
+    color: #000;
 }
 #innerRowFeatured .innerColWrap p {
     font-size: 22px;
-    color: #696969;
+    color: #000;
 }
 #innerRowFeatured .innerColWrap ul li {
     list-style: none;
@@ -106,7 +108,7 @@
 }
 #innerRowFeatured .innerColWrap tag {
     background-color: #F2F2F2;
-    color: #696969;
+    color: #444444;
     font-size: 18px;
     padding: 7px 15px;
     border-radius: 6px;
@@ -177,12 +179,10 @@
     font-size: 30px;
     color: #696969;
     position: absolute;
-    left: 41rem;
+    left: 46rem;
     top: 0rem;
 }
-#featured_Success .container-fluid {
-    width: 81%;
-}
+
 .contextwrapinner {
     position: relative;
 }
@@ -190,11 +190,8 @@
 #innertab-Row #myTabContent .contextButton {
     position: relative;
 }
-#Bold-IdeasSection .container-fluid {
-    width: 85%;
-}
-#Ideas-tab-section .container-fluid {
-    width: 85%;
+#Ideas-tab-section li.nav-item {
+    border-bottom: 1px solid #E2E2E2;
 }
 #Ideas-tab-section .nav-tabs .nav-link {
     font-size: 18px;
@@ -202,12 +199,10 @@
     border-left: unset;
     border-right: unset;
     border-top: unset;
-    padding: 10px 15px;
 }
 #Ideas-tab-section .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border: unset;
     color: #000 !important;
-    font-weight: 600;
 }
 #innertab-Row .tab_button a {
     background-color: #1C1E31;
@@ -231,7 +226,110 @@
 }
 #innertab-Row ul#myTab {
     margin-bottom: 2.5rem;
+    border: unset;
 }
+
+
+/* Expertise Meet */
+
+.serives-inner-pages-headings h2 {
+    font-size: clamp(26px,2.5vw,50px);
+    font-family: 'Monument Extended';
+    font-weight: 500;
+    text-align: center;
+    color: #010205;
+}
+.serives-inner-pages-headings h2 span {
+    font-family: 'Neou';
+}
+.serives-inner-pages-headings {
+    width: 75%;
+    margin: 0px auto;
+    margin-bottom: 80px;
+}
+.deliverery-growth .container-fluid {
+    width: 95%;
+}
+#develop-process-shopi {
+    padding: 5rem 0rem 6rem;
+    background-color: #BFFFD0;
+    /* background-image: url(/Services/email-marketing/assets/images/measurableemail.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h4.Delivering-cart-h4 {
+    font-size: clamp(25px, 3vw, 50px);
+}
+.roadblock-cart p {
+    color: #222222cf;
+    font-size: clamp(14px, 1.3vw, 18px);
+}
+#road-block-shopi .roadblock-main {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+ .roadblock-cart {
+    gap: 20px;
+    padding: 40px 35px;
+    border-radius: 55px;
+    border: 1px solid #6DFF9A;
+    margin: 0px 20px;
+        text-align: center;
+}
+.roadblock-cart:hover {
+    background: linear-gradient(136deg, #8EFDAE 0%, #ffffff 60%);
+    border: 1px solid #6DFF9A !important;
+}
+
+#develop-process-shopi .roadblock-main {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 2fr);
+    width: 100%;
+}
+#develop-process-shopi .roadblock-cart {
+    gap: 20px;
+    padding: 15px 30px;
+    border-radius: 55px;
+    border: 1px solid #6DFF9A;
+    margin: 0px 10px;
+    text-align: start;
+    background-color: #F1FFF5;
+}
+#develop-process-shopi .roadblock-cart.Delivering-cart {
+    background-color: #fff;
+    border: 1px solid #fff;
+
+}
+#develop-process-shopi .container-fluid {
+    text-align: center;
+    align-items: center;
+}
+#develop-process-shopi button.universa-btn {
+    margin-top: 50px;
+}
+.roadblock-cart.Delivering-cart {
+    padding: 50px 30px !important;
+    gap: 60px !important;
+}
+.featured-services-content ul.list-icon li i.fa-solid.fa-check {
+    color: #fff;
+    background-color: #3BCD67;
+    border-radius: 30px;
+    padding: 5px 0px;
+    font-size: 12px;
+    margin-right: 10px;
+    width: 22px;
+}
+.deliverery-growth {
+    border-radius: 60px;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
 
 /****Deliver Result ****/
 
@@ -243,7 +341,9 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
-
+#DeliverResult .container-fluid {
+    width: 81%;
+}
 #DeliverResult .HeadingBox h2 {
     font-family: 'Monument Extended';
     font-weight: 400;
@@ -264,8 +364,7 @@
 }
 #innerDilverResult .colContentBox p {
     color: #222222;
-    padding: 0px 5rem;
-    opacity: 0.70;
+    padding: 0px 4rem;
 }
 #innerDilverResult .ButtonBox a {
     margin: 0 auto;
@@ -273,7 +372,6 @@
     position: relative;
     text-transform: uppercase;
     margin-top: 2rem;
-    color: #000;
 }
 
 #innerDilverResult .ButtonBox a i {
@@ -307,8 +405,34 @@
 
 /***Responsive****/
 
+
+@media (max-width: 1800px)
+{
+}
+@media (max-width: 1750px)
+{	
+
+.contextwrapinner a i {
+    left: 36rem;
+
+}
+
+
+}
+@media (max-width: 1650px)
+{	
+}
+
 @media (max-width: 1550px)
 {
+
+
+.roadblock-cart.Delivering-cart {
+    padding: 30px 21px !important;
+    gap: 50px !important;
+}
+
+
     #innerDilverResult .innerCol {
     padding-top: 25px;
     padding-bottom: 35px;
@@ -318,8 +442,8 @@
     padding: 0px 3rem;
 }
     #Ideas-tab-section .nav-tabs .nav-link {
-    font-size: 16px;
-    padding: 11px 7px;
+    font-size: 17px;
+    padding: 11px 9px;
 }
     #BoldIdeasRow .HeadingBox h3 {
     font-size: 43px;
@@ -351,7 +475,7 @@
 }
         #Ideas-tab-section .nav-tabs .nav-link {
         font-size: 15px;
-        padding: 12px 5px;
+        padding: 12px 9px;
     }
 
     #innerRowFeatured .innerColWrap h4 {
@@ -393,8 +517,8 @@
     left: 27rem;
 }
     #Ideas-tab-section .nav-tabs .nav-link {
-        font-size: 14px;
-        padding: 12px 6px;
+        font-size: 16px;
+        padding: 15px 5px;
     }
         #innerDilverResult .colContentBox p {
         font-size: 15px;
@@ -409,7 +533,11 @@
 }
         #Ideas-tab-section .nav-tabs .nav-link {
         font-size: 14px;
-        padding: 15px 5px;
+        padding: 15px 11px;
+    }
+    .roadblock-cart.Delivering-cart {
+        padding: 20px 11px 10px 20px !important;
+        gap: 50px !important;
     }
 
 }
@@ -432,14 +560,29 @@
         font-size: 36px;
         line-height: 45px;
     }
-        #Ideas-tab-section .nav-tabs .nav-link {
-        padding: 13px 10px;
-        font-size: 12px;
+        #Ideas-tab-section .nav-tabs .nav-link{
+        padding: 15px 8px;
     }
+
+.deliverery-growth {
+    border-radius: 40px;
+    margin: 0px auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+#develop-process-shopi .roadblock-cart {
+    border-radius: 35px;
+
+}
+
 
 }
 @media (max-width: 1115px)
 {
+
+
+
+
     #innerRowFeatured .innerColWrap p {
     font-size: 18px;
 }
@@ -485,9 +628,7 @@
     padding: 5px 11px;
     border-radius: 3px;
 }
-    #Ideas-tab-section .nav-tabs .nav-link {
-    font-size: 18px;
-}
+
     #innertab-Row #myTabContent h4 {
         font-size: 17px;
         line-height: 19px;
@@ -510,15 +651,6 @@
 }
 @media (max-width: 1024px)
 {
-    #featured_Success .container-fluid {
-    width: 85%;
-}
-#Bold-IdeasSection .container-fluid {
-    width: 90%;
-}
-#Ideas-tab-section .container-fluid {
-    width: 90%;
-}
         #DeliverResult .HeadingBox h2 {
         font-size: 32px;
         line-height: 40px;
@@ -550,6 +682,7 @@
 }
         #transparent-banner .container-fluid {
         padding: 11rem 49px 4rem;
+        border-radius: 50px;
     }
         #BoldIdeasRow {
         padding: 0px 1rem;
@@ -561,6 +694,9 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    #develop-process-shopi {
+    padding: 3rem 0rem 3rem;
+}
 
 }
 @media (max-width: 885px)
@@ -569,6 +705,16 @@
         font-size: 14px;
         padding: 6px 18px;
         padding-left: 0px;
+    }
+    .serives-inner-pages-headings {
+    margin-bottom: 40px;
+}
+    .roadblock-cart.Delivering-cart {
+        padding: 15px 11px 10px 10px !important;
+        gap: 50px !important;
+    }
+        #develop-process-shopi .roadblock-cart {
+        border-radius: 20px;
     }
         #innerDilverResult .innerCol {
         padding-top: 12px;
@@ -734,9 +880,26 @@
 }
 @media (max-width: 480px)
 {
+
+    .serives-inner-pages-headings {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #develop-process-shopi .roadblock-main {
+        grid-template-columns: repeat(2, 2fr);
+        row-gap: 15px;
+    }
+    .serives-inner-pages-headings h2 br {
+    display: none;
+}   
+
     #innertab-Row .Image-Box img {
     width: 100%;
 }
+    .roadblock-cart.Delivering-cart {
+        padding: 20px 10px 15px 20px !important;
+        gap: 20px !important;
+    }
 #innerRowFeatured .Image-Box img {
     width: 100%;
 }
@@ -908,6 +1071,10 @@
         padding: 8px 9px;
         font-size: 15px;
     }
+#develop-process-shopi .roadblock-cart {
+    margin: 0px 5px;
+}
+
 }
 @media (max-width: 380px)
 {
@@ -964,6 +1131,10 @@
         #Ideas-tab-section .nav-tabs .nav-link {
         padding: 5px 8px;
         font-size: 14px;
+    }
+        .roadblock-cart.Delivering-cart {
+        padding: 15px 6px 10px 8px !important;
+        gap: 20px !important;
     }
 }
 @media (max-width: 320px)
