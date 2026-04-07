@@ -730,6 +730,14 @@ section#road-block-shopi .container-fluid {
     }
 
 }
+@media (max-width: 1520px)
+{
+
+#BoldSlider .swiper-button-prev {
+        left: 71rem;
+    }
+
+}
 @media (max-width: 1440px)
 {
 
