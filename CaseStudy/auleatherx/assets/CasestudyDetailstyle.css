@@ -711,6 +711,33 @@ span.light-weight {
 
 /***Responsive *****/
 
+
+
+@media (max-width: 1800px)
+{
+
+#projectInnerRow .contextwrapinner a i {
+    left: 45rem;
+}
+
+
+}
+@media (max-width: 1750px)
+{	
+
+        #projectInnerRow .contextwrapinner a i {
+        left: 42rem;
+    }
+
+}
+@media (max-width: 1650px)
+{	
+
+    #projectInnerRow .contextwrapinner a i {
+        left: 41rem;
+    }
+
+}
 @media (max-width: 1550px)
 {
     #ImpactFinalOtcome .container-fluid {
