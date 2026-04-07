@@ -408,12 +408,19 @@ h4.Delivering-cart-h4 {
 
 @media (max-width: 1800px)
 {
+
+
+.contextwrapinner a i {
+    left: 41rem;
+}
+
+
 }
 @media (max-width: 1750px)
 {	
 
 .contextwrapinner a i {
-    left: 36rem;
+    left: 40rem;
 
 }
 
@@ -421,6 +428,12 @@ h4.Delivering-cart-h4 {
 }
 @media (max-width: 1650px)
 {	
+
+.contextwrapinner a i {
+    left: 39rem;
+
+}
+
 }
 
 @media (max-width: 1550px)
