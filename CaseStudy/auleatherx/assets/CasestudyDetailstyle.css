@@ -734,7 +734,7 @@ span.light-weight {
 {	
 
     #projectInnerRow .contextwrapinner a i {
-        left: 41rem;
+        left: 40rem;
     }
 
 }
@@ -787,6 +787,15 @@ span.light-weight {
 #projectInnerRow .contextwrapinner a i {
     left: 39rem;
 }
+
+}
+@media (max-width: 1512px)
+{
+
+    #projectInnerRow .contextwrapinner a i {
+        left: 37rem;
+    }
+
 
 }
 @media (max-width: 1440px)

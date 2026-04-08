@@ -527,7 +527,7 @@ h4.Delivering-cart-h4 {
         padding-right: 0rem;
     }
 .contextwrapinner a i {
-    left: 27rem;
+    left: 30rem;
 }
     #Ideas-tab-section .nav-tabs .nav-link {
         font-size: 16px;
@@ -560,7 +560,9 @@ h4.Delivering-cart-h4 {
     font-size: 37px;
     line-height: 47px;
 }
-
+    .contextwrapinner a i {
+        left: 29rem;
+    }
 
         .banner-h1 h1 {
         font-size: 60px;
@@ -593,7 +595,9 @@ h4.Delivering-cart-h4 {
 @media (max-width: 1115px)
 {
 
-
+    .contextwrapinner a i {
+        left: 24rem;
+    }
 
 
     #innerRowFeatured .innerColWrap p {
