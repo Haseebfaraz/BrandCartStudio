@@ -435,7 +435,14 @@ h4.Delivering-cart-h4 {
 }
 
 }
+@media (max-width: 1600px)
+{	
 
+    .contextwrapinner a i {
+        left: 37rem;
+    }
+
+}
 @media (max-width: 1550px)
 {
 
